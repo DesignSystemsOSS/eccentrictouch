@@ -1,1 +1,100 @@
-/* No CSS *//*# sourceMappingURL=buttons.css.map */
+/**
+  *   THIS IS THE MAIN BUTTONS MODULE, WHICH WILL BE USED BY USERS, IN THEIR WEB-DEVELOPMENT PROJECTS.
+
+  *   MANY OTHER MODULES ARE ALSO LINKED TO THIS FILE TO MAINTAIN THE MODULARITY THROUGHOUT THE PROJECT.
+
+  *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
+  *   ? > Try to write clean code and avoid extra css to implement a particular features
+  *   ? > Write SCSS and CSS in the format given below:
+  *       ?     for eg.
+  *       ?     h1 {
+    *       ?     color                 : black;
+    *       ?     background-color      : none;
+    *       ?     overflow              : hidden;
+    *       ?     font-family           : Arial;
+    *       ?     font-size             : auto;
+  *       ?     }
+  *   ? ===============================================================================================
+
+  *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
+  *   ? Testing will help you to implement exact CSS/SCSS you want.
+
+  *   ? At last, Try to follow all the best coding practices. 
+
+  *   ? If any doubt, check CONTRIBUTING.md and CODE_OF_CONDUCT.md file
+
+  *   ? Have a nice day!
+  */
+.non_decorated {
+  text-decoration: none;
+}
+
+.retro_button {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 1em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.retro_button_hoverable {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.retro_button_hoverable:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 0.8em;
+}
+
+.retro_non_underlined_link {
+  font-family: var(--general-font-family);
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  font-weight: var(--button-font-weight);
+}
+
+.retro_non_underlined_link:hover {
+  border-bottom: none;
+}
+
+.retro_underlined_link {
+  font-family: var(--general-font-family);
+  color: black;
+  text-decoration: none;
+  font-weight: var(--button-font-weight);
+}
+
+.retro_underlined_link:hover {
+  border-bottom: 2px solid black;
+}
+
+.retro_active_link {
+  font-family: var(--general-font-family);
+  color: black;
+  text-decoration: none;
+  font-weight: var(--button-font-weight);
+}
+
+.retro_active_link:hover {
+  color: #0500FF;
+}
+/*# sourceMappingURL=buttons.css.map */
