@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA6BI;AAIJ,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAc,GAAG;CAClC;;AAED,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAc,MAAM;CACrC;;AAED,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAc,MAAM;CACrC;;AAED,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAc,IAAI;CACnC;;AAED,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAc,KAAK;EACnC,KAAK,EAAyB,KAAK;CACpC",
     "sources": [
         "effects.scss"
     ],
