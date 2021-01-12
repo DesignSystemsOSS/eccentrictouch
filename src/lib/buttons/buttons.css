@@ -29,7 +29,7 @@
   text-decoration: none;
 }
 
-.retro_button {
+.cartoon_button {
   color: black;
   font-family: var(--general-font-family);
   font-weight: var(--button-font-weight);
@@ -43,7 +43,133 @@
           box-shadow: 6px 6px black;
 }
 
-.retro_button_hoverable {
+.cartoon_button_pd_2 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 2em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_3 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 3em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_4 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 4em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_5 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 5em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_6 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 6em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_7 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 7em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_8 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 8em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_9 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 9em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_pd_10 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  background-color: white;
+  width: 50%;
+  padding: 10em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_button_hoverable {
   color: black;
   font-family: var(--general-font-family);
   font-weight: var(--button-font-weight);
@@ -58,13 +184,202 @@
   text-align: center;
 }
 
-.retro_button_hoverable:hover {
+.cartoon_button_hoverable:hover {
   -webkit-box-shadow: 6px 6px black;
           box-shadow: 6px 6px black;
   padding: 0.8em;
 }
 
-.retro_non_underlined_link {
+.cartoon_button_hoverable_pd_2 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 2em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_2:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 1.8em;
+}
+
+.cartoon_button_hoverable_pd_3 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 3em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_3:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 2.8em;
+}
+
+.cartoon_button_hoverable_pd_4 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 4em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_4:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 3.8em;
+}
+
+.cartoon_button_hoverable_pd_5 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 5em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_5:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 4.8em;
+}
+
+.cartoon_button_hoverable_pd_6 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 6em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_6:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 5.4em;
+}
+
+.cartoon_button_hoverable_pd_7 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 7em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_7:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 6.8em;
+}
+
+.cartoon_button_hoverable_pd_8 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 8em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_8:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 7.8em;
+}
+
+.cartoon_button_hoverable_pd_9 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 9em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_9:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 8.8em;
+}
+
+.cartoon_button_hoverable_pd_10 {
+  color: black;
+  font-family: var(--general-font-family);
+  font-weight: var(--button-font-weight);
+  width: 100%;
+  background-color: white;
+  padding: 10em;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+
+.cartoon_button_hoverable_pd_10:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  padding: 9.8em;
+}
+
+.cartoon_non_underlined_link {
   font-family: var(--general-font-family);
   color: black;
   text-decoration: none;
@@ -72,29 +387,29 @@
   font-weight: var(--button-font-weight);
 }
 
-.retro_non_underlined_link:hover {
+.cartoon_non_underlined_link:hover {
   border-bottom: none;
 }
 
-.retro_underlined_link {
+.cartoon_underlined_link {
   font-family: var(--general-font-family);
   color: black;
   text-decoration: none;
   font-weight: var(--button-font-weight);
 }
 
-.retro_underlined_link:hover {
+.cartoon_underlined_link:hover {
   border-bottom: 2px solid black;
 }
 
-.retro_active_link {
+.cartoon_active_link {
   font-family: var(--general-font-family);
   color: black;
   text-decoration: none;
   font-weight: var(--button-font-weight);
 }
 
-.retro_active_link:hover {
+.cartoon_active_link:hover {
   color: #0500FF;
 }
 /*# sourceMappingURL=buttons.css.map */
