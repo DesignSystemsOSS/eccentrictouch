@@ -1,3 +1,5 @@
+/* Importing fonts and icon design patterns */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 :root {
   --general-font-family: 'Poppins', monospace;
   --button-font-weight: 600;
