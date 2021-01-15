@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=images.css.map */
+/**
+  *   THIS IS THE MAIN IMAGES MODULE, WHICH WILL BE USED BY USERS, IN THEIR WEB-DEVELOPMENT PROJECTS.
+
+  *   MANY OTHER MODULES ARE ALSO LINKED TO THIS FILE TO MAINTAIN THE MODULARITY THROUGHOUT THE PROJECT.
+
+  *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
+  *   ? > Try to write clean code and avoid extra css to implement a particular features
+  *   ? > Write SCSS and CSS in the format given below:
+  *       ?     for eg.
+  *       ?     h1 {
+    *       ?     color                 : black;
+    *       ?     background-color      : none;
+    *       ?     overflow              : hidden;
+    *       ?     font-family           : Arial;
+    *       ?     font-size             : auto;
+  *       ?     }
+  *   ? ===============================================================================================
+
+  *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
+  *   ? Testing will help you to implement exact CSS/SCSS you want.
+
+  *   ? At last, Try to follow all the best coding practices. 
+
+  *   ? If any doubt, check CONTRIBUTING.md and CODE_OF_CONDUCT.md file
+
+  *   ? Have a nice day!
+  */
+.cartoon_image_container {
+  width: 100%;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+/*# sourceMappingURL=images.css.map */
