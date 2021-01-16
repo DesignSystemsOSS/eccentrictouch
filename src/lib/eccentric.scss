@@ -5,16 +5,6 @@
 
   *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
   *   ? > Try to write clean code and avoid extra css to implement a particular features
-  *   ? > Write SCSS and CSS in the format given below:
-  *       ?     for eg.
-  *       ?     h1 {
-    *       ?     color                 :           black;
-    *       ?     background-color      :           none;
-    *       ?     overflow              :           hidden;
-    *       ?     font-family           :           Arial;
-    *       ?     font-size             :           auto;
-  *       ?     }
-  *   ? ===============================================================================================
 
   *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
   *   ? Testing will help you to implement exact CSS/SCSS you want.
@@ -34,15 +24,16 @@
     Modules: animations.css, buttons.css, components.css, contents.css, effects.css, footers.css, headers.css, images.css
   */
 
-  @import url('animations/animations.css');
-  @import url('buttons/buttons.css');
-  @import url('components/components.css');
-  @import url('contents/contents.css');
-  @import url('footers/footers.css');
-  @import url('effects/effects.css');
-  @import url('headers/headers.css');
-  @import url('images/images.css');
+  @import url('animations/animations.css');           /// animations CSS Linked
+  @import url('buttons/buttons.css');                 /// buttons CSS Linked
+  @import url('components/components.css');           /// components CSS Linked
+  @import url('contents/contents.css');               /// content CSS Linked
+  @import url('footers/footers.css');                 /// footers CSS Linked
+  @import url('effects/effects.css');                 /// effects CSS Linked
+  @import url('headers/headers.css');                 /// headers CSS Linked
+  @import url('images/images.css');                   /// images CSS Linked
+  @import url('fonts/fonts.css');                     /// fonts CSS Linked
 
   /**importing root module for variables**/
 
-  @import url('variables.css');
+  @import url('variables.css');                       /// LINKING GLOBAL VARIABLES CSS MODULE
