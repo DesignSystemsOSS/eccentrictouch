@@ -5,17 +5,7 @@
 
   *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
   *   ? > Try to write clean code and avoid extra css to implement a particular features
-  *   ? > Write SCSS and CSS in the format given below:
-  *       ?     for eg.
-  *       ?     h1 {
-    *       ?     color                 : black;
-    *       ?     background-color      : none;
-    *       ?     overflow              : hidden;
-    *       ?     font-family           : Arial;
-    *       ?     font-size             : auto;
-  *       ?     }
-  *   ? ===============================================================================================
-
+  
   *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
   *   ? Testing will help you to implement exact CSS/SCSS you want.
 
@@ -32,22 +22,26 @@
 /// ALL EFFECTS RELATED CSS IS WRITTEN BELOW
 
 .bg-red {
-  background-color            : red;
+  background-color: red;
 }
 
 .bg-purple {
-  background-color            : purple;
+  background-color: purple;
 }
 
 .bg-yellow {
-  background-color            : yellow;
+  background-color: yellow;
 }
 
 .bg-blue {
-  background-color            : blue;
+  background-color: blue;
 }
 
 .bg-black {
-  background-color            : black;
-  color                       : white;
+  background-color: black;
+  color: white;
+}
+
+.bg_dark {
+  background-color: black;
 }
