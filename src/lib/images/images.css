@@ -16,16 +16,65 @@
   *   ? Have a nice day!
   */
 .cartoon_image_container {
+  width: 24%;
+  height: 24%;
   overflow: hidden;
   outline: solid;
   outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   text-align: center;
-  width: 100%;
+}
+
+.cartoon_image_container:hover {
   -webkit-box-shadow: 6px 6px black;
           box-shadow: 6px 6px black;
 }
 
-.image {
-  width: 100%;
+.cartoon_image_container-semicurved {
+  width: 24%;
+  height: 24%;
+  overflow: hidden;
+  border: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cartoon_image_container-semicurved:hover {
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  border-radius: 10px;
+}
+
+.cartoon_image_container-bordered {
+  width: 24%;
+  height: 24%;
+  overflow: hidden;
+  outline: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+}
+
+.cartoon_image_container-bordered-semicurved {
+  width: 24%;
+  height: 24%;
+  overflow: hidden;
+  border: solid;
+  outline-color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  -webkit-box-shadow: 6px 6px black;
+          box-shadow: 6px 6px black;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=images.css.map */
