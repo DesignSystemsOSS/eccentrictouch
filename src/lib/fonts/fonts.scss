@@ -21,6 +21,7 @@
 p {
   color: var(--main-color);
   font-family: var(--general-font-family);
+  width: 100%;
 }
 
 h1 {
@@ -289,4 +290,28 @@ strong .strong {
   outline: auto;
   outline-color: var(--general-color-red);
   outline-width: 1px;
+}
+
+.font-blue {
+  color: var(--general-color-blue);
+}
+
+.font-red {
+  color: var(--general-color-red);
+}
+
+.font-purple {
+  color: var(--general-color-purple);
+}
+
+.font-green {
+  color: var(--general-color-green);
+}
+
+.font-teal {
+  color: var(--general-color-teal);
+}
+
+.font-white {
+  color: var(--main-light-color)
 }

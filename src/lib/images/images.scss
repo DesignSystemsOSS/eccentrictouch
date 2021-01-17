@@ -19,11 +19,15 @@
 /// ALL IMAGES RELATED CSS IS WRITTEN BELOW
 
 .cartoon_image_container {
-  width: 100%;
+  // width: 100%;
   overflow: hidden;
   outline: solid;
   outline-color: black;
-  transition: 0.2s ease-in-out;
   text-align: center;
+  width: 100%;
   box-shadow: 6px 6px black;
+}
+
+.image {
+  width: 100%;
 }
