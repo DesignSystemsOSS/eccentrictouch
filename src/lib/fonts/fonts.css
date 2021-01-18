@@ -1,0 +1,254 @@
+/**
+  *   THIS IS THE MAIN FONTS/TEXTS MODULE, WHICH WILL BE USED BY USERS, IN THEIR WEB-DEVELOPMENT PROJECTS.
+
+  *   MANY OTHER MODULES ARE ALSO LINKED TO THIS FILE TO MAINTAIN THE MODULARITY THROUGHOUT THE PROJECT.
+
+  *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
+  *   ? > Try to write clean code and avoid extra css to implement a particular features
+
+  *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
+  *   ? Testing will help you to implement exact CSS/SCSS you want.
+
+  *   ? At last, Try to follow all the best coding practices. 
+
+  *   ? If any doubt, check CONTRIBUTING.md and CODE_OF_CONDUCT.md file
+
+  *   ? Have a nice day!
+  */
+p {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+}
+
+h1 {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 48px;
+}
+
+h2 {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 42px;
+}
+
+h3 {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 36px;
+}
+
+h4 {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 30px;
+}
+
+h5 {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 24px;
+}
+
+h6 {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 18px;
+}
+
+.description_text {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-size: 14px;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.quote_text {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+  font-style: italic;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+strong .strong {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+}
+
+.highlighted_text {
+  font-family: var(--general-font-family);
+  color: var(--main-color);
+  background-color: yellow;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlighted_text-pink {
+  font-family: var(--general-font-family);
+  color: var(--main-color);
+  background-color: pink;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlighted_text-purple {
+  font-family: var(--general-font-family);
+  color: white;
+  background-color: var(--secondary-color);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlighted_text-teal {
+  font-family: var(--general-font-family);
+  color: white;
+  background-color: teal;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlighted_text-black {
+  font-family: var(--general-font-family);
+  color: white;
+  background-color: var(--main-color);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlighted_text_rounded {
+  font-family: var(--general-font-family);
+  color: var(--main-color);
+  background-color: yellow;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.highlighted_text_rounded-pink {
+  font-family: var(--general-font-family);
+  color: var(--main-color);
+  background-color: pink;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.highlighted_text_rounded-purple {
+  font-family: var(--general-font-family);
+  color: white;
+  background-color: var(--secondary-color);
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.highlighted_text_rounded-teal {
+  font-family: var(--general-font-family);
+  color: white;
+  background-color: teal;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.highlighted_text_rounded-black {
+  font-family: var(--general-font-family);
+  color: white;
+  background-color: var(--main-color);
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.highlighted_text_border {
+  font-family: var(--general-font-family);
+  color: var(--main-color);
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  outline: auto;
+  outline-color: var(--main-color);
+  outline-width: 1px;
+}
+
+.highlighted_text_border-pink {
+  font-family: var(--general-font-family);
+  color: pink;
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  outline: auto;
+  outline-color: pink;
+  outline-width: 1px;
+}
+
+.highlighted_text_border-purple {
+  font-family: var(--general-font-family);
+  color: var(--secondary-color);
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  outline: auto;
+  outline-color: var(--secondary-color);
+  outline-width: 1px;
+}
+
+.highlighted_text_border-teal {
+  font-family: var(--general-font-family);
+  color: teal;
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  outline: auto;
+  outline-color: teal;
+  outline-width: 1px;
+}
+
+.highlighted_text_border-blue {
+  font-family: var(--general-font-family);
+  color: var(--general-color-blue);
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  outline: auto;
+  outline-color: var(--general-color-blue);
+  outline-width: 1px;
+}
+
+.highlighted_text_border-red {
+  font-family: var(--general-font-family);
+  color: var(--general-color-red);
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  outline: auto;
+  outline-color: var(--general-color-red);
+  outline-width: 1px;
+}
+/*# sourceMappingURL=fonts.css.map */
