@@ -5,6 +5,12 @@ Design systems is a one stop solution to all your frontend crises.
 ![last commit](https://img.shields.io/github/last-commit/DesignSystemsOSS/eccentrictouch)
 ![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
 ![git stars](https://img.shields.io/github/stars/DesignSystemsOSS/eccentrictouch)
+![Release Date](https://img.shields.io/github/release-date/DesignSystemsOSS/eccentrictouch)
+![Size](https://img.shields.io/github/repo-size/DesignSystemsOSS/eccentrictouch)
+![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/eccentrictouch)
+![Maintained](https://img.shields.io/maintenance/yes/2020)
+![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
+![License](https://img.shields.io/badge/license-Apache-brightgreen)
 
 ## Who are we?
 
