@@ -30,8 +30,16 @@
   background-color: yellow;
 }
 
+.bg-teal {
+  background-color: teal;
+}
+
 .bg-blue {
   background-color: var(--general-color-blue);
+}
+
+.bg-neon {
+  background-color: #BCFE2F;
 }
 
 .bg-black {

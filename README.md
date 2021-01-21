@@ -10,8 +10,9 @@ Design systems is a one stop solution to all your frontend crises.
 ![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/eccentrictouch)
 ![Maintained](https://img.shields.io/maintenance/yes/2020)
 ![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 ![License](https://img.shields.io/badge/license-Apache-brightgreen)
-
+[![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ## Who are we?
 
 Give your websites(and rest..) a visual upgrade. design systems's eccentric touch is an open source initiative that 
