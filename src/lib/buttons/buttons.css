@@ -902,4 +902,16 @@
           box-shadow: 6px 6px black;
   padding: 9.8em;
 }
+
+.cartoon_multi_layer_button {
+  width: 20%;
+  padding: 1em;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.cartoon_multi_layer_button:hover {
+  -webkit-box-shadow: 6px 24px 26px #dbdbdb;
+          box-shadow: 6px 24px 26px #dbdbdb;
+}
 /*# sourceMappingURL=buttons.css.map */

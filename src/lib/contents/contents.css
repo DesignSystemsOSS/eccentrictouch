@@ -16,8 +16,11 @@
   *   ? Have a nice day!
   */
 .content {
-  margin-left: var(--margin-left-default);
-  margin-right: var(--margin-right-default);
+  -webkit-margin-end: var(--margin-left-default);
+          margin-inline-end: var(--margin-left-default);
+  -webkit-margin-start: var(--margin-right-default);
+          margin-inline-start: var(--margin-right-default);
+  padding: var(--general-card-padding);
 }
 
 .margin-1 {
@@ -466,5 +469,55 @@
 
 .margin_left-auto {
   margin-left: var(--margin-left-auto);
+}
+
+.fill_content {
+  overflow: hidden;
+}
+
+.width-percent-10 {
+  width: 10%;
+}
+
+.width-percent-20 {
+  width: 20%;
+}
+
+.width-percent-30 {
+  width: 30%;
+}
+
+.width-percent-40 {
+  width: 40%;
+}
+
+.width-percent-50 {
+  width: 50%;
+}
+
+.width-percent-60 {
+  width: 60%;
+}
+
+.width-percent-70 {
+  width: 70%;
+}
+
+.width-percent-80 {
+  width: 80%;
+}
+
+.width-percent-90 {
+  width: 90%;
+}
+
+.width-percent-100 {
+  width: 100%;
+}
+
+.flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=contents.css.map */

@@ -818,3 +818,13 @@
   box-shadow: 6px 6px black;
   padding: 9.8em; 
 }
+
+.cartoon_multi_layer_button {
+  width: 20%;
+  padding: 1em;
+  transition: 0.2s ease-in-out;
+}
+
+.cartoon_multi_layer_button:hover {
+  box-shadow: 6px 24px 26px rgb(219, 219, 219);
+}

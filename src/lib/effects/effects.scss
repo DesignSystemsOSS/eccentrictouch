@@ -22,19 +22,27 @@
 /// ALL EFFECTS RELATED CSS IS WRITTEN BELOW
 
 .bg-red {
-  background-color: red;
+  background-color: var(--general-color-red);
 }
 
 .bg-purple {
-  background-color: purple;
+  background-color: var(--general-color-purple);
 }
 
 .bg-yellow {
   background-color: yellow;
 }
 
+.bg-teal {
+  background-color: teal;
+}
+
 .bg-blue {
-  background-color: blue;
+  background-color: var(--general-color-blue);
+}
+
+.bg-neon {
+  background-color: #BCFE2F;
 }
 
 .bg-black {
@@ -45,3 +53,118 @@
 .bg_dark {
   background-color: black;
 }
+
+.cartoon_shadow {
+  box-shadow: 6px 6px black;
+}
+
+.cartoon_shadow-1 {
+  box-shadow: 1px 1px black;
+}
+
+.cartoon_shadow-2 {
+  box-shadow: 2px 2px black;
+}
+
+.cartoon_shadow-3 {
+  box-shadow: 3px 3px black;
+}
+
+.cartoon_shadow-4 {
+  box-shadow: 4px 4px black;
+}
+
+.cartoon_shadow-5 {
+  box-shadow: 5px 5px black;
+}
+
+.cartoon_shadow-6 {
+  box-shadow: 6px 6px black;
+}
+
+.cartoon_shadow-7 {
+  box-shadow: 7px 7px black;
+}
+
+.cartoon_shadow-8 {
+  box-shadow: 8px 8px black;
+}
+
+.cartoon_shadow-9 {
+  box-shadow: 9px 9px black;
+}
+
+.cartoon_shadow-10 {
+  box-shadow: 10px 10px black;
+}
+
+.outline {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-1 {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-2 {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-3 {
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-4 {
+  border: 4px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-5 {
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-6 {
+  border: 6px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-7 {
+  border: 7px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-8 {
+  border: 8px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-9 {
+  border: 9px;
+  border-color: black;
+  border-style: solid;
+}
+
+.outline-10 {
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.clean_shadow {
+  box-shadow: 12px 24px 100px rgb(194, 194, 194);
+}
+
