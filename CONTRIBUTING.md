@@ -2,10 +2,10 @@
 
 Hey there!
 
-We are so glad to have your here. We really appriciate you for choosing to go for our project.
+We are so glad to have your here. We really appreciate you for choosing to go for our project.
 Here are some guidelines about contributing to the project that will surely make your journey with us seem effortless. We'd be grateful for your every contribution.
 
-We'd really appriciate if you refer to the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) file before making any contributions. Thank You . 
+We'd really appreciate if you refer to the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) file before making any contributions. Thank You . 
 
 Let's get started then!
 
@@ -43,12 +43,12 @@ git add .
 
 1. Once the changes are in the staging area, you can commit these changes.
 ```
-git commit -m "your messege(according to code of conduct)"
+git commit -m "your message(according to code of conduct)"
 ```
 
 ### F. Upload changes
 
-1. Once the changes have been commited, it's time to upload the changes to your repository
+1. Once the changes have been committed, it's time to upload the changes to your repository
 ```
 git push
 ```
