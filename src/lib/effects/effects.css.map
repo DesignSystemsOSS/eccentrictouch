@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA;;;;;;;;;;;;;;;;;;;IAmBI;AAIJ,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,GAAG;CACtB;;AAED,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,MAAM;CACzB;;AAED,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,MAAM;CACzB;;AAED,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,IAAI;CACvB;;AAED,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,KAAK;CACxB",
-    "sources": [
-        "effects.scss"
-    ],
-    "names": [],
-    "file": "effects.css"
-}
