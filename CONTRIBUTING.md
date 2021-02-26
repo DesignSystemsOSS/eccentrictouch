@@ -50,7 +50,7 @@ git commit -m "your message(according to code of conduct)"
 
 1. Once the changes have been committed, it's time to upload the changes to your repository
 ```
-git push
+git push origin <branch-name>
 ```
 
 ### G. Make a pull request
