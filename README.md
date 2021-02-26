@@ -18,7 +18,7 @@ Design systems is a one stop solution to all your frontend crises.
 Give your websites(and rest..) a visual upgrade. design systems's eccentric touch is an open source initiative that 
 provides you with numerous themes and structures that will magically transform the ways your websites look. backed 
 with some of the great designers, you will with no doubt find the visuals that will catch your eye. as for the 
-frontend developrs it is a great platform to showcase their talents . this platform with no doubt serves anyone and 
+frontend developers it is a great platform to showcase their talents . this platform with no doubt serves anyone and 
 everyone.
 
 
@@ -45,7 +45,7 @@ Here is a short introduction as to how you can begin.
 
 
 ## GETTING STARTED WITH ECCENTRIC TOUCH
-## SYSTEM REQUIERMENTS
+## SYSTEM REQUIREMENTS
 
 In your your journey from forking to merging of pull request, these are tools that you will need:</br>
     1. Google chrome</br>
@@ -56,4 +56,7 @@ In your your journey from forking to merging of pull request, these are tools th
 ## VERSION UPGRADES
 ## PROGRAMS WE HAVE BEEN ASSOCIATED WITH
 ## CONTRIBUTORS
+- We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
+[CONTRIBUTING.md](CONTRIBUTING.md) file. 
+- If you want to write some CSS/SCSS or write test methods to test other's code, you should read [HOW_TO_CODE.md](HOW_TO_CODE.md) to understand the way you have to write the code.
 

@@ -25,4 +25,14 @@
 .header_logo {
   float: left;
 }
+
+@media screen and (max-width: 600px) {
+  .cartoon_header_01 {
+    text-align: center;
+  }
+  .nav_options {
+    text-align: center;
+    float: none;
+  }
+}
 /*# sourceMappingURL=headers.css.map */
