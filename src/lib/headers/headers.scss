@@ -18,24 +18,15 @@
 
 /// ALL HEADER RELATED CSS IS WRITTEN BELOW
 
-.bottom_header{
-position: absolute;
-bottom: 0px;
-width: 100%;
-overflow: hidden;
-background-color: none;
-transition: 0.6s ease-in-out;
-}
-.bottom_header:hover{
-background-color: black;
-color: white;
-opacity: 54%;
+.vertical_header {
+  // transform: rotate(90deg);
+  transform-origin: 0;
+
 }
 
-.header_logo{
-  // position: absolute;
-  width: 75px; 
-  height: 75;
-  margin:auto; 
-}
+.vertical_header_option {
+  margin-right: 2.4em;
 
+  // float: right;
+  margin-top: 0%;
+}
