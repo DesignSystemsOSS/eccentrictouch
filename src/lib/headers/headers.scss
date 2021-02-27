@@ -18,3 +18,27 @@
 
 /// ALL HEADER RELATED CSS IS WRITTEN BELOW
 
+<<<<<<< HEAD
+=======
+.bottom_header{
+position: absolute;
+bottom: 0px;
+width: 100%;
+overflow: hidden;
+background-color: none;
+transition: 0.6s ease-in-out;
+}
+.bottom_header:hover{
+background-color: black;
+color: white;
+opacity: 54%;
+}
+
+.header_logo{
+  // position: absolute;
+  width: 75px; 
+  height: 75;
+  margin:auto; 
+}
+
+>>>>>>> a4a8939cb7228ee46df9fe23f26649c24df0576f

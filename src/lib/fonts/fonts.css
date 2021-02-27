@@ -58,7 +58,7 @@ h6 {
 }
 
 .description_text {
-  color: var(--main-color);
+  color: var(--main-color) initial;
   font-family: var(--general-font-family);
   font-size: 14px;
 }
