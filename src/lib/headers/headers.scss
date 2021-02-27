@@ -18,27 +18,15 @@
 
 /// ALL HEADER RELATED CSS IS WRITTEN BELOW
 
-.cartoon_header_01 {
-  padding: 2em;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+.vertical_header {
+  // transform: rotate(90deg);
+  transform-origin: 0;
+
 }
 
-.header_logo {
-  float: left;
-}
+.vertical_header_option {
+  margin-right: 2.4em;
 
-.nav_options {
-  // position: relative;  
-}
-
-@media screen and (max-width: 600px) {
-  .cartoon_header_01 {
-    text-align: center;
-  }
-  .nav_options {
-    text-align: center;
-    float: none;
-  }
+  // float: right;
+  margin-top: 0%;
 }

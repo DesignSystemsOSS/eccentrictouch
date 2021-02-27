@@ -97,7 +97,12 @@ h6 {
   text-decoration: underline;
 }
 
-strong .strong {
+strong {
+  color: var(--main-color);
+  font-family: var(--general-font-family);
+}
+
+.strong {
   color: var(--main-color);
   font-family: var(--general-font-family);
 }

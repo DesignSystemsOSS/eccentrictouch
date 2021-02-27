@@ -15,24 +15,13 @@
 
   *   ? Have a nice day!
   */
-.cartoon_header_01 {
-  padding: 2em;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+.vertical_header {
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
 }
 
-.header_logo {
-  float: left;
-}
-
-@media screen and (max-width: 600px) {
-  .cartoon_header_01 {
-    text-align: center;
-  }
-  .nav_options {
-    text-align: center;
-    float: none;
-  }
+.vertical_header_option {
+  margin-right: 2.4em;
+  margin-top: 0%;
 }
 /*# sourceMappingURL=headers.css.map */
