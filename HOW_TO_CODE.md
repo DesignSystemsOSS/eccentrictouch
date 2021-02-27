@@ -16,3 +16,10 @@
   b. for eg: bottom_header-sticky:hover {...}
 
 /// END SECTION
+
+**How to give class names**
+
+**Benifits of classes over id's**
+Classes can be reused. IDs should be unique on a page. This means that if you attach a style to an ID, you won't be able to reuse it within the same webpage.
+
+**Method of writng css in classes is:**
