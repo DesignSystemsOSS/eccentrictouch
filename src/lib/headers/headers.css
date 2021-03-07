@@ -24,4 +24,10 @@
   margin-right: 2.4em;
   margin-top: 0%;
 }
+
+.classic_header {
+  padding: 2em;
+  overflow: hidden;
+  background-color: white;
+}
 /*# sourceMappingURL=headers.css.map */
