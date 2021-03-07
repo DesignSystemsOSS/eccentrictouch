@@ -1,25 +1,71 @@
-### HOW TO CODE
+# HOW TO CODE
 
-- Proper Syntax of writing CSS.
+**Summary**
+- Syntax of writing CSS.
 - File System explanation.
-- Overall best-practices for writing code.
 
+## Syntax of writing CSS
 
-/// SECTION TO BE REMOVED BY @JASPREET099
+**Why Classes over IDs**
 
-1. Method of writing css classes is:
-  a. <class_name_using_underscores>-<variations_using_dashes>
-  b. for eg: bottom_header-sticky {...}
-
-2. Method to write actions for classes
-  a. <class_name_using_underscores>-<variations_using_dashes>:<action_type_specification>
-  b. for eg: bottom_header-sticky:hover {...}
-
-/// END SECTION
+Classes can be reused. IDs should be unique on a page. This means that if you attach a style to an ID, you won't be able to reuse it within the same webpage.
 
 **How to give class names**
 
-**Benifits of classes over id's**
-Classes can be reused. IDs should be unique on a page. This means that if you attach a style to an ID, you won't be able to reuse it within the same webpage.
+EccentricTouch - CSS Codebase has a specific way of writing code. All the ways of writing methods are pre-defined and we need to follow that only, at the time of development. 
 
-**Method of writng css in classes is:**
+***All the CSS writing methods are given below:***
+- Class names are having underscore (_) between words/keywords.
+Like `<class_name>`. For eg. `header_bottom`
+
+- Class names with variations will follow the above rule with a dash (-) between the class_name and variation. Like `<class_name>-<variation_name>`. For eg. `header_bottom-transparent`.
+
+## File System Explanation
+
+**Codebase @branch:development**
+
+```
+> (root)---|
+           |
+           |---(.github)...
+           |
+           |--(src)--|
+           |          |
+           |          |---(bin)----|
+           |          |            |---(assets)...
+           |          |            |___files.js
+           |          |---(lib)----|
+           |          |            |
+           |          |            |---(animations)...
+           |          |            |---(buttons)...
+           |          |            |---(components)...
+           |          |            |---(contents)...
+           |          |            |---(effects)...
+           |          |            |---(fonts)...
+           |          |            |---(footers)...
+           |          |            |---(headers)...
+           |          |            |---(images)...
+           |          |            |
+           |          |            |___eccentric.css
+           |          |            |___eccentric.css.map
+           |          |            |___eccentric.scss
+           |          |            |
+           |          |            |___index.js
+           |          |            |___moduleTests.htm
+           |          |            |___variables.css
+           |          |            |___variables.css.map
+           |          |            |___variables.scss
+           |          |
+           |          |
+           |          |---(tests)---|
+           |          |             |___app.js
+           |          |             |___index.htm
+           |          ...
+           |
+           |___CODE_OF_CONDUCT.md
+           |___CONTRIBUTING.md
+           |___HOW_TO_CODE.md
+           |___LICENSE
+           |___README.md
+
+```
