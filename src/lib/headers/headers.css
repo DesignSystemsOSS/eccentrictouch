@@ -36,4 +36,10 @@
   height: 75;
   margin: auto;
 }
+
+.classic_header {
+  padding: 2em;
+  overflow: hidden;
+  background-color: white;
+}
 /*# sourceMappingURL=headers.css.map */
