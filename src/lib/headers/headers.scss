@@ -67,6 +67,7 @@
   position: relative;
 
 }
+
 .sidebar{
   position: fixed;
   width: 300px;
@@ -75,6 +76,7 @@
   padding: 10em 4em;
   box-sizing: border-box;
 }
+
 .sidebar li{
   padding: 20px 10px;
   list-style: none;
@@ -98,6 +100,7 @@
   text-align: center;
   
 }
+
 .options{
   color: black;
   font-size: large;
@@ -106,21 +109,27 @@
   padding: 50px;    
   margin-top: 2em;
 }
+
 .classic_header_2>div{
   width:calc(100% / 3);
 }
+
 .logo-text h1{
   font-weight: 800;
 }
+
 .logo-text span{
   font-weight: 100;
 }
+
 .options:hover{
   color:rgb(226, 27, 27);
 }
+
 .header_left{
   margin-top: 1.5em;
 }
+
 .header_right{
   margin-top: 1.5em;
 }
