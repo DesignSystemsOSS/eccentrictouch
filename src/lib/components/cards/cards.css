@@ -23,4 +23,54 @@
 .cartoon_card-01 {
   color: black;
 }
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  margin: 10px;
+  width: 15%;
+  height: 30%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  font-family: Poppins;
+}
+
+.container:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Fold {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 400px;
+  height: 200px;
+  background-color: #4EE73C;
+  position: absolute;
+}
+
+.Fold:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.Fold:hover:after {
+  border-bottom: 50px solid black;
+  border-right: 50px solid white;
+}
+
+.landscape_card {
+  width: 56%;
+  height: 38%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: inherit;
+}
 /*# sourceMappingURL=cards.css.map */

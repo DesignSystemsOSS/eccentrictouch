@@ -36,6 +36,8 @@
 @import url("headers/headers.css");
 @import url("images/images.css");
 @import url("fonts/fonts.css");
+@import url("components/cards/cards.css");
+@import url("components/forms/forms.css");
 /**importing root module for variables**/
 @import url("variables.css");
 /*# sourceMappingURL=eccentric.css.map */
