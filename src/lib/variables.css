@@ -21,14 +21,14 @@
   --general-padding: 1em;
   --general-card-padding: 4em;
   --main-color: black;
-  --secondary-color: rgb(13, 33, 212);
+  --secondary-color: rgb(0, 26, 255);
   --tertiary-color: rgb(122, 122, 122);
   --main-light-color: white;
   --secondary-light-color: rgb(180, 180, 180);
-  --general-color-red: rgb(204, 33, 33);
-  --general-color-blue: rgb(34, 34, 255);
-  --general-color-green: rgb(0, 180, 0);
-  --general-color-purple: rgb(13, 33, 212);
-  --general-color-teal: rgb(0, 160, 160);
+  --general-color-red: rgb(201, 52, 52);
+  --general-color-blue: rgb(86, 86, 255);
+  --general-color-green: rgb(40, 189, 40);
+  --general-color-purple: rgb(0, 26, 255);
+  --general-color-teal: rgb(3, 160, 160);
 }
 /*# sourceMappingURL=variables.css.map */
