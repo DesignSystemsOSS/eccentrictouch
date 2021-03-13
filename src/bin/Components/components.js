@@ -1,4 +1,10 @@
 
+/**
+      Author: The DesignSystems
+      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
+      (c) All Copyrights are reserved by The DesignSystems
+  */
+
 var components = document.createElement("div");
 components.className = "page section components";
 
