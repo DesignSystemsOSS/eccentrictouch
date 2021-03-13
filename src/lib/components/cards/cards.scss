@@ -67,3 +67,10 @@ transform: scale(1.1);
   border-bottom: 50px solid black; 
   border-right: 50px solid white; 
 }  
+
+.landscape_card{
+  width: 56%;
+  height: 38%;
+  box-sizing: border-box;
+  content: inherit;
+}
