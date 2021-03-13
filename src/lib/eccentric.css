@@ -22,6 +22,11 @@
     Here all the CSS modules will be linked
     Modules: animations.css, buttons.css, components.css, contents.css, effects.css, footers.css, headers.css, images.css
   */
+/**
+      Author: The DesignSystems
+      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
+      (c) All Copyrights are reserved by The DesignSystems
+  */
 @import url("animations/animations.css");
 @import url("buttons/buttons.css");
 @import url("components/components.css");
