@@ -1,0 +1,15 @@
+body {
+  margin: auto;
+  max-width: 1400px;
+
+  ::selection {
+    color: white;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    text-align: center;
+  }
+}
