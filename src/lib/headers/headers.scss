@@ -16,29 +16,128 @@
   *   ? Have a nice day!
   */
 
+  /**
+      Author: The DesignSystems
+      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
+      (c) All Copyrights are reserved by The DesignSystems
+  */
+
 /// ALL HEADER RELATED CSS IS WRITTEN BELOW
 
-.cartoon_header_01 {
+.vertical_header {
+  // transform: rotate(90deg);
+  transform-origin: 0;
+
+}
+.classic_header{
   padding: 2em;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: white;
 }
 
-.header_logo {
-  float: left;
+
+.vertical_header_option {
+  margin-right: 2.4em;
+
+  // float: right;
+  margin-top: 0%;
 }
 
-.nav_options {
-  // position: relative;  
+
+.navbar{
+  background-color: black;
+  padding:13px 20px ;
+  text-align: center;
+  
 }
 
-@media screen and (max-width: 600px) {
-  .cartoon_header_01 {
-    text-align: center;
-  }
-  .nav_options {
-    text-align: center;
-    float: none;
-  }
+.navbar a{
+
+  text-align: center;
+  color: rgb(207, 207, 207);
+  text-decoration: none;
+  padding: 3px 20px;
+  margin:3em 3em;
+  
 }
+
+.navbar a:hover{
+ 
+  color: #fff;
+  transition: ease-in-out 0.2s;
+
+}
+
+.page{
+  display: flex;
+  position: relative;
+
+}
+
+.sidebar{
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  padding: 10em 4em;
+  box-sizing: border-box;
+}
+
+.sidebar li{
+  padding: 20px 10px;
+  list-style: none;
+}
+
+.sidebar a{
+  color: #fff;
+}
+
+.sidebar li a:hover{
+  color:gray;
+  transition: ease-in-out 0.2s;
+}
+
+.classic_header_2{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  
+}
+
+.options{
+  color: black;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  padding: 50px;    
+  margin-top: 2em;
+}
+
+.classic_header_2>div{
+  width:calc(100% / 3);
+}
+
+.logo-text h1{
+  font-weight: 800;
+}
+
+.logo-text span{
+  font-weight: 100;
+}
+
+.options:hover{
+  color:rgb(226, 27, 27);
+}
+
+.header_left{
+  margin-top: 1.5em;
+}
+
+.header_right{
+  margin-top: 1.5em;
+}
+
+  

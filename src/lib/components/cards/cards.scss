@@ -15,9 +15,63 @@
 
   *   ? Have a nice day!
   */
-
+/**
+      Author: The DesignSystems
+      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
+      (c) All Copyrights are reserved by The DesignSystems
+  */
+  
 /// ALL CARDS RELATED CSS IS WRITTEN BELOW
 
 .cartoon_card-01 {
   color: black;
+}
+
+.container{
+  background-color:#fff ;
+  padding:30px;
+  margin: 10px;
+  width: 15%;
+  height: 30%;
+  box-sizing: border-box;
+  transition: ease-in-out 0.2s;
+  font-family: Poppins;
+}
+
+.container:hover{
+transform: scale(1.1);
+
+}
+
+
+.Fold { 
+  position: absolute;  
+  left: 50%;  
+  top: 55%; 
+  width: 400px; 
+  height: 200px; 
+  background-color: #4EE73C; 
+  position: absolute; 
+  } 
+
+
+ 
+.Fold:after { 
+  position: absolute; 
+  content: ''; 
+  right: 0; 
+  top: 0; 
+  transition:0.4s ease-in-out; 
+} 
+
+.Fold:hover:after { 
+  border-bottom: 50px solid black; 
+  border-right: 50px solid white; 
+}  
+
+.landscape_card{
+  width: 56%;
+  height: 38%;
+  box-sizing: border-box;
+  content: inherit;
 }

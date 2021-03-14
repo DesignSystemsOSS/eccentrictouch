@@ -1,0 +1,26 @@
+/**
+      Author: The DesignSystems
+      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
+      (c) All Copyrights are reserved by The DesignSystems
+  */
+body {
+  margin: auto;
+  max-width: 1400px;
+}
+
+body ::-moz-selection {
+  color: white;
+  background-color: black;
+}
+
+body ::selection {
+  color: white;
+  background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=components.css.map */

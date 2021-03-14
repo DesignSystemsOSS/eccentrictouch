@@ -16,52 +16,59 @@
   *   ? Have a nice day!
   */
 
+  /**
+      Author: The DesignSystems
+      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
+      (c) All Copyrights are reserved by The DesignSystems
+  */
+
+
 /// ALL FONTS/TEXTS RELATED CSS IS WRITTEN BELOW
 
-p {
+p, .p {
   color: var(--main-color);
   font-family: var(--general-font-family);
   width: 100%;
 }
 
-h1 {
+h1, .h1 {
   color: var(--main-color);
   font-family: var(--general-font-family);
   font-size: 48px;
 }
 
-h2 {
+h2, .h1 {
   color: var(--main-color);
   font-family: var(--general-font-family);
   font-size: 42px;
 }
 
-h3 {
+h3, .h3 {
   color: var(--main-color);
   font-family: var(--general-font-family);
   font-size: 36px;
 }
 
-h4 {
+h4, .h4 {
   color: var(--main-color);
   font-family: var(--general-font-family);
   font-size: 30px;
 }
 
-h5 {
+h5, .h5 {
   color: var(--main-color);
   font-family: var(--general-font-family);
   font-size: 24px;
 }
 
-h6 {
+h6, .h6 {
   color: var(--main-color);
   font-family: var(--general-font-family);
   font-size: 18px;
 }
 
 .description_text {
-  color: var(--main-color);
+  color: var(--main-color) initial;
   font-family: var(--general-font-family);
   font-size: 14px;
 }
@@ -100,10 +107,17 @@ h6 {
   text-decoration: underline;
 }
 
-strong .strong {
+strong, .strong {
   color: var(--main-color);
   font-family: var(--general-font-family);
 }
+
+ul, .ul, li, .li, ol, .ol {
+  font-family: var(--general-font-family);
+  margin: 0 auto;
+  
+}
+
 
 /// ============================================= COMMENTING FOR FUTURE DEVELOPMENT =================================
 // .underline_solid {
