@@ -22,6 +22,13 @@
   */
 
 /* display properties */
+.full-width{
+  width: 100%;
+}
+
+.full-height{
+  height: 100%;
+}
 
 .block {
   display: block;
@@ -32,10 +39,13 @@
 }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .grid {
+  display: -ms-grid;
   display: grid;
 }
 
@@ -56,10 +66,13 @@
 }
 
 .inline_flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
 .inline_grid {
+  display: -ms-inline-grid;
   display: inline-grid;
 }
 

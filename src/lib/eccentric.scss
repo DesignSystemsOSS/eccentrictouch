@@ -32,16 +32,13 @@
 
   @import url('animations/animations.css');           /// animations CSS Linked
   @import url('buttons/buttons.css');                 /// buttons CSS Linked
-  @import url('components/components.css');           /// components CSS Linked
+  @import url('components/components.css');           /// components CSS Linked         ---- ALL THE COMPONENTS WILL BE LINKED FROM THIS LINE ----
   @import url('contents/contents.css');               /// content CSS Linked
   @import url('footers/footers.css');                 /// footers CSS Linked
   @import url('effects/effects.css');                 /// effects CSS Linked
   @import url('headers/headers.css');                 /// headers CSS Linked
   @import url('images/images.css');                   /// images CSS Linked
   @import url('fonts/fonts.css');                     /// fonts CSS Linked
-  @import url('components/cards/cards.css');
-  @import url('components/forms/forms.css');
-
   /**importing root module for variables**/
 
   @import url('variables.css');                       /// LINKING GLOBAL VARIABLES CSS MODULE
