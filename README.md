@@ -25,10 +25,11 @@ everyone.
 ## TECH STACK
 
 The project revolves around these languages</br>
-    1. HTML</br>
-    2. SCSS</br>
-    3. CSS</br>
-    4. JAVASCRIPT</br>
+- HTML
+- CSS/SCSS
+- JavaScript
+- JSON
+
 
 
 ## HOW TO START
@@ -54,7 +55,8 @@ In your your journey from forking to merging of pull request, these are tools th
 
 
 ## VERSION UPGRADES
-## PROGRAMS WE HAVE BEEN ASSOCIATED WITH
+- [Pre Release Version (Beta Testing)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v.0.1)
+
 ## CONTRIBUTORS
 - We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
 [CONTRIBUTING.md](CONTRIBUTING.md) file. 
