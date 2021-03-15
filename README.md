@@ -60,3 +60,10 @@ In your your journey from forking to merging of pull request, these are tools th
 [CONTRIBUTING.md](CONTRIBUTING.md) file. 
 - If you want to write some CSS/SCSS or write test methods to test other's code, you should read [HOW_TO_CODE.md](HOW_TO_CODE.md) to understand the way you have to write the code.
 
+- Here we have our contributors, who are consistently working to build technologies.
+
+<table>
+  <tr>
+    <td align="center"><a href="https://yashsehgal.github.io/portfolio_v_2"><img src="https://avatars.githubusercontent.com/u/62352288?s=460&u=cfea168f1bfd96b93710d9b3b9dda77283768452&v=4" width="100px;" alt=""/><br /><sub><b>Yash Sehgal</b> (Founder)</sub></a><br /><a title="Founder">💡</a></td>
+  </tr>
+</table>
