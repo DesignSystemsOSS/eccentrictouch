@@ -20,6 +20,125 @@
       LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
       (c) All Copyrights are reserved by The DesignSystems
   */
+
+/* display properties */
+
+.block {
+  display: block;
+}
+
+.contents {
+  display: contents;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.initial {
+  display: initial;
+}
+
+.inherit {
+  display: inherit;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline_block {
+  display: inline-block;
+}
+
+.inline_flex {
+  display: inline-flex;
+}
+
+.inline_grid {
+  display: inline-grid;
+}
+
+.inline_table {
+  display: inline-table;
+}
+
+.list_item {
+  display: list-item;
+}
+
+.none {
+  display: none;
+}
+
+.ruby {
+  display: ruby;
+}
+
+.ruby_base {
+  display: ruby-base;
+}
+
+.ruby_base_container {
+  display: ruby-base-container;
+}
+
+.ruby_text {
+  display: ruby-text;
+}
+
+.ruby_text_container {
+  display: ruby-text-container;
+}
+
+.run_in {
+  display: run-in;
+}
+
+.table {
+  display: table;
+}
+
+.table_caption {
+  display: table-caption;
+}
+
+.table_column_group {
+  display: table-column-group;
+}
+
+.table_header_group {
+  display: table-header-group;
+}
+
+.table_footer_group {
+  display: table-footer-group;
+}
+
+.table_row_group {
+  display: table-row-group;
+}
+
+.table_cell {
+  display: table-cell;
+}
+
+.table_column {
+  display: table-column;
+}
+
+.table_row {
+  display: table-row;
+}
+
+.unset {
+  display: unset;
+}
+
 .content {
   -webkit-margin-end: var(--margin-left-default);
           margin-inline-end: var(--margin-left-default);
