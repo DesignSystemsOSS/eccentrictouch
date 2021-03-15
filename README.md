@@ -1,4 +1,4 @@
-# DESIGN SYSTEMS | ECCENTRIC TOUCH
+# Eccentric Touch by The DesignSystems
 
 Design systems is a one stop solution to all your frontend crises. 
 
@@ -15,20 +15,21 @@ Design systems is a one stop solution to all your frontend crises.
 [![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ## Who are we?
 
-Give your websites(and rest..) a visual upgrade. design systems's eccentric touch is an open source initiative that 
-provides you with numerous themes and structures that will magically transform the ways your websites look. backed 
-with some of the great designers, you will with no doubt find the visuals that will catch your eye. as for the 
-frontend developers it is a great platform to showcase their talents . this platform with no doubt serves anyone and 
+Give your websites a visual upgrade. The DesignSystems' Eccentric Touch is an open source initiative that 
+provides you with numerous themes and structures that will magically transform the ways your websites look. Backed 
+with some of the great designers, you will with no doubt find the visuals that will catch your eye. As for the 
+frontend developers it is a great platform to showcase their talents. This platform with no doubt serves anyone and 
 everyone.
 
 
 ## TECH STACK
 
 The project revolves around these languages</br>
-    1. HTML</br>
-    2. SCSS</br>
-    3. CSS</br>
-    4. JAVASCRIPT</br>
+- HTML
+- CSS/SCSS
+- JavaScript
+- JSON
+
 
 
 ## HOW TO START
@@ -43,18 +44,17 @@ Here is a short introduction as to how you can begin.
     ``` 
 3. Open the text editor of your choice and get started!
 
-
-## GETTING STARTED WITH ECCENTRIC TOUCH
 ## SYSTEM REQUIREMENTS
 
 In your your journey from forking to merging of pull request, these are tools that you will need:</br>
     1. Google chrome</br>
-    2. Text editor(visual studio code, notepad++)</br>
+    2. Text editor(Anyone of your choice) preferred VSCODE</br>
     3. Git
 
 
 ## VERSION UPGRADES
-## PROGRAMS WE HAVE BEEN ASSOCIATED WITH
+- [Pre Release Version (Beta Testing)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v.0.1)
+
 ## CONTRIBUTORS
 - We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
 [CONTRIBUTING.md](CONTRIBUTING.md) file. 
