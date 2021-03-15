@@ -44,8 +44,6 @@ Here is a short introduction as to how you can begin.
     ``` 
 3. Open the text editor of your choice and get started!
 
-
-## GETTING STARTED WITH ECCENTRIC TOUCH
 ## SYSTEM REQUIREMENTS
 
 In your your journey from forking to merging of pull request, these are tools that you will need:</br>
