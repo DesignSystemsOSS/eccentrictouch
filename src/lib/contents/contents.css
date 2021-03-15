@@ -23,9 +23,6 @@
 
 /* display properties */
 
-h2 {
-  text-transform:lowercase;
-}
 .block {
   display: block;
 }
