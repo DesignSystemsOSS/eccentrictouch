@@ -1,4 +1,4 @@
-# DESIGN SYSTEMS | ECCENTRIC TOUCH
+# Eccentric Touch by The DesignSystems
 
 Design systems is a one stop solution to all your frontend crises. 
 
@@ -15,10 +15,10 @@ Design systems is a one stop solution to all your frontend crises.
 [![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ## Who are we?
 
-Give your websites(and rest..) a visual upgrade. design systems's eccentric touch is an open source initiative that 
-provides you with numerous themes and structures that will magically transform the ways your websites look. backed 
-with some of the great designers, you will with no doubt find the visuals that will catch your eye. as for the 
-frontend developers it is a great platform to showcase their talents . this platform with no doubt serves anyone and 
+Give your websites a visual upgrade. The DesignSystems' Eccentric Touch is an open source initiative that 
+provides you with numerous themes and structures that will magically transform the ways your websites look. Backed 
+with some of the great designers, you will with no doubt find the visuals that will catch your eye. As for the 
+frontend developers it is a great platform to showcase their talents. This platform with no doubt serves anyone and 
 everyone.
 
 
@@ -49,7 +49,7 @@ Here is a short introduction as to how you can begin.
 
 In your your journey from forking to merging of pull request, these are tools that you will need:</br>
     1. Google chrome</br>
-    2. Text editor(visual studio code, notepad++)</br>
+    2. Text editor(Anyone of your choice) preferred VSCODE</br>
     3. Git
 
 
