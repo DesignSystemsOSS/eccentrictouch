@@ -152,6 +152,7 @@
   display: unset;
 }
 
+
 .content {
   -webkit-margin-end: var(--margin-left-default);
           margin-inline-end: var(--margin-left-default);
