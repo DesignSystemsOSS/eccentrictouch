@@ -841,7 +841,7 @@ body{
  align-items: center;
  justify-content: center;
 }
-button{
+.glowing_button{
  position: relative;
  height: 60px;
  width: 200px;
@@ -854,7 +854,7 @@ button{
  font-size: 18px;
  font-family: 'Raleway', sans-serif;
 }
-button:before{
+.glowing_button:before{
  position: absolute;
  content: '';
  top: -2px;
@@ -870,13 +870,13 @@ button:before{
  transition: opacity .3s ease-in-out;
  animation: animate 20s linear infinite;
 }
-button:hover:before{
+.glowing_button:hover:before{
  opacity: 1;
 }
-button:hover:active{
+.glowing_button:hover:active{
  background: none;
 }
-button:hover:active:before{
+.glowing_button:hover:active:before{
  filter: blur(2px);
 }
 @keyframes animate {
