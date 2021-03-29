@@ -73,4 +73,17 @@
           box-sizing: border-box;
   content: inherit;
 }
+
+.clean-card {
+  width: 30%;
+  height: 28%;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clean-card:hover {
+  -webkit-box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 /*# sourceMappingURL=cards.css.map */

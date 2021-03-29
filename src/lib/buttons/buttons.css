@@ -919,4 +919,90 @@
   -webkit-box-shadow: 6px 24px 26px #dbdbdb;
           box-shadow: 6px 24px 26px #dbdbdb;
 }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*            GLOWING BUTTON(NEON) */
+  height: 100vh;
+  background: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  position: relative;
+  height: 60px;
+  width: 200px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+button:before {
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 400%;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  -webkit-animation: animate 20s linear infinite;
+          animation: animate 20s linear infinite;
+}
+
+button:hover:before {
+  opacity: 1;
+}
+
+button:hover:active {
+  background: none;
+}
+
+button:hover:active:before {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
 /*# sourceMappingURL=buttons.css.map */

@@ -20,16 +20,7 @@
       LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
       (c) All Copyrights are reserved by The DesignSystems
   */
-
 /* display properties */
-.full-width{
-  width: 100%;
-}
-
-.full-height{
-  height: 100%;
-}
-
 .block {
   display: block;
 }

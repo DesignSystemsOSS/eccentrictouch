@@ -20,4 +20,40 @@
       LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
       (c) All Copyrights are reserved by The DesignSystems
   */
+body {
+  background-color: white;
+}
+
+.animated_form {
+  margin-top: 10%;
+  width: 452px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+.animated_form .input-data {
+  height: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.animated_form .input-data input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.animated_form .input-data label {
+  position: absolute;
+  bottom: 10px;
+}
+
+.input-data input:focus ~ label {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  border: none;
+}
 /*# sourceMappingURL=forms.css.map */
