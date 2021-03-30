@@ -25,7 +25,7 @@ Let's get started then!
 1. Open the terminal and create a clone of the project to download all the files of the project.
 ```
 git clone https://github.com/<user-name>/eccentrictouch.git
-cd <repository-name>
+cd eccentrictouch
 ```
 2. Make sure you are on the correct branch(refer to code of conduct)
 ```
