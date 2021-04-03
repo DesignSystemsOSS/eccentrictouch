@@ -1,44 +1,149 @@
-/**
-  *   THIS IS THE MAIN ECCENTRIC MODULE, WHICH WILL BE USED BY USERS, IN THEIR WEB-DEVELOPMENT PROJECTS.
+// This is the main module  - eccentrictouch
 
-  *   MANY OTHER MODULES ARE ALSO LINKED TO THIS FILE TO MAINTAIN THE MODULARITY THROUGHOUT THE PROJECT.
+/*!
+ * Eccentric Touch v2.0.0
+ * Copyright 2020-2021 The DesignSystems
+ * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE)
+ */
 
-  *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
-  *   ? > Try to write clean code and avoid extra css to implement a particular features
+/// Importing Google Fonts here
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');          /// NOTO SERIF
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');             /// POPPINS
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');           /// Work Sans
 
-  *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
-  *   ? Testing will help you to implement exact CSS/SCSS you want.
 
-  *   ! Write a brief comment before every styling block explaining everything about that block.
-  *   ? Explain ClassName / ID-Name, Properties, Reason (one-two line statement) and other useful information
+/// defining global root properties
+:root {
+  --et-black: #292929;
+  --et-white: #ffffff;
 
-  *   ? At last, Try to follow all the best coding practices. 
+  --et-blue-primary: #0085FF;   
+  --et-default: #0085FF;    
+  --et-info: #0085FF;
+  --et-blue-secondary: #9DD0FF;
 
-  *   ? If any doubt, check CONTRIBUTING.md and CODE_OF_CONDUCT.md file
+  --et-purple-primary: #0038FF;
+  --et-purple-secondary: #829DFF;
 
-  *   ? Have a nice day!
-  */
+  --et-red-primary: #E73A3A;    
+  --et-invalid: #E73A3A;  
+  --et-danger: #E73A3A;
+  --et-red-secondary: #FF8282;  
 
-  /**
-    Here all the CSS modules will be linked
-    Modules: animations.css, buttons.css, components.css, contents.css, effects.css, footers.css, headers.css, images.css
-  */
+  --et-green-primary: #00D43B;  
+  --et-valid: #00D43B;    
+  --et-success: #00D43B;
+  --et-green-secondary: #8BFFAC;
 
-  /**
-      Author: The DesignSystems
-      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
-      (c) All Copyrights are reserved by The DesignSystems
-  */
+  --et-yellow-primary: #FFD028;     
+  --et-warning: #FFD028;
+  --et-yellow-secondary: #FFEA9D;
 
-  @import url('animations/animations.css');           /// animations CSS Linked
-  @import url('buttons/buttons.css');                 /// buttons CSS Linked
-  @import url('components/components.css');           /// components CSS Linked         ---- ALL THE COMPONENTS WILL BE LINKED FROM THIS LINE ----
-  @import url('contents/contents.css');               /// content CSS Linked
-  @import url('footers/footers.css');                 /// footers CSS Linked
-  @import url('effects/effects.css');                 /// effects CSS Linked
-  @import url('headers/headers.css');                 /// headers CSS Linked
-  @import url('images/images.css');                   /// images CSS Linked
-  @import url('fonts/fonts.css');                     /// fonts CSS Linked
-  /**importing root module for variables**/
+  --et-gray-primary: #CECECE;       
+  --et-gray-secondary: #D3D3D3;
+  --et-deactivated: #CECECE;
 
-  @import url('variables.css');                       /// LINKING GLOBAL VARIABLES CSS MODULE
+  /// fonts initialization
+  --et-serif: 'Noto Serif', serif;
+  --et-sans-serif: 'Poppins', sans-serif;
+  --et-description: 'Work Sans', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+}
+
+/// button method - primary-button, default button property
+.et-button, button, .et-primaryButton {
+  color: white;
+  background-color: var(--et-blue-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.et-button-danger, .et-button-invalid {
+  color: white;
+  background-color: var(--et-danger);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.et-button-success, .et-button-valid {
+  color: white;
+  background-color: var(--et-green-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.et-button-warning {
+  color: white;
+  background-color: var(--et-yellow-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+h1,.et-h1,h2,.et-h2,h3,.et-h3,h4,.et-h4,h5,.et-h5,h6,.et-h6{
+  font-family: var(--et-sans-serif);
+  color: var(--et-black);
+  margin: 0;
+}
+
+// heading method - (h1)
+h1, .et-h1{
+  font-size: 45.3px;
+  font-weight: 600;
+}
+
+
+h2, .et-h2{
+  font-size: 38.3px;
+}
+
+
+h3, .et-h3{
+  font-size: 29.12px;
+  font-weight: 600;
+}
+
+
+h4, .h4{
+  font-size: 22.65px;
+}
+
+
+h5, .et-h5{
+  font-size: 16.18px;
+  font-weight: 600;
+}
+
+
+h6, .et-h6{
+  font-size: 12.94px;
+}

@@ -1,41 +1,129 @@
-/**
-  *   THIS IS THE MAIN ECCENTRIC MODULE, WHICH WILL BE USED BY USERS, IN THEIR WEB-DEVELOPMENT PROJECTS.
+/*!
+ * Eccentric Touch v2.0.0
+ * Copyright 2020-2021 The DesignSystems
+ * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE)
+ */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+:root {
+  --et-black: #292929;
+  --et-white: #ffffff;
+  --et-blue-primary: #0085FF;
+  --et-default: #0085FF;
+  --et-info: #0085FF;
+  --et-blue-secondary: #9DD0FF;
+  --et-purple-primary: #0038FF;
+  --et-purple-secondary: #829DFF;
+  --et-red-primary: #E73A3A;
+  --et-invalid: #E73A3A;
+  --et-danger: #E73A3A;
+  --et-red-secondary: #FF8282;
+  --et-green-primary: #00D43B;
+  --et-valid: #00D43B;
+  --et-success: #00D43B;
+  --et-green-secondary: #8BFFAC;
+  --et-yellow-primary: #FFD028;
+  --et-warning: #FFD028;
+  --et-yellow-secondary: #FFEA9D;
+  --et-gray-primary: #CECECE;
+  --et-gray-secondary: #D3D3D3;
+  --et-deactivated: #CECECE;
+  --et-serif: 'Noto Serif', serif;
+  --et-sans-serif: 'Poppins', sans-serif;
+  --et-description: 'Work Sans', sans-serif;
+}
 
-  *   MANY OTHER MODULES ARE ALSO LINKED TO THIS FILE TO MAINTAIN THE MODULARITY THROUGHOUT THE PROJECT.
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
 
-  *   ? ========================== HOW TO WRITE SCSS OR CSS CODE ======================================
-  *   ? > Try to write clean code and avoid extra css to implement a particular features
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+}
 
-  *   ! WRITE TEST METHODS FOR EVERY FEATURE YOU ARE IMPLEMENTING
-  *   ? Testing will help you to implement exact CSS/SCSS you want.
+.et-button, button, .et-primaryButton {
+  color: white;
+  background-color: var(--et-blue-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
 
-  *   ! Write a brief comment before every styling block explaining everything about that block.
-  *   ? Explain ClassName / ID-Name, Properties, Reason (one-two line statement) and other useful information
+.et-button-danger, .et-button-invalid {
+  color: white;
+  background-color: var(--et-danger);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
 
-  *   ? At last, Try to follow all the best coding practices. 
+.et-button-success, .et-button-valid {
+  color: white;
+  background-color: var(--et-green-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
 
-  *   ? If any doubt, check CONTRIBUTING.md and CODE_OF_CONDUCT.md file
+.et-button-warning {
+  color: white;
+  background-color: var(--et-yellow-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
 
-  *   ? Have a nice day!
-  */
-/**
-    Here all the CSS modules will be linked
-    Modules: animations.css, buttons.css, components.css, contents.css, effects.css, footers.css, headers.css, images.css
-  */
-/**
-      Author: The DesignSystems
-      LICENSE: https://www.github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE
-      (c) All Copyrights are reserved by The DesignSystems
-  */
-@import url("animations/animations.css");
-@import url("buttons/buttons.css");
-@import url("components/components.css");
-@import url("contents/contents.css");
-@import url("footers/footers.css");
-@import url("effects/effects.css");
-@import url("headers/headers.css");
-@import url("images/images.css");
-@import url("fonts/fonts.css");
-/**importing root module for variables**/
-@import url("variables.css");
+h1, .et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
+  font-family: var(--et-sans-serif);
+  color: var(--et-black);
+  margin: 0;
+}
+
+h1, .et-h1 {
+  font-size: 45.3px;
+  font-weight: 600;
+}
+
+h2, .et-h2 {
+  font-size: 38.3px;
+}
+
+h3, .et-h3 {
+  font-size: 29.12px;
+  font-weight: 600;
+}
+
+h4, .h4 {
+  font-size: 22.65px;
+}
+
+h5, .et-h5 {
+  font-size: 16.18px;
+  font-weight: 600;
+}
+
+h6, .et-h6 {
+  font-size: 12.94px;
+}
 /*# sourceMappingURL=eccentric.css.map */
