@@ -1,0 +1,111 @@
+// This is the main module  - eccentrictouch
+
+/*!
+ * Eccentric Touch v2.0.0
+ * Copyright 2020-2021 The DesignSystems
+ * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE)
+ */
+
+/// Importing Google Fonts here
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');          /// NOTO SERIF
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');             /// POPPINS
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');           /// Work Sans
+
+
+/// defining global root properties
+:root {
+  --et-black: #292929;
+  --et-white: #ffffff;
+
+  --et-blue-primary: #0085FF;   
+  --et-default: #0085FF;    
+  --et-info: #0085FF;
+  --et-blue-secondary: #9DD0FF;
+
+  --et-purple-primary: #0038FF;
+  --et-purple-secondary: #829DFF;
+
+  --et-red-primary: #E73A3A;    
+  --et-invalid: #E73A3A;  
+  --et-danger: #E73A3A;
+  --et-red-secondary: #FF8282;  
+
+  --et-green-primary: #00D43B;  
+  --et-valid: #00D43B;    
+  --et-success: #00D43B;
+  --et-green-secondary: #8BFFAC;
+
+  --et-yellow-primary: #FFD028;     
+  --et-warning: #FFD028;
+  --et-yellow-secondary: #FFEA9D;
+
+  --et-gray-primary: #CECECE;       
+  --et-gray-secondary: #D3D3D3;
+  --et-deactivated: #CECECE;
+
+  /// fonts initialization
+  --et-serif: 'Noto Serif', serif;
+  --et-sans-serif: 'Poppins', sans-serif;
+  --et-description: 'Work Sans', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+}
+
+/// button method - primary-button, default button property
+.et-button, button, .et-primaryButton {
+  color: white;
+  background-color: var(--et-blue-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.et-button-danger, .et-button-invalid {
+  color: white;
+  background-color: var(--et-danger);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.et-button-success, .et-button-valid {
+  color: white;
+  background-color: var(--et-green-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.et-button-warning {
+  color: white;
+  background-color: var(--et-yellow-primary);
+  padding: 0.6em;
+  border: none;
+  margin: 0;
+  font-family: var(--et-sans-serif);
+  border-radius: 4px;
+  font-size: inherit;
+  line-height: inherit;
+}
