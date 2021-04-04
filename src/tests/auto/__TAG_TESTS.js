@@ -1,22 +1,9 @@
 
 __TAGS_TESTS =  [
 
-{
+  {
     "classname": "et-paragraph"
-  }
-  ,
-  {
-    "classname": "et-bold"
-  }
-  ,
-  {
-    "classname": "et-italics"
-  }
-  ,
-  {
-    "classname": "et-underlined"
-  }
-  ,
+  },
   {
     "classname": "et-quote"
   }
@@ -26,10 +13,10 @@ __TAGS_TESTS =  [
 let TAGS_TEST_DATA = document.createElement("div");
 
 /// RUNNING TESTS
-for (let testOperation in __TAGS__TESTS) {
+for (let testOperation in __TAGS_TESTS) {
   let _testable_tags__ = document.createElement("p");
-  _testable_tags__.innerHTML = "Testing Buttons";
-  _testable_tags__.className = __TAGS__TESTS[testOperation].classname;
+  _testable_tags__.innerHTML = "Testing Tags";
+  _testable_tags__.className = __TAGS_TESTS[testOperation].classname;
   TAGS_TEST_DATA.append(_testable_tags__);
 }
 
