@@ -13,6 +13,10 @@ Design systems is a one stop solution to all your frontend crises.
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 ![License](https://img.shields.io/badge/license-Apache-brightgreen)
 [![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+**Workflow Status & Checks**
+[![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
+
 ## Who are we?
 
 Give your websites a visual upgrade. The DesignSystems' Eccentric Touch is an open source initiative that 
