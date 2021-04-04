@@ -58,6 +58,11 @@ body {
   line-height: inherit;
 }
 
+button:focus {
+  outline: none;
+  border: none;
+}
+
 .et-button-danger, .et-button-invalid {
   color: white;
   background-color: var(--et-danger);
@@ -94,7 +99,6 @@ body {
   line-height: inherit;
 }
 
-
 .et-button-deactivated {
   background-color: var(--et-gray-primary);
   color: var(--et-black);
@@ -105,6 +109,7 @@ body {
   color: var(--et-black);
   border: var(--et-black) solid;
   border-width: 2px;
+}
 
 h1, .et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
   font-family: var(--et-sans-serif);
