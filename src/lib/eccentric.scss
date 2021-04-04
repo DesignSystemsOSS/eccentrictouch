@@ -150,3 +150,17 @@ h5, .et-h5{
 h6, .et-h6{
   font-size: 12.94px;
 }
+// Comined Property For all tags
+.et-paragragh,.et-bold,.et-italics,.et-underlined,.et-quote,.et-regular,p,b,i,u,q{   // This Contains various TAgs like Paragraph.italics,bold,quote,Underlined.
+font-family: var(--et-sans-serif);
+margin: 0;
+color: var(--et-black);
+}
+ 
+.et-bold,b{
+  font-weight: bold;
+}
+// To remove extra (unwanted) margin.
+.et-paragragh,.et-regular,p{
+  margin: 0;
+}
