@@ -74,6 +74,11 @@ body {
   line-height: inherit;
 }
 
+button:focus {
+  outline: none;
+  border: none;
+}
+
 .et-button-danger, .et-button-invalid {
   color: white;
   background-color: var(--et-danger);
@@ -112,7 +117,7 @@ body {
 
 // Heading Method - Combined button Property
 
-h1,.et-h1,h2,.et-h2,h3,.et-h3,h4,.et-h4,h5,.et-h5,h6,.et-h6{
+h1, .et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
   font-family: var(--et-sans-serif);
   color: var(--et-black);
   margin: 0;

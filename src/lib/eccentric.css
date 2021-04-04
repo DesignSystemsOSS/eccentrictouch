@@ -58,6 +58,11 @@ body {
   line-height: inherit;
 }
 
+button:focus {
+  outline: none;
+  border: none;
+}
+
 .et-button-danger, .et-button-invalid {
   color: white;
   background-color: var(--et-danger);
