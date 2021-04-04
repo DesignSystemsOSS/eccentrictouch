@@ -58,11 +58,6 @@ body {
   line-height: inherit;
 }
 
-button:focus {
-  outline: none;
-  border: none;
-}
-
 .et-button-danger, .et-button-invalid {
   color: white;
   background-color: var(--et-danger);
@@ -99,18 +94,6 @@ button:focus {
   line-height: inherit;
 }
 
-.et-button-deactivated {
-  background-color: var(--et-gray-primary);
-  color: var(--et-black);
-}
-
-.et-button-deactivated-secondary {
-  background-color: var(--et-gray-secondary);
-  color: var(--et-black);
-  border: var(--et-black) solid;
-  border-width: 2px;
-}
-
 h1, .et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
   font-family: var(--et-sans-serif);
   color: var(--et-black);
@@ -142,5 +125,19 @@ h5, .et-h5 {
 
 h6, .et-h6 {
   font-size: 12.94px;
+}
+
+.et-paragragh, .et-bold, .et-italics, .et-underlined, .et-quote, .et-regular, p, b, i, u, q {
+  font-family: var(--et-sans-serif);
+  margin: 0;
+  color: var(--et-black);
+}
+
+.et-bold, b {
+  font-weight: bold;
+}
+
+.et-paragragh, .et-regular, p {
+  margin: 0;
 }
 /*# sourceMappingURL=eccentric.css.map */
