@@ -58,6 +58,19 @@ body {
   line-height: inherit;
 }
 
+button:focus {
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.et-button-deactivated-secondary:focus {
+  border: inherit;
+}
+
 .et-button-danger, .et-button-invalid {
   color: white;
   background-color: var(--et-danger);
@@ -92,6 +105,18 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+.et-button-deactivated {
+  background-color: var(--et-gray-primary);
+  color: var(--et-black);
+}
+
+.et-button-deactivated-secondary {
+  background-color: var(--et-gray-secondary);
+  color: var(--et-black);
+  border: var(--et-black) solid;
+  border-width: 2px;
 }
 
 h1, .et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
