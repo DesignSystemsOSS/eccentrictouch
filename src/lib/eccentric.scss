@@ -62,7 +62,7 @@ body {
 }
 
 /// button method - primary-button, default button property
-.et-button, button, .et-primaryButton {
+.et-button, button, .et-primaryButton{
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -108,4 +108,16 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+.et-button-deactivated{
+  background-color: var(--et-gray-primary);
+  color: var(--et-black);
+}
+
+.et-button-deactivated-secondary{
+  background-color: var(--et-gray-secondary);
+  color: var(--et-black);
+  border: var(--et-black) solid;
+  border-width: 2px;
 }

@@ -93,4 +93,16 @@ body {
   font-size: inherit;
   line-height: inherit;
 }
+
+.et-button-deactivated {
+  background-color: var(--et-gray-primary);
+  color: var(--et-black);
+}
+
+.et-button-deactivated-secondary {
+  background-color: var(--et-gray-secondary);
+  color: var(--et-black);
+  border: var(--et-black) solid;
+  border-width: 2px;
+}
 /*# sourceMappingURL=eccentric.css.map */
