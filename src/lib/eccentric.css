@@ -127,13 +127,13 @@ h6, .et-h6 {
   font-size: 12.94px;
 }
 
-.et-paragragh, .et-bold, .et-italics, .et-underlined, .et-quote, .et-regular, p, b, i, u, q {
+.et-paragragh, .et-quote, .et-regular, p, b, i, u, q {
   font-family: var(--et-sans-serif);
   margin: 0;
   color: var(--et-black);
 }
 
-.et-bold, b {
+b {
   font-weight: bold;
 }
 
