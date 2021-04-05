@@ -16,6 +16,7 @@ Design systems is a one stop solution to all your frontend crises.
 
 **Workflow Status & Checks**
 [![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
+[![BCH compliance](https://bettercodehub.com/edge/badge/DesignSystemsOSS/eccentrictouch?branch=master)](https://bettercodehub.com/)
 
 ## Who are we?
 
