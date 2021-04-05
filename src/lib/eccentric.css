@@ -58,11 +58,6 @@ body {
   line-height: inherit;
 }
 
-button:focus {
-  border: none;
-  outline: none;
-}
-
 button:hover {
   cursor: pointer;
 }
