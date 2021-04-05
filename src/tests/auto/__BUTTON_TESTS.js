@@ -26,6 +26,18 @@ __BUTTON__TESTS = [
   },
   {
     "classname": "et-button-deactivated-secondary"
+  },
+  {
+    "classname":  "et-button-info-secondary"
+  },
+  {
+    "classname":  "et-button-alert-secondary"
+  },
+  {
+    "classname":  "et-button-warning-secondary"
+  },
+  {
+    "classname":  "et-button-success-secondary"
   }
 ]
 
