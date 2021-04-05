@@ -135,6 +135,39 @@ button:hover {
   border-width: 2px;
 }
 
+// These are Secondary Buttons
+
+
+
+// Secondary Info button 
+.et-button-info-secondary{
+  background-color: var(--et-white);
+  border: 2px solid var(--et-blue-primary);
+  color: var(--et-blue-primary);
+}
+
+// Alert button
+.et-button-alert-secondary{
+  background-color: (var(--et-white));
+  border: 2px solid var(--et-danger);
+  color: var(--et-danger);
+}
+
+// Warning button
+.et-button-warning-secondary{
+  background-color: (var(--et-white));
+  border: 2px solid var(--et-warning);
+  color: var(--et-warning);
+}
+
+// Valid/Success button
+.et-button-success-secondary{
+  background-color: (var(--et-white));
+  border: 2px solid var(--et-green-primary);
+  color: var(--et-green-primary);
+}
+
+
 // Heading Method - Combined button Property
 
 h1,.et-h1,h2,.et-h2,h3,.et-h3,h4,.et-h4,h5,.et-h5,h6,.et-h6{
