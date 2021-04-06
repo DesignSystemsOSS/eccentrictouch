@@ -4,16 +4,7 @@ __BUTTON__TESTS = [
     "classname": "et-button"
   },
   {
-    "classname": "et-primaryButton"
-  },
-  {
-    "classname": "et-button-danger"
-  },
-  {
     "classname": "et-button-invalid"
-  },
-  {
-    "classname": "et-button-success"
   },
   {
     "classname": "et-button-valid"
@@ -37,7 +28,7 @@ __BUTTON__TESTS = [
     "classname":  "et-button-warning-secondary"
   },
   {
-    "classname":  "et-button-success-secondary"
+    "classname":  "et-button-valid-secondary"
   }
 ]
 
