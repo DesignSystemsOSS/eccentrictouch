@@ -66,7 +66,7 @@ button:hover {
   border: inherit;
 }
 
-.et-button-danger, .et-button-invalid {
+.et-button-invalid {
   color: white;
   background-color: var(--et-danger);
   padding: 0.6em;
@@ -78,7 +78,7 @@ button:hover {
   line-height: inherit;
 }
 
-.et-button-success, .et-button-valid {
+.et-button-valid {
   color: white;
   background-color: var(--et-green-primary);
   padding: 0.6em;
@@ -120,7 +120,7 @@ button:hover {
   color: var(--et-blue-primary);
 }
 
-.et-button-danger-secondary, .et-button-invalid-secondary {
+.et-button-invalid-secondary {
   background-color: var(--et-white);
   border: 2px solid var(--et-danger);
   color: var(--et-danger);
@@ -132,7 +132,7 @@ button:hover {
   color: var(--et-warning);
 }
 
-.et-button-success-secondary {
+.et-button-valid-secondary {
   background-color: var(--et-white);
   border: 2px solid var(--et-green-primary);
   color: var(--et-green-primary);
