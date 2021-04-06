@@ -62,7 +62,7 @@ body {
 }
 
 /// button method - primary-button, default button property
-.et-button, button, .et-primaryButton {
+.et-button, button {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -74,20 +74,15 @@ body {
   line-height: inherit;
 }
 
-button:focus {
-  border: none;
-  outline: none;
-}
-
 button:hover {
   cursor: pointer;
 }
 
-.et-button-deactivated-secondary:focus {
+.et-button-disabled-secondary:focus {
   border: inherit;
 }
 
-.et-button-danger, .et-button-invalid {
+.et-button-invalid {
   color: white;
   background-color: var(--et-danger);
   padding: 0.6em;
@@ -99,7 +94,7 @@ button:hover {
   line-height: inherit;
 }
 
-.et-button-success, .et-button-valid {
+.et-button-valid {
   color: white;
   background-color: var(--et-green-primary);
   padding: 0.6em;
@@ -123,12 +118,12 @@ button:hover {
   line-height: inherit;
 }
 
-.et-button-deactivated {
+.et-button-disabled {
   background-color: var(--et-gray-primary);
   color: var(--et-black);
 }
 
-.et-button-deactivated-secondary {
+.et-button-disabled-secondary {
   background-color: var(--et-gray-secondary);
   color: var(--et-black);
   border: var(--et-black) solid;
@@ -137,31 +132,29 @@ button:hover {
 
 // These are Secondary Buttons
 
-
-
 // Secondary Info button 
-.et-button-info-secondary{
+.et-button-secondary{
   background-color: var(--et-white);
   border: 2px solid var(--et-blue-primary);
   color: var(--et-blue-primary);
 }
 
-// Alert button
-.et-button-alert-secondary{
+// Invalid button
+.et-button-invalid-secondary {
   background-color: (var(--et-white));
   border: 2px solid var(--et-danger);
   color: var(--et-danger);
 }
 
 // Warning button
-.et-button-warning-secondary{
+.et-button-warning-secondary {
   background-color: (var(--et-white));
   border: 2px solid var(--et-warning);
   color: var(--et-warning);
 }
 
 // Valid/Success button
-.et-button-success-secondary{
+.et-button-valid-secondary {
   background-color: (var(--et-white));
   border: 2px solid var(--et-green-primary);
   color: var(--et-green-primary);
@@ -170,48 +163,48 @@ button:hover {
 
 // Heading Method - Combined button Property
 
-h1,.et-h1,h2,.et-h2,h3,.et-h3,h4,.et-h4,h5,.et-h5,h6,.et-h6{
+h1,.et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
   font-family: var(--et-sans-serif);
   color: var(--et-black);
   margin: 0;
 }
 
 // heading method - (h1)
-h1, .et-h1{
+h1, .et-h1 {
   font-size: 45.3px;
   font-weight: 600;
 }
 
 // heading method - (h2)
-h2, .et-h2{
+h2, .et-h2 {
   font-size: 38.3px;
 }
 
 // heading method - (h3)
-h3, .et-h3{
+h3, .et-h3 {
   font-size: 29.12px;
   font-weight: 600;
 }
 
 // heading method - (h4)
-h4, .h4{
+h4, .et-h4{
   font-size: 22.65px;
 }
 
 // heading method - (h5)
-h5, .et-h5{
+h5, .et-h5 {
   font-size: 16.18px;
   font-weight: 600;
 }
 
 // heading method - (h6)
-h6, .et-h6{
+h6, .et-h6 {
   font-size: 12.94px;
 }
 
 // Combined Property For all tags
-// This Contains various TAgs like Paragraph.italics,bold,quote,Underlined.
-.et-paragragh, .et-quote, .et-regular, p, b, i, u, q {
+// This Contains various Tags like Paragraph, italics, bold, quote, Underlined.
+.et-paragraph, .et-quote, .et-regular, p, b, i, u, q {
 font-family: var(--et-sans-serif);
 margin: 0;
 color: var(--et-black);
@@ -220,8 +213,9 @@ color: var(--et-black);
 b {
   font-weight: bold;
 }
+
 // To remove extra (unwanted) margin.
-.et-paragragh, .et-regular, p {
+.et-paragraph, .et-regular, p {
   margin: 0;
 }
 
