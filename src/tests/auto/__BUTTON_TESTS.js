@@ -28,7 +28,7 @@ __BUTTON__TESTS = [
     "classname": "et-button-disabled-secondary"
   },
   {
-    "classname":  "et-button-info-secondary"
+    "classname":  "et-button-secondary"
   },
   {
     "classname":  "et-button-alert-secondary"
