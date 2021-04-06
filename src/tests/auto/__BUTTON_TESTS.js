@@ -22,13 +22,13 @@ __BUTTON__TESTS = [
     "classname": "et-button-warning"
   },
   {
-    "classname": "et-button-deactivated"
+    "classname": "et-button-disabled"
   },
   {
-    "classname": "et-button-deactivated-secondary"
+    "classname": "et-button-disabled-secondary"
   },
   {
-    "classname":  "et-button-info-secondary"
+    "classname":  "et-button-secondary"
   },
   {
     "classname":  "et-button-alert-secondary"
