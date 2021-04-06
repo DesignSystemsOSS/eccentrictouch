@@ -1,13 +1,8 @@
 
 __TAGS_TESTS =  [
-
   {
     "classname": "et-paragraph"
-  },
-  {
-    "classname": "et-quote"
   }
-
 ]
 
 let TAGS_TEST_DATA = document.createElement("div");
