@@ -171,7 +171,7 @@ h6, .et-h6 {
   font-size: 12.94px;
 }
 
-.et-paragraph, .et-quote, .et-regular, p, b, i, u, q {
+.et-paragraph, p, b, i, u, q {
   font-family: var(--et-sans-serif);
   margin: 0;
   color: var(--et-black);
@@ -181,7 +181,15 @@ b {
   font-weight: bold;
 }
 
-.et-paragraph, .et-regular, p {
+.et-paragraph, p {
   margin: 0;
+}
+
+select {
+  padding: 0.4em;
+  background-color: var(--et-white);
+  font-family: var(--et-sans-serif);
+  border: none;
+  outline: none;
 }
 /*# sourceMappingURL=eccentric.css.map */

@@ -219,3 +219,10 @@ b {
   margin: 0;
 }
 
+select{
+  padding: 0.4em;
+  background-color: var(--et-white);
+  font-family: var(--et-sans-serif);
+  border: none;
+  outline: none;
+}
