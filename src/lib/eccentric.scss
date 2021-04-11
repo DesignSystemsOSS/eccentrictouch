@@ -204,10 +204,10 @@ h6, .et-h6 {
 
 // Combined Property For all tags
 // This Contains various Tags like Paragraph, italics, bold, quote, Underlined.
-.et-paragraph, .et-quote, .et-regular, p, b, i, u, q {
-font-family: var(--et-sans-serif);
-margin: 0;
-color: var(--et-black);
+.et-paragraph, p, b, i, u, q {
+  font-family: var(--et-sans-serif);
+  margin: 0;
+  color: var(--et-black);
 }
  
 b {
@@ -215,7 +215,22 @@ b {
 }
 
 // To remove extra (unwanted) margin.
-.et-paragraph, .et-regular, p {
+.et-paragraph, p {
   margin: 0;
 }
 
+select{
+  padding: 0.4em;
+  background-color: var(--et-white);
+  font-family: var(--et-sans-serif);
+  border: none;
+  outline: none;
+}
+
+label {
+  color: inherit;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
