@@ -71,7 +71,7 @@ In your your journey from forking to merging of pull request, these are tools th
   <tr>
     <td align="center"><a href="https://yashsehgal.github.io/portfolio_v_2"><img src="https://avatars.githubusercontent.com/u/62352288?s=460&u=cfea168f1bfd96b93710d9b3b9dda77283768452&v=4" width="100px;" alt=""/><br /><sub><b>Yash Sehgal</b> (Founder)</sub></a><br /><a title="Founder">💡</a></td>
     
-  <td align="center"><a href="https://www.linkedin.com/in/jaspreet-singh-saini-a916111b2/"><img src="https://avatars.githubusercontent.com/u/75212002?v=4" width="100px;" alt=""/><br /><sub><b>Jaspreet Singh</b> (Developer)</sub></a><br /><a title="Founder">6️⃣ 9️⃣</a></td>
+  <td align="center"><a href="https://www.linkedin.com/in/jaspreet-singh-saini-a916111b2/"><img src="https://avatars.githubusercontent.com/u/75212002?v=4" width="100px;" alt=""/><br /><sub><b>Jaspreet Singh</b> (Developer)</sub></a><br /><a title="Founder">👨‍💻</a></td>
 
   <td align="center"><a href="https://www.linkedin.com/in/atharva-gadkari-0974b11b6/"><img src="https://avatars.githubusercontent.com/u/74293435?v=4" width="100px;" alt=""/><br /><sub><b>Atharva Gadkari</b> (Co-founder)</sub></a><br /><a title="Founder"> 👨‍💻 </a></td>
 
