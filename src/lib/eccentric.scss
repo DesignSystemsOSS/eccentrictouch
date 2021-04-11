@@ -226,3 +226,11 @@ select{
   border: none;
   outline: none;
 }
+
+label {
+  color: inherit;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
