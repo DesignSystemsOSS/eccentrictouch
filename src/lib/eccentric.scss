@@ -261,6 +261,7 @@ input:checked + .slider {
   background-color: #2196F3;
 }
 
+<<<<<<< HEAD
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
@@ -284,4 +285,57 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+=======
+// code for select tag
+select{
+  padding: 0.4em;
+  background-color: var(--et-white);
+  font-family: var(--et-sans-serif);
+  border: none;
+  outline: none;
+}
+
+// css method for handling label tags 
+label {
+  color: inherit;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+// CSS property for input-type text (text-box-design)
+input, input[type=text], input[type=password], input[type=number], input[type=email],
+.et-input-text, .et-input-password , .et-input-number, .et-input-email {
+  padding: 0.6em;
+  font-family: var(--et-sans-serif);
+  font-weight: inherit;
+  line-height: inherit;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  margin: inherit;
+  border-radius: 4px;
+}
+
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus,
+.et-input-text:focus, .et-input-password:focus, .et-input-number:focus, .et-input-email:focus {
+  outline: none;
+}
+
+/// CSS for textarea properties
+
+textarea, .et-textarea {
+  background-color: var(--et-gray-secondary);
+  border: none;
+  line-height: inherit;
+  margin: inherit;
+  padding: 10px;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+}
+
+.et-textarea:focus, textarea:focus {
+  outline: none;
+>>>>>>> 1d410c47546f1cdc38318e570d74a566eb28d238
 }
