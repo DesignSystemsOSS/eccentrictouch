@@ -46,7 +46,7 @@ body {
   max-width: 1400px;
 }
 
-.et-button, button {
+.et-button, button, input[type=button] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -56,6 +56,10 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+input[type=button]:focus {
+  outline: none;
 }
 
 button:hover {
@@ -201,7 +205,7 @@ label {
   margin: inherit;
 }
 
-input, input[type=text], input[type=password], input[type=number], input[type=email],
+input[type=text], input[type=password], input[type=number], input[type=email],
 .et-input-text, .et-input-password, .et-input-number, .et-input-email {
   padding: 0.6em;
   font-family: var(--et-sans-serif);
@@ -211,6 +215,14 @@ input, input[type=text], input[type=password], input[type=number], input[type=em
   border: none;
   margin: inherit;
   border-radius: 4px;
+}
+
+input {
+  font-family: var(--et-sans-serif);
+  padding: 0.6em;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--et-gray-secondary);
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus,
@@ -230,5 +242,26 @@ textarea, .et-textarea {
 
 .et-textarea:focus, textarea:focus {
   outline: none;
+}
+
+input[type=color] {
+  background-color: var(--et-gray-secondary);
+  border: none;
+}
+
+input[type=color]:focus {
+  outline: none;
+}
+
+input[type=date] {
+  padding: 0.6;
+}
+
+input[type=date]:focus {
+  outline: none;
+}
+
+input[type=file] {
+  padding: 0.6em;
 }
 /*# sourceMappingURL=eccentric.css.map */
