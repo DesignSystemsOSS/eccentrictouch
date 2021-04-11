@@ -46,7 +46,7 @@ body {
   max-width: 1400px;
 }
 
-.et-button, button {
+.et-button, button, input[type=button] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -56,6 +56,10 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+input[type=button]:focus {
+  outline: none;
 }
 
 button:hover {
@@ -185,6 +189,73 @@ b {
   margin: 0;
 }
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+d {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 select {
   padding: 0.4em;
   background-color: var(--et-white);
@@ -201,7 +272,7 @@ label {
   margin: inherit;
 }
 
-input, input[type=text], input[type=password], input[type=number], input[type=email],
+input[type=text], input[type=password], input[type=number], input[type=email],
 .et-input-text, .et-input-password, .et-input-number, .et-input-email {
   padding: 0.6em;
   font-family: var(--et-sans-serif);
@@ -211,6 +282,11 @@ input, input[type=text], input[type=password], input[type=number], input[type=em
   border: none;
   margin: inherit;
   border-radius: 4px;
+}
+
+input {
+  font-family: var(--et-sans-serif);
+  padding: 0.6em;
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus,
@@ -230,5 +306,26 @@ textarea, .et-textarea {
 
 .et-textarea:focus, textarea:focus {
   outline: none;
+}
+
+input[type=color] {
+  background-color: var(--et-gray-secondary);
+  border: none;
+}
+
+input[type=color]:focus {
+  outline: none;
+}
+
+input[type=date] {
+  padding: 0.6;
+}
+
+input[type=date]:focus {
+  outline: none;
+}
+
+input[type=file] {
+  padding: 0.6em;
 }
 /*# sourceMappingURL=eccentric.css.map */
