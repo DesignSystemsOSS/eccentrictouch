@@ -200,4 +200,35 @@ label {
   font-weight: inherit;
   margin: inherit;
 }
+
+input, input[type=text], input[type=password], input[type=number], input[type=email],
+.et-input-text, .et-input-password, .et-input-number, .et-input-email {
+  padding: 0.6em;
+  font-family: var(--et-sans-serif);
+  font-weight: inherit;
+  line-height: inherit;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  margin: inherit;
+  border-radius: 4px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus,
+.et-input-text:focus, .et-input-password:focus, .et-input-number:focus, .et-input-email:focus {
+  outline: none;
+}
+
+textarea, .et-textarea {
+  background-color: var(--et-gray-secondary);
+  border: none;
+  line-height: inherit;
+  margin: inherit;
+  padding: 10px;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+}
+
+.et-textarea:focus, textarea:focus {
+  outline: none;
+}
 /*# sourceMappingURL=eccentric.css.map */
