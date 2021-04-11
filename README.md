@@ -58,7 +58,7 @@ In your your journey from forking to merging of pull request, these are tools th
 
 
 ## VERSION UPGRADES
-- [Pre Release Version (Beta Testing)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v.0.1)
+- [Pre Release v2.0.1](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.1)
 
 ## CONTRIBUTORS
 - We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
