@@ -62,7 +62,7 @@ body {
 }
 
 /// button method - primary-button, default button property
-.et-button, button {
+.et-button, button, input[type=button] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -72,6 +72,10 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+input[type=button]:focus {
+  outline: none;
 }
 
 button:hover {
@@ -261,7 +265,6 @@ input:checked + .slider {
   background-color: #2196F3;
 }
 
-<<<<<<< HEAD
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
@@ -285,7 +288,8 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-=======
+}
+
 // code for select tag
 select{
   padding: 0.4em;
@@ -305,7 +309,7 @@ label {
 }
 
 // CSS property for input-type text (text-box-design)
-input, input[type=text], input[type=password], input[type=number], input[type=email],
+input[type=text], input[type=password], input[type=number], input[type=email],
 .et-input-text, .et-input-password , .et-input-number, .et-input-email {
   padding: 0.6em;
   font-family: var(--et-sans-serif);
@@ -317,6 +321,10 @@ input, input[type=text], input[type=password], input[type=number], input[type=em
   border-radius: 4px;
 }
 
+input {
+  font-family: var(--et-sans-serif);
+  padding: 0.6em;
+}
 
 input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus,
 .et-input-text:focus, .et-input-password:focus, .et-input-number:focus, .et-input-email:focus {
@@ -337,5 +345,27 @@ textarea, .et-textarea {
 
 .et-textarea:focus, textarea:focus {
   outline: none;
->>>>>>> 1d410c47546f1cdc38318e570d74a566eb28d238
+}
+
+/// Component CSS for input type color
+input[type=color] {
+  background-color: var(--et-gray-secondary);
+  border: none;
+}
+
+input[type=color]:focus {
+  outline: none;
+}
+
+/// Component CSS for input type date
+input[type=date] {
+  padding: 0.6;
+}
+
+input[type=date]:focus {
+  outline: none;
+}
+
+input[type=file] {
+  padding: 0.6em;
 }
