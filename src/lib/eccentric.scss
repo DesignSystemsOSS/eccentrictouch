@@ -62,7 +62,7 @@ body {
 }
 
 /// button method - primary-button, default button property
-.et-button, button {
+.et-button, button, input[type=button], input[type=submit] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -72,6 +72,10 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+input[type=button]:focus {
+  outline: none;
 }
 
 button:hover {
@@ -218,4 +222,205 @@ b {
 .et-paragraph, p {
   margin: 0;
 }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
 
+
+ .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+} 
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}d {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+// code for select tag
+select{
+  padding: 0.4em;
+  background-color: var(--et-white);
+  font-family: var(--et-sans-serif);
+  border: none;
+  outline: none;
+}
+
+// css method for handling label tags 
+label {
+  color: inherit;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+// CSS property for input-type text (text-box-design)
+input[type=text], input[type=password], input[type=number], input[type=email],
+.et-input-text, .et-input-password , .et-input-number, .et-input-email {
+  padding: 0.6em;
+  font-family: var(--et-sans-serif);
+  font-weight: inherit;
+  line-height: inherit;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  margin: inherit;
+  border-radius: 4px;
+}
+
+input {
+  font-family: var(--et-sans-serif);
+  padding: 0.6em;
+  background-color: var(--et-gray-secondary);
+}
+
+input[type=text]:focus, input[type=password]:focus, 
+input[type=number]:focus, input[type=email]:focus,
+input[type=color]:focus, input[type=date]:focus, 
+input[type=file]:focus, input[type=reset]:focus, 
+input[type=tel]:focus, input[type=time]:focus, 
+input[type=url]:focus, input[type=search]:focus, 
+input[type=week]:focus, input[type=datetime-local]:focus,
+input[type=date]:focus, input[type=datetime], input[type=submit]:focus,
+.et-input-text:focus, .et-input-password:focus, 
+.et-input-number:focus, .et-input-email:focus {
+  outline: none;
+}
+
+/// CSS for removing primary button outlines onclick event
+.et-button:focus, .et-button-invalid:focus, .et-button-valid:focus,
+.et-button-disabled:focus, .et-button-warning:focus {
+  outline: none;
+}
+
+/// CSS for textarea properties
+
+textarea, .et-textarea {
+  background-color: var(--et-gray-secondary);
+  border: none;
+  line-height: inherit;
+  margin: inherit;
+  padding: 10px;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+}
+
+.et-textarea:focus, textarea:focus {
+  outline: inherit;
+}
+
+/// Component CSS for input type color
+input[type=color] {
+  background-color: var(--et-gray-secondary);
+  border: none;
+}
+
+/// Component CSS for input type date
+input[type=date] {
+  padding: 0.6;
+}
+
+input[type=file] {
+  padding: 0.6em;
+  border-radius: 4px;
+  background-color: inherit;
+}
+
+input[type=reset] {
+  padding: 0.6em;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  border-radius: 4px;
+}
+
+
+input[type=tel] {
+  border: none;
+  border-radius: 4px;
+}
+
+
+input[type=time] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=url] {
+  border: none;
+  border-radius: 4px;
+}
+
+
+input[type=search] {
+  border: none;
+  border-radius: 4px;
+}
+
+
+input[type=week] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=datetime-local] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=date], input[type=datetime] {
+  border: none;
+  border-radius: 4px;
+}

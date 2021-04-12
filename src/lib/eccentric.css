@@ -46,7 +46,7 @@ body {
   max-width: 1400px;
 }
 
-.et-button, button {
+.et-button, button, input[type=button], input[type=submit] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -56,6 +56,10 @@ body {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+}
+
+input[type=button]:focus {
+  outline: none;
 }
 
 button:hover {
@@ -171,7 +175,7 @@ h6, .et-h6 {
   font-size: 12.94px;
 }
 
-.et-paragraph, .et-quote, .et-regular, p, b, i, u, q {
+.et-paragraph, p, b, i, u, q {
   font-family: var(--et-sans-serif);
   margin: 0;
   color: var(--et-black);
@@ -181,7 +185,197 @@ b {
   font-weight: bold;
 }
 
-.et-paragraph, .et-regular, p {
+.et-paragraph, p {
   margin: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+d {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+select {
+  padding: 0.4em;
+  background-color: var(--et-white);
+  font-family: var(--et-sans-serif);
+  border: none;
+  outline: none;
+}
+
+label {
+  color: inherit;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email],
+.et-input-text, .et-input-password, .et-input-number, .et-input-email {
+  padding: 0.6em;
+  font-family: var(--et-sans-serif);
+  font-weight: inherit;
+  line-height: inherit;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  margin: inherit;
+  border-radius: 4px;
+}
+
+input {
+  font-family: var(--et-sans-serif);
+  padding: 0.6em;
+  background-color: var(--et-gray-secondary);
+}
+
+input[type=text]:focus, input[type=password]:focus,
+input[type=number]:focus, input[type=email]:focus,
+input[type=color]:focus, input[type=date]:focus,
+input[type=file]:focus, input[type=reset]:focus,
+input[type=tel]:focus, input[type=time]:focus,
+input[type=url]:focus, input[type=search]:focus,
+input[type=week]:focus, input[type=datetime-local]:focus,
+input[type=date]:focus, input[type=datetime], input[type=submit]:focus,
+.et-input-text:focus, .et-input-password:focus,
+.et-input-number:focus, .et-input-email:focus {
+  outline: none;
+}
+
+.et-button:focus, .et-button-invalid:focus, .et-button-valid:focus,
+.et-button-disabled:focus, .et-button-warning:focus {
+  outline: none;
+}
+
+textarea, .et-textarea {
+  background-color: var(--et-gray-secondary);
+  border: none;
+  line-height: inherit;
+  margin: inherit;
+  padding: 10px;
+  font-family: var(--et-sans-serif);
+  line-height: inherit;
+}
+
+.et-textarea:focus, textarea:focus {
+  outline: inherit;
+}
+
+input[type=color] {
+  background-color: var(--et-gray-secondary);
+  border: none;
+}
+
+input[type=date] {
+  padding: 0.6;
+}
+
+input[type=file] {
+  padding: 0.6em;
+  border-radius: 4px;
+  background-color: inherit;
+}
+
+input[type=reset] {
+  padding: 0.6em;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=tel] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=time] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=url] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=search] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=week] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=datetime-local] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=date], input[type=datetime] {
+  border: none;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=eccentric.css.map */
