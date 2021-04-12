@@ -303,6 +303,11 @@ input[type=date]:focus, input[type=datetime],
   outline: inherit;
 }
 
+.et-button:focus, .et-button-invalid:focus, .et-button-valid:focus,
+.et-button-disabled:focus, .et-button-warning:focus {
+  outline: none;
+}
+
 textarea, .et-textarea {
   background-color: var(--et-gray-secondary);
   border: none;
