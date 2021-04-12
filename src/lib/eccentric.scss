@@ -334,10 +334,10 @@ input[type=file]:focus, input[type=reset]:focus,
 input[type=tel]:focus, input[type=time]:focus, 
 input[type=url]:focus, input[type=search]:focus, 
 input[type=week]:focus, input[type=datetime-local]:focus,
-input[type=date]:focus, input[type=datetime],
+input[type=date]:focus, input[type=datetime], input[type=submit]:focus,
 .et-input-text:focus, .et-input-password:focus, 
 .et-input-number:focus, .et-input-email:focus {
-  outline: inherit;
+  outline: none;
 }
 
 /// CSS for removing primary button outlines onclick event
