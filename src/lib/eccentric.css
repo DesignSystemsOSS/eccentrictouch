@@ -46,7 +46,7 @@ body {
   max-width: 1400px;
 }
 
-.et-button, button, input[type=button] {
+.et-button, button, input[type=button], input[type=submit] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -287,10 +287,24 @@ input[type=text], input[type=password], input[type=number], input[type=email],
 input {
   font-family: var(--et-sans-serif);
   padding: 0.6em;
+  background-color: var(--et-gray-secondary);
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus,
-.et-input-text:focus, .et-input-password:focus, .et-input-number:focus, .et-input-email:focus {
+input[type=text]:focus, input[type=password]:focus,
+input[type=number]:focus, input[type=email]:focus,
+input[type=color]:focus, input[type=date]:focus,
+input[type=file]:focus, input[type=reset]:focus,
+input[type=tel]:focus, input[type=time]:focus,
+input[type=url]:focus, input[type=search]:focus,
+input[type=week]:focus, input[type=datetime-local]:focus,
+input[type=date]:focus, input[type=datetime], input[type=submit]:focus,
+.et-input-text:focus, .et-input-password:focus,
+.et-input-number:focus, .et-input-email:focus {
+  outline: none;
+}
+
+.et-button:focus, .et-button-invalid:focus, .et-button-valid:focus,
+.et-button-disabled:focus, .et-button-warning:focus {
   outline: none;
 }
 
@@ -305,7 +319,7 @@ textarea, .et-textarea {
 }
 
 .et-textarea:focus, textarea:focus {
-  outline: none;
+  outline: inherit;
 }
 
 input[type=color] {
@@ -313,19 +327,55 @@ input[type=color] {
   border: none;
 }
 
-input[type=color]:focus {
-  outline: none;
-}
-
 input[type=date] {
   padding: 0.6;
 }
 
-input[type=date]:focus {
-  outline: none;
-}
-
 input[type=file] {
   padding: 0.6em;
+  border-radius: 4px;
+  background-color: inherit;
+}
+
+input[type=reset] {
+  padding: 0.6em;
+  background-color: var(--et-gray-secondary);
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=tel] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=time] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=url] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=search] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=week] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=datetime-local] {
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=date], input[type=datetime] {
+  border: none;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=eccentric.css.map */
