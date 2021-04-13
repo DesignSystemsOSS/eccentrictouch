@@ -316,6 +316,7 @@ textarea, .et-textarea {
   padding: 10px;
   font-family: var(--et-sans-serif);
   line-height: inherit;
+  border-radius: 4px;
 }
 
 .et-textarea:focus, textarea:focus {
