@@ -260,8 +260,6 @@ b {
 input:checked + .slider {
   background-color: #2196F3;
 }
-
-<<<<<<< HEAD
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
@@ -285,7 +283,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-=======
+}
 // code for select tag
 select{
   padding: 0.4em;
@@ -337,5 +335,4 @@ textarea, .et-textarea {
 
 .et-textarea:focus, textarea:focus {
   outline: none;
->>>>>>> 1d410c47546f1cdc38318e570d74a566eb28d238
 }
