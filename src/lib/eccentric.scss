@@ -264,7 +264,6 @@ b {
 input:checked + .slider {
   background-color: #2196F3;
 }
-
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
@@ -289,7 +288,6 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
 // code for select tag
 select{
   padding: 0.4em;
@@ -335,6 +333,8 @@ input[type=tel]:focus, input[type=time]:focus,
 input[type=url]:focus, input[type=search]:focus, 
 input[type=week]:focus, input[type=datetime-local]:focus,
 input[type=date]:focus, input[type=datetime], input[type=submit]:focus,
+input[type=month]:focus,input[type=image]:focus,
+input[type=checkbox]:focus,input[type=hidden]:focus,
 .et-input-text:focus, .et-input-password:focus, 
 .et-input-number:focus, .et-input-email:focus {
   outline: none;
@@ -424,3 +424,7 @@ input[type=date], input[type=datetime] {
   border: none;
   border-radius: 4px;
 }
+// input[type=image],input[type=month]{
+//   border: none;
+//   border-radius: 4px;
+// }
