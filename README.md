@@ -60,6 +60,30 @@ In your your journey from forking to merging of pull request, these are tools th
 ## VERSION UPGRADES
 - [Pre Release v2.0.1](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.1)
 
+## HOW TO CONTRIBUTE
+We are inviting to contribute in this project, whether it's:
+- Reporting a bug
+- Proposing new features
+- 
+### Steps to follow
+Send Pr to `v2.0` branch only.
+
+### 1. Fork it
+You can get your own fork/copy of []() by using the `Fork` button.
+
+### 2. Clone it 
+you need to clone(download) on your system using CMD
+### 3. Set it up
+Run the following commands to see that your local copy has a reference to your forked remote repository in Github.
+### 4. You're Ready to Go
+Once you have completed these steps, you are ready to start contributing by checking our Issues and creating pull repuests.
+## Guidelines
+- Issues will be assigned on a first come, first serve basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.
+- Preferably, you cannot work on any issue that is not assigned to you.
+- In case you want to submit an improvement to an existing feature or section, we prefer that you create an issue, describing in details your improvement. This will help others to analyze your contribution.
+- If you have anything else in mind, create an issue and please wait for it to be assigned to you. You can then start working on it and create a PR.
+
+Make sure your code works before submitting it :D
 ## CONTRIBUTORS
 - We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
 [CONTRIBUTING.md](CONTRIBUTING.md) file. 
