@@ -1,6 +1,6 @@
 ---
-name: Project Maintainer Request
-about: Become a Project Maintainer of the eccentrictouch by The DesignSystems
+name: Community Joining Request
+about: Become a Member of  The DesignSystems
 title: ''
 labels: ''
 assignees: ''
