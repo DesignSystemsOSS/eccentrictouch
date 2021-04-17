@@ -438,6 +438,8 @@ header, .et-header {
   padding: 1em;
   background-color: var(--et-black);
   overflow: hidden;
+  border: inherit;
+  border-radius: inherit;
 }
 
 .et-header-option {
