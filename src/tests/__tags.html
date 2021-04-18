@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../lib/eccentric.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <p class="et-paragragh">Paragraph Text</p>
@@ -12,37 +13,39 @@
         <i>Italic Text</i>
         <u>Underlined Text</u>
         <q>Quote</q>
-
+        
+         
         <header>
             <li class="et-header-option">Home</li>
             <li class="et-header-option">GitHub</li>
             <li class="et-header-option">Docs</li>
             <li class="et-header-option">Download</li>
+            <a href="javascript:void(0);" class="et-header-icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </header>
         
         <br><br><br><br><br>
 
-        <div class="et-header">
+        <div class="et-header" id="et-header">
             <li class="et-header-option">Home</li>
             <li class="et-header-option">GitHub</li>
             <li class="et-header-option">Docs</li>
             <li class="et-header-option">Download</li>
+            <a href="javascript:void(0);" class="et-header-icon" onclick="myFunction()">
+                <i class="fa fa-bars et-header-icon"></i>
+              </a>
         </div>
 
-        <div class="card" style="
-            width: 30%;
-            margin-top: 3em;
-            margin-right: auto;
-            margin-left: auto;
-            padding: 2em;
-            box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.144);
-        ">
-        <div class="et-header">
-            <li class="et-header-option">Home</li>
-            <li class="et-header-option">Download</li>
-            <li class="et-header-option">Login</li>
-            <li class="et-header-option">Create Account</li>
-        </div>
-    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("et-header");
+          if (x.className === "et-header") {
+            x.className += " responsive";
+          } else {
+            x.className = "et-header";
+          }
+        }
+        </script>
     </body>
 </html>
