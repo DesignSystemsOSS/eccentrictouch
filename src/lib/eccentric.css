@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 :root {
   --et-black: #292929;
   --et-white: #ffffff;
@@ -385,22 +386,18 @@ input[type=date], input[type=datetime] {
 
 .et-header {
   overflow: hidden;
-  background-color: #333;
+  background-color: #292929;
 }
 
 .et-header .et-header-option {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-}
-
-.et-header .et-header-option:hover {
-  background-color: #ddd;
-  color: black;
+  font-size: 18px;
+  font-family: var(--et-description);
 }
 
 .et-header .et-header-option.active {
@@ -408,17 +405,13 @@ input[type=date], input[type=datetime] {
   color: white;
 }
 
-.et-header.icon {
-  display: none;
-}
-
 @media screen and (max-width: 1000px) {
   .et-header .et-header-option:not(:first-child) {
     display: none;
   }
-  .et-header .et-header-option .icon {
-    float: right;
-    display: block;
+  .et-header .et-header-option .et-header-icon {
+    float: left;
+    display: none;
   }
 }
 
@@ -426,7 +419,7 @@ input[type=date], input[type=datetime] {
   .et-header.responsive {
     position: relative;
   }
-  .et-header.responsive .icon {
+  .et-header.responsive .et-header-icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -439,6 +432,9 @@ input[type=date], input[type=datetime] {
 }
 
 .et-header-icon {
-  color: red;
+  color: white;
+  float: right;
+  -webkit-transform: translate(-10px, 8px);
+          transform: translate(-10px, 8px);
 }
 /*# sourceMappingURL=eccentric.css.map */
