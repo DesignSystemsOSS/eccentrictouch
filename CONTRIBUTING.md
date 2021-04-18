@@ -142,3 +142,16 @@ All set! Submit your PR. Click the `Create Pull Request` button.
 
 Then wait for the checks, and the discuss the stuff if required with our project maintainers and after all the checks we'll merge your Pull Request. :smiley:
 
+## How to write code?
+
+As this is a CSS Library, there's a whole lot of CSS Properties, Methods which are being written. While coding and making some code changes these best practices should be in your mind.
+
+1. Redundancy: We need to write a good CSS code which is easy to understand and is less redundant. If there's a class-property which is being implemented then don't re-implement that property in a new class.
+
+2. Coding in the same part: This is a very basic thing but is very helpful for all of us. If you are making any code change or changing any code block then make sure you code around the similar CSS Properties.
+Let' say, you are adding CSS for header responsiveness then make sure you code this feature near other header CSS code. This makes easier to find a particular code block.
+
+3. In Eccentric Touch, we use a unique method to write classes. Every class that you are writing, it should have a prefix of `et`. For an example, you are implementing a header component in CSS, The class-name should be `et-header`, which makes it unique from other CSS Libraries and prevents un-necessary conflicts.
+
+4. Cross-Browser Compatibility: When you use an external stylesheet (where we can use browser engine prefix like -moz-, -webkit-, -o- and -ms-) for layout and valid markup (XHTML, HTML5), then your web pages work well on all browsers such as IE, Opera, Chrome, Mozilla, and Safari, etc..
+
