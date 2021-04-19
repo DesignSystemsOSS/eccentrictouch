@@ -2,7 +2,7 @@
 
 <center>
 <div style="margin-bottom: 2em;">
-  <img src="src/bin/contribution_image_assets/main.png" style="width: 240px; border-radius: 10; "/>
+  <img src="src/bin/contribution_image_assets/main.png" style="width: 240px; border-radius: 10; " width="200">
   <h2>Eccentric Touch by The DesignSystems</h2>
   <span>
     <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.website.frontend">Website</a> &bullet;
