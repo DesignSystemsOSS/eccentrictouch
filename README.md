@@ -2,7 +2,7 @@
 
 <div style="margin-bottom: 2em;">
 <p align="center">
-  <img src="src/bin/contribution_image_assets/main.png" style="width: 240px; border-radius: 10; " width="200">
+  <img src="src/bin/contribution_image_assets/main.png" style="width: 260px; border-radius: 10; " width="200">
 </p>
   <h2 align="center">Eccentric Touch by The DesignSystems</h2>
   <p align="center">
