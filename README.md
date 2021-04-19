@@ -1,15 +1,19 @@
 # Eccentric Touch by The DesignSystems
 
-<center>
 <div style="margin-bottom: 2em;">
+<p align="center">
   <img src="src/bin/contribution_image_assets/main.png" style="width: 240px; border-radius: 10; " width="200">
-  <h2>Eccentric Touch by The DesignSystems</h2>
+</p>
+  <h2 align="center">Eccentric Touch by The DesignSystems</h2>
+  <p align="center">
   <span>
     <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.website.frontend">Website</a> &bullet;
     <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.docs">Docs</a>  &bullet;
     <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/community">The DesignSystems Community Website</a>
   </span>
+  </p>
 </div>
+
 
 ![last commit](https://img.shields.io/github/last-commit/DesignSystemsOSS/eccentrictouch)
 ![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
@@ -23,12 +27,12 @@
 ![License](https://img.shields.io/badge/license-Apache-brightgreen)
 [![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+
 **Workflow Status & Checks**
 
 [![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
 [![BCH compliance](https://bettercodehub.com/edge/badge/DesignSystemsOSS/eccentrictouch?branch=master)](https://bettercodehub.com/)
 
-</center>
 
 ## Key Headings
 
