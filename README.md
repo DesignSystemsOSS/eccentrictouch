@@ -1,5 +1,15 @@
 # Eccentric Touch by The DesignSystems
 
+<center>
+<div style="margin-bottom: 2em;">
+  <img src="src/bin/contribution_image_assets/main.png" style="width: 240px; border-radius: 10; "/>
+  <h2>Eccentric Touch by The DesignSystems</h2>
+  <span>
+    <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.website.frontend">Website</a> &bullet;
+    <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.docs">Docs</a>  &bullet;
+    <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/community">The DesignSystems Community Website</a>
+  </span>
+</div>
 
 ![last commit](https://img.shields.io/github/last-commit/DesignSystemsOSS/eccentrictouch)
 ![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
@@ -17,6 +27,8 @@
 
 [![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
 [![BCH compliance](https://bettercodehub.com/edge/badge/DesignSystemsOSS/eccentrictouch?branch=master)](https://bettercodehub.com/)
+
+</center>
 
 ## Key Headings
 
