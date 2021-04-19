@@ -24,7 +24,7 @@
 - [How to start using Eccentric Touch](#Get-Started)
 - [Development Guidelines](#💻-Development-Guidelines)
 - [Documentation](#Documentation)
-- [Contributing](#Contributing-:star:)
+- [Contributing](#CONTRIBUTING)
 - [Code of Conduct](#Code-of-Conduct)
 
 ## Introduction
@@ -55,7 +55,7 @@ We are open to contributions. On a note, the deployed branch is `master` we will
 
 Here's the [Documentation for Eccentric Touch](https://designsystemsoss.github.io/eccentrictouch.docs/).
 
-## CONTRIBUTING :star:
+## CONTRIBUTING
 - We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
 [CONTRIBUTING.md](CONTRIBUTING.md) file. 
 
