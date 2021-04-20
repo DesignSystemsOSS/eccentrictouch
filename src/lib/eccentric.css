@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 :root {
   --et-black: #292929;
   --et-white: #ffffff;
@@ -383,30 +384,57 @@ input[type=date], input[type=datetime] {
   border-radius: 4px;
 }
 
-header, .et-header {
-  padding: 1em;
-  background-color: var(--et-black);
+.et-header {
   overflow: hidden;
-  border: inherit;
-  border-radius: inherit;
+  background-color: #292929;
 }
 
-.et-header-option {
-  color: white;
+.et-header .et-header-option {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
   font-family: var(--et-description);
-  list-style: none;
-  display: inline;
-  margin-right: 2em;
-  cursor: pointer;
 }
 
-.et-header-option:hover {
-  color: gray;
+.et-header .et-header-option.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {
-  header, .et-header {
-    text-align: center;
+  .et-header .et-header-option:not(:first-child) {
+    display: none;
   }
+  .et-header .et-header-option .et-header-icon {
+    float: left;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .et-header.responsive {
+    position: relative;
+  }
+  .et-header.responsive .et-header-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .et-header.responsive .et-header-option {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.et-header-icon {
+  color: white;
+  float: right;
+  -webkit-transform: translate(-10px, 8px);
+          transform: translate(-10px, 8px);
 }
 /*# sourceMappingURL=eccentric.css.map */
