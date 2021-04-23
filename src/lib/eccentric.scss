@@ -7,48 +7,46 @@
  */
 
 /// Importing Google Fonts here
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');          /// NOTO SERIF
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');             /// POPPINS
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');           /// Work Sans
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); /// NOTO SERIF
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /// POPPINS
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"); /// Work Sans
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
 /// defining global root properties
 :root {
   --et-black: #292929;
   --et-white: #ffffff;
 
-  --et-blue-primary: #0085FF;   
-  --et-default: #0085FF;    
-  --et-info: #0085FF;
-  --et-blue-secondary: #9DD0FF;
+  --et-blue-primary: #0085ff;
+  --et-default: #0085ff;
+  --et-info: #0085ff;
+  --et-blue-secondary: #9dd0ff;
 
-  --et-purple-primary: #0038FF;
-  --et-purple-secondary: #829DFF;
+  --et-purple-primary: #0038ff;
+  --et-purple-secondary: #829dff;
 
-  --et-red-primary: #E73A3A;    
-  --et-invalid: #E73A3A;  
-  --et-danger: #E73A3A;
-  --et-red-secondary: #FF8282;  
+  --et-red-primary: #e73a3a;
+  --et-invalid: #e73a3a;
+  --et-danger: #e73a3a;
+  --et-red-secondary: #ff8282;
 
-  --et-green-primary: #00D43B;  
-  --et-valid: #00D43B;    
-  --et-success: #00D43B;
-  --et-green-secondary: #8BFFAC;
+  --et-green-primary: #00d43b;
+  --et-valid: #00d43b;
+  --et-success: #00d43b;
+  --et-green-secondary: #8bffac;
 
-  --et-yellow-primary: #FFD028;     
-  --et-warning: #FFD028;
-  --et-yellow-secondary: #FFEA9D;
+  --et-yellow-primary: #ffd028;
+  --et-warning: #ffd028;
+  --et-yellow-secondary: #ffea9d;
 
-  --et-gray-primary: #CECECE;       
-  --et-gray-secondary: #D3D3D3;
-  --et-deactivated: #CECECE;
+  --et-gray-primary: #cecece;
+  --et-gray-secondary: #d3d3d3;
+  --et-deactivated: #cecece;
 
   /// fonts initialization
-  --et-serif: 'Noto Serif', serif;
-  --et-sans-serif: 'Poppins', sans-serif;
-  --et-description: 'Work Sans', sans-serif;
+  --et-serif: "Noto Serif", serif;
+  --et-sans-serif: "Poppins", sans-serif;
+  --et-description: "Work Sans", sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -58,15 +56,16 @@
 }
 
 body {
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
-  font-family: inherit;
-  line-height: inherit
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
 }
 
 /// button method - primary-button, default button property
-.et-button, button, input[type=button], input[type=submit] {
+.et-button,
+button,
+input[type="button"],
+input[type="submit"] {
   color: white;
   background-color: var(--et-blue-primary);
   padding: 0.6em;
@@ -78,7 +77,7 @@ body {
   line-height: inherit;
 }
 
-input[type=button]:focus {
+input[type="button"]:focus {
   outline: none;
 }
 
@@ -140,8 +139,8 @@ button:hover {
 
 // These are Secondary Buttons
 
-// Secondary Info button 
-.et-button-secondary{
+// Secondary Info button
+.et-button-secondary {
   background-color: var(--et-white);
   border: 2px solid var(--et-blue-primary);
   color: var(--et-blue-primary);
@@ -168,62 +167,84 @@ button:hover {
   color: var(--et-green-primary);
 }
 
-
 // Heading Method - Combined button Property
 
-h1,.et-h1, h2, .et-h2, h3, .et-h3, h4, .et-h4, h5, .et-h5, h6, .et-h6 {
+h1,
+.et-h1,
+h2,
+.et-h2,
+h3,
+.et-h3,
+h4,
+.et-h4,
+h5,
+.et-h5,
+h6,
+.et-h6 {
   font-family: var(--et-sans-serif);
   color: var(--et-black);
   margin: 0;
 }
 
 // heading method - (h1)
-h1, .et-h1 {
+h1,
+.et-h1 {
   font-size: 45.3px;
   font-weight: 600;
 }
 
 // heading method - (h2)
-h2, .et-h2 {
+h2,
+.et-h2 {
   font-size: 38.3px;
 }
 
 // heading method - (h3)
-h3, .et-h3 {
+h3,
+.et-h3 {
   font-size: 29.12px;
   font-weight: 600;
 }
 
 // heading method - (h4)
-h4, .et-h4{
+h4,
+.et-h4 {
   font-size: 22.65px;
 }
 
 // heading method - (h5)
-h5, .et-h5 {
+h5,
+.et-h5 {
   font-size: 16.18px;
   font-weight: 600;
 }
 
 // heading method - (h6)
-h6, .et-h6 {
+h6,
+.et-h6 {
   font-size: 12.94px;
 }
 
 // Combined Property For all tags
 // This Contains various Tags like Paragraph, italics, bold, quote, Underlined.
-.et-paragraph, p, b, i, u, q {
+.et-paragraph,
+p,
+b,
+i,
+u,
+q {
   font-family: var(--et-sans-serif);
   margin: 0;
   color: var(--et-black);
 }
- 
+
 b {
   font-weight: bold;
 }
 
 // To remove extra (unwanted) margin.
-.et-paragraph, p {
+.et-paragraph,
+p {
   margin: 0;
 }
 .switch {
@@ -233,13 +254,11 @@ b {
   height: 34px;
 }
 
-
- .switch input {
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
-} 
-
+}
 
 .slider {
   position: absolute;
@@ -249,8 +268,8 @@ b {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -261,15 +280,15 @@ b {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
@@ -278,14 +297,14 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-
 .slider.round {
   border-radius: 34px;
 }
 
 .slider.round:before {
   border-radius: 50%;
-}d {
+}
+d {
   border-radius: 34px;
 }
 
@@ -293,7 +312,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 // code for select tag
-select{
+select {
   padding: 0.4em;
   background-color: var(--et-white);
   font-family: var(--et-sans-serif);
@@ -301,7 +320,7 @@ select{
   outline: none;
 }
 
-// css method for handling label tags 
+// css method for handling label tags
 label {
   color: inherit;
   font-family: var(--et-sans-serif);
@@ -311,8 +330,14 @@ label {
 }
 
 // CSS property for input-type text (text-box-design)
-input[type=text], input[type=password], input[type=number], input[type=email],
-.et-input-text, .et-input-password , .et-input-number, .et-input-email {
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+.et-input-text,
+.et-input-password,
+.et-input-number,
+.et-input-email {
   padding: 0.6em;
   font-family: var(--et-sans-serif);
   font-weight: inherit;
@@ -329,30 +354,47 @@ input {
   background-color: var(--et-gray-secondary);
 }
 
-input[type=text]:focus, input[type=password]:focus, 
-input[type=number]:focus, input[type=email]:focus,
-input[type=color]:focus, input[type=date]:focus, 
-input[type=file]:focus, input[type=reset]:focus, 
-input[type=tel]:focus, input[type=time]:focus, 
-input[type=url]:focus, input[type=search]:focus, 
-input[type=week]:focus, input[type=datetime-local]:focus,
-input[type=date]:focus, input[type=datetime], input[type=submit]:focus,
-input[type=month]:focus,input[type=image]:focus,
-input[type=checkbox]:focus,input[type=hidden]:focus,
-.et-input-text:focus, .et-input-password:focus, 
-.et-input-number:focus, .et-input-email:focus {
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="file"]:focus,
+input[type="reset"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="week"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="datetime"],
+input[type="submit"]:focus,
+input[type="month"]:focus,
+input[type="image"]:focus,
+input[type="checkbox"]:focus,
+input[type="hidden"]:focus,
+.et-input-text:focus,
+.et-input-password:focus,
+.et-input-number:focus,
+.et-input-email:focus {
   outline: none;
 }
 
 /// CSS for removing primary button outlines onclick event
-.et-button:focus, .et-button-invalid:focus, .et-button-valid:focus,
-.et-button-disabled:focus, .et-button-warning:focus {
+.et-button:focus,
+.et-button-invalid:focus,
+.et-button-valid:focus,
+.et-button-disabled:focus,
+.et-button-warning:focus {
   outline: none;
 }
 
 /// CSS for textarea properties
 
-textarea, .et-textarea {
+textarea,
+.et-textarea {
   background-color: var(--et-gray-secondary);
   border: none;
   line-height: inherit;
@@ -362,121 +404,143 @@ textarea, .et-textarea {
   line-height: inherit;
 }
 
-.et-textarea:focus, textarea:focus {
+.et-textarea:focus,
+textarea:focus {
   outline: inherit;
 }
 
 /// Component CSS for input type color
-input[type=color] {
+input[type="color"] {
   background-color: var(--et-gray-secondary);
   border: none;
 }
 
 /// Component CSS for input type date
-input[type=date] {
+input[type="date"] {
   padding: 0.6;
 }
 
-input[type=file] {
+input[type="file"] {
   padding: 0.6em;
   border-radius: 4px;
   background-color: inherit;
 }
 
-input[type=reset] {
+input[type="reset"] {
   padding: 0.6em;
   background-color: var(--et-gray-secondary);
   border: none;
   border-radius: 4px;
 }
 
-
-input[type=tel] {
+input[type="tel"] {
   border: none;
   border-radius: 4px;
 }
 
-
-input[type=time] {
+input[type="time"] {
   border: none;
   border-radius: 4px;
 }
 
-input[type=url] {
+input[type="url"] {
   border: none;
   border-radius: 4px;
 }
 
-
-input[type=search] {
+input[type="search"] {
   border: none;
   border-radius: 4px;
 }
 
-
-input[type=week] {
+input[type="week"] {
   border: none;
   border-radius: 4px;
 }
 
-input[type=datetime-local] {
+input[type="datetime-local"] {
   border: none;
   border-radius: 4px;
 }
 
-input[type=date], input[type=datetime] {
+input[type="date"],
+input[type="datetime"] {
   border: none;
   border-radius: 4px;
 }
-
-.et-header {
-  overflow: hidden;
-  background-color: #292929;
+input[type="image"],
+input[type="month"] {
+  border: none;
+  border-radius: 4px;
 }
+/// HEADER
 
-.et-header .et-header-option {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
+nav {
+  background: var(--et-black);
+  color: var(--et-white);
+  display: flex;
+  justify-content: space-between;
+}
+nav .et-mainMenu {
+  display: flex;
+  list-style: none;
+}
+nav .et-mainMenu li {
+  display: inline-block;
+  padding: 0.6em;
   text-decoration: none;
+  color: var(--et-white);
   font-size: 18px;
-  font-family: var(--et-description);
+  font-family: var(--et-sans-serif);
+}
+nav .et-mainMenu li:hover {
+  color: var(--et-deactivated);
+}
+nav .et-openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .et-mainMenu .et-closeMenu,
+.et-icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
 }
 
-
-.et-header .et-header-option.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-@media screen and (max-width: 1000px) {
-  .et-header .et-header-option:not(:first-child) {display: none;}
-  .et-header .et-header-option .et-header-icon {
-    float: left;
+@media (max-width: 800px) {
+  .et-openMenu i {
+    color: var(--et-white);
+  }
+  .et-closeMenu i {
+    color: var(--et-white);
+  }
+  nav .et-mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--et-black);
+    transition: top 1s ease;
     display: none;
   }
-}
-@media screen and (max-width: 1000px) {
-  .et-header.responsive {position: relative;}
-  .et-header.responsive .et-header-icon{ 
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-   
-  .et-header.responsive .et-header-option {
-    float: none;
+  nav .et-mainMenu .et-closeMenu {
     display: block;
-    text-align: left;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .et-openMenu {
+    display: block;
+  }
+  nav .et-mainMenu li:hover {
+    background: none;
+    color: var(--et-deactivated);
   }
 }
-
-.et-header-icon{
-  color: white;
-  float: right;
-  transform: translate(-10px, 8px);
-  // display: none;
-}
-
