@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../lib/eccentric.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" /> -->
     </head>
     <body>
         <p class="et-paragragh">Paragraph Text</p>
@@ -14,27 +15,23 @@
         <q>Quote</q>
         
          
-        <header>
-            <li class="et-header-option">Home</li>
-            <li class="et-header-option">GitHub</li>
-            <li class="et-header-option">Docs</li>
-            <li class="et-header-option">Download</li>
-            <a href="javascript:void(0);" class="et-header-icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-        </header>
+        
+        
         
         <br><br><br><br><br>
 
-        <div class="et-header" id="et-header">
-            <li class="et-header-option">Home</li>
-            <li class="et-header-option">GitHub</li>
-            <li class="et-header-option">Docs</li>
-            <li class="et-header-option">Download</li>
-            <a href="javascript:void(0);" onclick="headerAnimattionHandler()">
-                <i class="fa fa-bars et-header-icon"></i>
-              </a>
-        </div>
-        <script src="../lib/js/eccentric.js"></script>
+        <nav>
+            
+            <div class="et-openMenu"><i class="fas fa-bars"></i></div>
+            <ul class="et-mainMenu">
+                <li class="et-header-options">Home</li>
+                <li class="et-header-options">Products</li>
+                <li class="et-header-options">Contact</li>
+                <li class="et-header-options">About</li>
+                <div class="et-closeMenu"><i class="fas fa-times"></i></div>
+                
+            </ul>
+        </nav>
+        <script src="../lib/js/HeaderComponentModule.js"></script>
     </body>
 </html>
