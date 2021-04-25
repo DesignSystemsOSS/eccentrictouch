@@ -1,5 +1,19 @@
 # Eccentric Touch by The DesignSystems
 
+<div style="margin-bottom: 2em;">
+<p align="center">
+  <img src="src/bin/contribution_image_assets/main.png" style="width: 300px; border-radius: 10; " width="200">
+</p>
+  <h2 align="center">Eccentric Touch by The DesignSystems</h2>
+  <p align="center">
+  <span>
+    <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.website.frontend">Website</a> &bullet;
+    <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/eccentrictouch.docs">Docs</a>  &bullet;
+    <a style="font-size: 16px;" href="https://DesignSystemsOSS.github.io/community">The DesignSystems Community Website</a>
+  </span>
+  </p>
+</div>
+
 
 ![last commit](https://img.shields.io/github/last-commit/DesignSystemsOSS/eccentrictouch)
 ![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
@@ -13,10 +27,12 @@
 ![License](https://img.shields.io/badge/license-Apache-brightgreen)
 [![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+
 **Workflow Status & Checks**
 
 [![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
 [![BCH compliance](https://bettercodehub.com/edge/badge/DesignSystemsOSS/eccentrictouch?branch=master)](https://bettercodehub.com/)
+
 
 ## Key Headings
 
@@ -24,7 +40,7 @@
 - [How to start using Eccentric Touch](#Get-Started)
 - [Development Guidelines](#💻-Development-Guidelines)
 - [Documentation](#Documentation)
-- [Contributing](#Contributing-:star:)
+- [Contributing](#CONTRIBUTING)
 - [Code of Conduct](#Code-of-Conduct)
 
 ## Introduction
@@ -55,7 +71,7 @@ We are open to contributions. On a note, the deployed branch is `master` we will
 
 Here's the [Documentation for Eccentric Touch](https://designsystemsoss.github.io/eccentrictouch.docs/).
 
-## CONTRIBUTING :star:
+## CONTRIBUTING
 - We are happy to see you here, we need more developers/designers like you. So, As now you are here before contributing, you should first read the 
 [CONTRIBUTING.md](CONTRIBUTING.md) file. 
 
