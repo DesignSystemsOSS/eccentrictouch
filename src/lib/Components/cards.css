@@ -6,4 +6,29 @@
 .et-card {
   border-radius: 4px;
 }
+
+.et-card-landscape {
+  width: 40%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px;
+          box-shadow: 4px;
+  overflow: hidden;
+}
+
+.et-image {
+  width: 25%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.et-card-body {
+  padding-left: 1.6em;
+  padding-bottom: 0.6em;
+}
 /*# sourceMappingURL=cards.css.map */
