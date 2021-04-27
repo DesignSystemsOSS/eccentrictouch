@@ -1,12 +1,14 @@
 // This is the main module  - eccentrictouch
 
 /*!
- * Eccentric Touch v2.0.0
+ * Eccentric Touch v2.0
  * Copyright 2020-2021 The DesignSystems
  * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE)
  */
 
-/// Importing Google Fonts here
+/// Importing other components
+@import url('Components/cards.css');
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); /// NOTO SERIF
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /// POPPINS
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"); /// Work Sans
@@ -468,6 +470,7 @@ input[type="datetime"] {
   border: none;
   border-radius: 4px;
 }
+
 input[type="image"],
 input[type="month"] {
   border: none;
@@ -543,4 +546,10 @@ nav .et-mainMenu .et-closeMenu,
     background: none;
     color: var(--et-deactivated);
   }
+}
+
+.et-header-icon{
+  color: white;
+  float: right;
+  transform: translate(-10px, 8px);
 }
