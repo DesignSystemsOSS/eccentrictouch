@@ -27,8 +27,12 @@
   border-bottom-left-radius: 10px;
 }
 
+.et-card-portrait {
+  width: 28%;
+  height: 40%;
+}
+
 .et-card-body {
-  padding-left: 1.6em;
-  padding-bottom: 0.6em;
+  margin: 1em;
 }
 /*# sourceMappingURL=cards.css.map */
