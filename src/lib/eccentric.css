@@ -591,4 +591,20 @@ nav .et-mainMenu .et-closeMenu,
 .et-bg-gray-light, .et-bg-grey-light {
   background-color: var(--et-gray-secondary);
 }
+
+.et-font-serif {
+  font-family: var(--et-serif);
+}
+
+.et-font-sans-serif {
+  font-family: var(--et-sans-serif);
+}
+
+.et-font-description {
+  font-family: var(--et-description);
+}
+
+.et-font-paragraph {
+  font-family: var(--et-paragraph);
+}
 /*# sourceMappingURL=eccentric.css.map */
