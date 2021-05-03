@@ -535,4 +535,60 @@ nav .et-mainMenu .et-closeMenu,
   -webkit-transform: translate(-10px, 8px);
           transform: translate(-10px, 8px);
 }
+
+.et-bg-black {
+  background-color: var(--et-black);
+}
+
+.et-bg-white {
+  background-color: var(--et-white);
+}
+
+.et-bg-blue {
+  background-color: var(--et-blue-primary);
+}
+
+.et-bg-blue-light {
+  background-color: var(--et-blue-secondary);
+}
+
+.et-bg-purple {
+  background-color: var(--et-purple-primary);
+}
+
+.et-bg-purple-light {
+  background-color: var(--et-purple-secondary);
+}
+
+.et-bg-red {
+  background-color: var(--et-red-primary);
+}
+
+.et-bg-red-light {
+  background-color: var(--et-red-secondary);
+}
+
+.et-bg-green {
+  background-color: var(--et-green-primary);
+}
+
+.et-bg-green-light {
+  background-color: var(--et-green-secondary);
+}
+
+.et-bg-yellow {
+  background-color: var(--et-yellow-primary);
+}
+
+.et-bg-yellow-light {
+  background-color: var(--et-yellow-primary);
+}
+
+.et-bg-gray, .et-bg-grey {
+  background-color: var(--et-gray-primary);
+}
+
+.et-bg-gray-light, .et-bg-grey-light {
+  background-color: var(--et-gray-secondary);
+}
 /*# sourceMappingURL=eccentric.css.map */
