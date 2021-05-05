@@ -8,6 +8,7 @@
 
 /// Importing other components
 @import url('Components/cards.css');
+@import url('Components/progress.css');
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); /// NOTO SERIF
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /// POPPINS
@@ -630,3 +631,4 @@ nav .et-mainMenu .et-closeMenu,
 .et-font-paragraph {
   font-family: var(--et-paragraph);
 }
+
