@@ -13,3 +13,33 @@
 .et-card {
   border-radius: 4px;
 }
+
+.et-card-landscape{
+  width: 40%;
+  height: auto ;
+  display: flex;
+  border-radius: 4px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px;
+  overflow: hidden;
+  box-shadow: 2px 4px 18px rgba(0, 0, 0, 0,225);
+}
+
+.et-image{
+  width: 25%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.et-card-portrait{
+  width: 28%;
+  height: 40%;
+  
+}
+
+.et-card-body{
+  margin:1em
+}
+
+
