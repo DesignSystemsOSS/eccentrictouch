@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "eslint": "^7.26.0",
+    "pre-commit": "^1.2.2"
+  }
+}
