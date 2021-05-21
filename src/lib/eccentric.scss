@@ -632,3 +632,108 @@ nav .et-mainMenu .et-closeMenu,
   font-family: var(--et-paragraph);
 }
 
+
+/// CARDS Components
+
+.et-card {
+  border-radius: 4px;
+}
+
+.et-card-landscape{
+  width: 40%;
+  height: auto ;
+  display: flex;
+  border-radius: 4px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px;
+  overflow: hidden;
+  box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.225);
+}
+
+.et-image{
+  width: 25%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.et-card-portrait{
+  width: 28%;
+  height: 40%;
+  
+}
+
+.et-card-body{
+  margin:1em
+}
+
+
+/// Progress Bars added
+
+
+.et-progress {
+  background-color: var(--et-gray-secondary);
+  width: 500px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  display: flex;
+  font-family: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.et-progress {
+  &-10 {
+    width: 10%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-20 {
+    width: 20%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-30 {
+    width: 30%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-40 {
+    width: 40%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-50 {
+    width: 50%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-60 {
+    width: 60%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-70 {
+    width: 70%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-80 {
+    width: 80%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-90 {
+    width: 90%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+  &-100 {
+    width: 100%;
+    background-color: var(--et-purple-primary);
+    padding: 0.5em;
+  }
+}
