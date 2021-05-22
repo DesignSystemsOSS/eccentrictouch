@@ -16,7 +16,13 @@
     "url": "git+https://github.com/DesignSystemsOSS/eccentrictouch.git"
   },
   "keywords": [
-    "frontend", "eccentric_touch", "design-systems", "stylesheets", "css", "scss", "design-components", 
+    "frontend",
+    "eccentric_touch",
+    "design-systems",
+    "stylesheets",
+    "css",
+    "scss",
+    "design-components"
   ],
   "author": "yashsehgal",
   "license": "ISC",
