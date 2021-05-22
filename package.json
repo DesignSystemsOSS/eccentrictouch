@@ -5,7 +5,7 @@
   },
   "name": "eccentrictouch",
   "description": "Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)",
-  "version": "2.0.2",
+  "version": "2.0.2.1",
   "main": "src\\lib\\eccentric.css",
   "devDependencies": {},
   "scripts": {
