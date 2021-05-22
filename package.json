@@ -5,7 +5,7 @@
   },
   "name": "eccentrictouch",
   "description": "Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)",
-  "version": "2.0.2",
+  "version": "2.0.21",
   "main": "src\\lib\\eccentric.css",
   "devDependencies": {},
   "scripts": {
@@ -13,15 +13,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yashsehgal/eccentrictouch.git"
+    "url": "git+https://github.com/DesignSystemsOSS/eccentrictouch.git"
   },
   "keywords": [
-    "frontend"
+    "frontend",
+    "eccentric_touch",
+    "design-systems",
+    "stylesheets",
+    "css",
+    "scss",
+    "design-components"
   ],
   "author": "yashsehgal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yashsehgal/eccentrictouch/issues"
+    "url": "https://github.com/DesignSystemsOSS/eccentrictouch/issues"
   },
-  "homepage": "https://github.com/yashsehgal/eccentrictouch#readme"
+  "homepage": "https://github.com/DesignSystemsOSS/eccentrictouch#readme"
 }
