@@ -15,4 +15,4 @@ jobs:
         with:
           project-wallace-token: ${{ secrets.PROJECT_WALLACE_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          css-path: ./build/style.css
+          css-path: ../../src/lib/eccentric.css
