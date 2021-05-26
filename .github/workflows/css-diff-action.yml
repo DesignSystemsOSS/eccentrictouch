@@ -1,0 +1,18 @@
+name: CSS Workflow
+
+on:
+  pull_request: # only run this action on pull requests
+    branches: [master] # and only to the master branch
+
+jobs:
+  cssDiff:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Project Wallace Diff
+        uses: projectwallace/css-diff-action@master
+        with:
+          project-wallace-token: ${{ secrets.PROJECT_WALLACE_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          css-path: ./build/style.css

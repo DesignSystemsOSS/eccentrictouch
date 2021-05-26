@@ -1,13 +1,12 @@
 {
   "dependencies": {
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "pre-commit": "^1.2.2"
   },
   "name": "eccentrictouch",
   "description": "Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)",
   "version": "2.0.21",
-  "main": "src\\lib\\eccentric.css",
-  "devDependencies": {},
+  "main": "src/lib/eccentric.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/DesignSystemsOSS/eccentrictouch/issues"
   },
-  "homepage": "https://github.com/DesignSystemsOSS/eccentrictouch#readme"
+  "homepage": "https://github.com/DesignSystemsOSS/eccentrictouch#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }

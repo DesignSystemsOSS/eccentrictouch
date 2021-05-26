@@ -54,6 +54,13 @@
     "unicorn/prefer-module": "off",
     "unicorn/prefer-query-selector": "off",
     "unicorn/prefer-spread": "off",
-    "unicorn/prevent-abbreviations": "off"
+    "unicorn/prevent-abbreviations": "off",
+
+    // Husky auto linter
+    "husky": {
+      "hooks": {
+        "pre-commit": "eslint src --fix"
+      }
+    }
   }
 }
