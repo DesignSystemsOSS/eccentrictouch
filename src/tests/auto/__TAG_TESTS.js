@@ -1,5 +1,5 @@
 
-__TAGS_TESTS =  [
+let __TAGS_TESTS =  [
   {
     "classname": "et-paragraph"
   }
