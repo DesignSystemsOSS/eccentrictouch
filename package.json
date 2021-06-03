@@ -1,13 +1,11 @@
 {
   "devDependencies": {
     "eslint": "^7.27.0",
-    "husky": "^6.0.0",
-    "pre-commit": "^1.2.2"
+    "husky": "^6.0.0"
   },
   "peerDependencies": {
     "eslint": "^7.27.0",
-    "husky": "^6.0.0",
-    "pre-commit": "^1.2.2"
+    "husky": "^6.0.0"
   },
   "name": "eccentrictouch",
   "description": "Suffering from Frontend crises? Here's something that might interest you. Eccentric Touch is a small CSS Library to solve all your frontend issues :)",
