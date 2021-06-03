@@ -1,5 +1,5 @@
 
-__BUTTON__TESTS = [
+let __BUTTON__TESTS = [
   {
     "classname": "et-button"
   },

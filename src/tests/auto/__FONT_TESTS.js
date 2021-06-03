@@ -1,5 +1,5 @@
 
-__FONTS__TESTS = [
+let __FONTS__TESTS = [
   {
     "classname": "et-h1"
   },

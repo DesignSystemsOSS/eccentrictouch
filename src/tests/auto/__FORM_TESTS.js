@@ -1,5 +1,5 @@
 
-__FORM__TESTS = [
+let __FORM__TESTS = [
   {
     "classname": "et-input-text"
   },
