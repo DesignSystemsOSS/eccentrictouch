@@ -15,22 +15,19 @@
 </div>
 
 
-![last commit](https://img.shields.io/github/last-commit/DesignSystemsOSS/eccentrictouch)
 ![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
 ![git stars](https://img.shields.io/github/stars/DesignSystemsOSS/eccentrictouch)
 ![Release Date](https://img.shields.io/github/release-date/DesignSystemsOSS/eccentrictouch)
 ![Size](https://img.shields.io/github/repo-size/DesignSystemsOSS/eccentrictouch)
 ![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/eccentrictouch)
 ![Maintained](https://img.shields.io/maintenance/yes/2021)
-![Platform](https://img.shields.io/badge/platform-Visual%20Studio%20Code-blue)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 ![License](https://img.shields.io/badge/license-Apache-brightgreen)
-[![Gitter](https://badges.gitter.im/DesignSystemsOSS/community.svg)](https://gitter.im/DesignSystemsOSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
 **Workflow Status & Checks**
 
 [![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![BCH compliance](https://bettercodehub.com/edge/badge/DesignSystemsOSS/eccentrictouch?branch=master)](https://bettercodehub.com/)
 
 
@@ -52,14 +49,14 @@ Eccentric Touch is a CSS Library which has pre-designed components and CSS Prope
 - [v2.0.1 (Latest)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.1)
 - [v2.0.0](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.0)
 - [v1.0](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v1.0)
-- [v0.1 (Beta Test Release, First Ever Release)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v.0.1)
+- [v0.1](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v.0.1)
 
 ## Get Started
 
 Just copy the CSS Link Code given below
 
 ```html
-<link rel="stylesheet" href="https://cdn.statically.io/gh/DesignSystemsOSS/eccentrictouch/v2.0.0/stable/src/lib/eccentric.css">
+<link rel="stylesheet" href="https://cdn.statically.io/gh/DesignSystemsOSS/eccentrictouch/v2/stable/src/lib/eccentric.css">
 ```
 
 And you are all good to go :star:
