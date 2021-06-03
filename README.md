@@ -14,31 +14,36 @@
   </p>
 </div>
 
+<div align="center">
+  
+  ![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
+  ![git stars](https://img.shields.io/github/stars/DesignSystemsOSS/eccentrictouch)
+  ![Release Date](https://img.shields.io/github/release-date/DesignSystemsOSS/eccentrictouch)
+  ![Size](https://img.shields.io/github/repo-size/DesignSystemsOSS/eccentrictouch)
+  ![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/eccentrictouch)
+  ![Maintained](https://img.shields.io/maintenance/yes/2021)
+  ![License](https://img.shields.io/badge/license-Apache-brightgreen)
 
-![issues](https://img.shields.io/github/issues/DesignSystemsOSS/eccentrictouch)
-![git stars](https://img.shields.io/github/stars/DesignSystemsOSS/eccentrictouch)
-![Release Date](https://img.shields.io/github/release-date/DesignSystemsOSS/eccentrictouch)
-![Size](https://img.shields.io/github/repo-size/DesignSystemsOSS/eccentrictouch)
-![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/eccentrictouch)
-![Maintained](https://img.shields.io/maintenance/yes/2021)
-![License](https://img.shields.io/badge/license-Apache-brightgreen)
+</div>
 
-
+<div align="center">
+  
 **Workflow Status & Checks**
 
 [![CodeQL](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml/badge.svg?branch=v2.0)](https://github.com/DesignSystemsOSS/eccentrictouch/actions/workflows/codeql-analysis.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![BCH compliance](https://bettercodehub.com/edge/badge/DesignSystemsOSS/eccentrictouch?branch=master)](https://bettercodehub.com/)
 
+</div>
 
-## Key Headings
+## Docs - Screenshots
 
-- [Introduction to the Project](#Introduction)
-- [How to start using Eccentric Touch](#Get-Started)
-- [Development Guidelines](#💻-Development-Guidelines)
-- [Documentation](#Documentation)
-- [Contributing](#CONTRIBUTING)
-- [Code of Conduct](#Code-of-Conduct)
+![image](https://user-images.githubusercontent.com/62352288/120595015-63c93500-c45f-11eb-8d4b-366cb03f14ff.png)
+![image](https://user-images.githubusercontent.com/62352288/120595059-6f1c6080-c45f-11eb-916c-9edf113774cd.png)
+![image](https://user-images.githubusercontent.com/62352288/120595084-76dc0500-c45f-11eb-8e49-f4810e731858.png)
+![image](https://user-images.githubusercontent.com/62352288/120595148-93783d00-c45f-11eb-8a3c-605f195e6547.png)
+![image](https://user-images.githubusercontent.com/62352288/120595181-9e32d200-c45f-11eb-8bd6-6f2197935d19.png)
+
 
 ## Introduction
 
