@@ -6,7 +6,6 @@
  * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE)
  */
 
-
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); /// NOTO SERIF
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /// POPPINS
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"); /// Work Sans
@@ -169,17 +168,11 @@ button:hover {
 
 // Heading Method - Combined button Property
 
-h1,
 .et-h1,
-h2,
 .et-h2,
-h3,
 .et-h3,
-h4,
 .et-h4,
-h5,
 .et-h5,
-h6,
 .et-h6 {
   font-family: var(--et-sans-serif);
   color: var(--et-black);
@@ -187,40 +180,34 @@ h6,
 }
 
 // heading method - (h1)
-h1,
 .et-h1 {
   font-size: 45.3px;
   font-weight: 600;
 }
 
 // heading method - (h2)
-h2,
 .et-h2 {
   font-size: 38.3px;
 }
 
 // heading method - (h3)
-h3,
 .et-h3 {
   font-size: 29.12px;
   font-weight: 600;
 }
 
 // heading method - (h4)
-h4,
 .et-h4 {
   font-size: 22.65px;
 }
 
 // heading method - (h5)
-h5,
 .et-h5 {
   font-size: 16.18px;
   font-weight: 600;
 }
 
 // heading method - (h6)
-h6,
 .et-h6 {
   font-size: 12.94px;
 }
@@ -546,12 +533,11 @@ nav .et-mainMenu .et-closeMenu,
   }
 }
 
-.et-header-icon{
+.et-header-icon {
   color: white;
   float: right;
   transform: translate(-10px, 8px);
 }
-
 
 // Adding Background colours
 
@@ -603,11 +589,13 @@ nav .et-mainMenu .et-closeMenu,
   background-color: var(--et-yellow-primary);
 }
 
-.et-bg-gray, .et-bg-grey {
+.et-bg-gray,
+.et-bg-grey {
   background-color: var(--et-gray-primary);
 }
 
-.et-bg-gray-light, .et-bg-grey-light {
+.et-bg-gray-light,
+.et-bg-grey-light {
   background-color: var(--et-gray-secondary);
 }
 
@@ -629,16 +617,15 @@ nav .et-mainMenu .et-closeMenu,
   font-family: var(--et-paragraph);
 }
 
-
 /// CARDS Components
 
 .et-card {
   border-radius: 4px;
 }
 
-.et-card-landscape{
+.et-card-landscape {
   width: 40%;
-  height: auto ;
+  height: auto;
   display: flex;
   border-radius: 4px;
   background-color: white;
@@ -648,25 +635,22 @@ nav .et-mainMenu .et-closeMenu,
   box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.225);
 }
 
-.et-image{
+.et-image {
   width: 25%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.et-card-portrait{
+.et-card-portrait {
   width: 28%;
   height: 40%;
-  
 }
 
-.et-card-body{
-  margin:1em
+.et-card-body {
+  margin: 1em;
 }
-
 
 /// Progress Bars added
-
 
 .et-progress {
   background-color: var(--et-gray-secondary);
