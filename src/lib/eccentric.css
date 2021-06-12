@@ -41,12 +41,6 @@
   }
 }
 
-body {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1400px;
-}
-
 .et-button,
 button,
 input[type="button"],
@@ -147,52 +141,40 @@ button:hover {
   color: var(--et-green-primary);
 }
 
-h1,
 .et-h1,
-h2,
 .et-h2,
-h3,
 .et-h3,
-h4,
 .et-h4,
-h5,
 .et-h5,
-h6,
 .et-h6 {
   font-family: var(--et-sans-serif);
   color: var(--et-black);
   margin: 0;
 }
 
-h1,
 .et-h1 {
   font-size: 45.3px;
   font-weight: 600;
 }
 
-h2,
 .et-h2 {
   font-size: 38.3px;
 }
 
-h3,
 .et-h3 {
   font-size: 29.12px;
   font-weight: 600;
 }
 
-h4,
 .et-h4 {
   font-size: 22.65px;
 }
 
-h5,
 .et-h5 {
   font-size: 16.18px;
   font-weight: 600;
 }
 
-h6,
 .et-h6 {
   font-size: 12.94px;
 }
@@ -584,11 +566,13 @@ nav .et-mainMenu .et-closeMenu,
   background-color: var(--et-yellow-primary);
 }
 
-.et-bg-gray, .et-bg-grey {
+.et-bg-gray,
+.et-bg-grey {
   background-color: var(--et-gray-primary);
 }
 
-.et-bg-gray-light, .et-bg-grey-light {
+.et-bg-gray-light,
+.et-bg-grey-light {
   background-color: var(--et-gray-secondary);
 }
 
@@ -719,8 +703,8 @@ nav .et-mainMenu .et-closeMenu,
   padding: 0.5em;
 }
 
+
+
+
 /*# sourceMappingURL=eccentric.css.map */
 
-
-
- 
