@@ -718,3 +718,23 @@ nav .et-mainMenu .et-closeMenu,
     padding: 0.5em;
   }
 }
+
+//border width added
+
+.et-bw {
+  &-1 {
+    border-width: 0.2em;
+  }
+  &-2 {
+    border-width: 0.4em;
+  }
+  &-3 {
+    border-width: 0.6em;
+  }
+  &-4 {
+    border-width: 0.8em;
+  }
+  &-5 {
+    border-width: 1em;
+  }
+}

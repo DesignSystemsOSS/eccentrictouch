@@ -707,4 +707,24 @@ nav .et-mainMenu .et-closeMenu,
   background-color: var(--et-purple-primary);
   padding: 0.5em;
 }
+
+.et-bw-1 {
+  border-width: 0.2em;
+}
+
+.et-bw-2 {
+  border-width: 0.4em;
+}
+
+.et-bw-3 {
+  border-width: 0.6em;
+}
+
+.et-bw-4 {
+  border-width: 0.8em;
+}
+
+.et-bw-5 {
+  border-width: 1em;
+}
 /*# sourceMappingURL=eccentric.css.map */
