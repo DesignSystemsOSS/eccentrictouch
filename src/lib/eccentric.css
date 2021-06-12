@@ -727,4 +727,28 @@ nav .et-mainMenu .et-closeMenu,
 .et-bw-5 {
   border-width: 1em;
 }
+
+.et-b-primary {
+  border-color: #0085ff;
+}
+
+.et-b-invalid {
+  border-color: #e73a3a;
+}
+
+.et-b-warning {
+  border-color: #ffd028;
+}
+
+.et-b-valid {
+  border-color: #00d43b;
+}
+
+.et-b-dark {
+  border-color: #000;
+}
+
+.et-b-light {
+  border-color: #fff;
+}
 /*# sourceMappingURL=eccentric.css.map */

@@ -738,3 +738,26 @@ nav .et-mainMenu .et-closeMenu,
     border-width: 1em;
   }
 }
+
+//border colors added
+
+.et-b {
+  &-primary {
+    border-color: #0085ff;
+  }
+  &-invalid {
+    border-color: #e73a3a;
+  }
+  &-warning {
+    border-color: #ffd028;
+  }
+  &-valid {
+    border-color: #00d43b;
+  }
+  &-dark {
+    border-color: #000;
+  }
+  &-light {
+    border-color: #fff;
+  }
+}
