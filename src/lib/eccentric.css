@@ -60,7 +60,7 @@ input[type="submit"] {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
-  cursor: pointer;
+  cursor : pointer;
 }
 
 input[type="button"]:focus {
@@ -720,49 +720,6 @@ nav .et-mainMenu .et-closeMenu,
 }
 
 
-.dark-mode {
-  background-color: black;
-  transition: 0.5s;
-}
-
-.dark-mode .et-h1{
-  color:white;
-}
-.dark-mode .et-h2{
-  color:white;
-}
-.dark-mode .et-h3{
-  color:white;
-}
-.dark-mode .et-h4{
-  color:white;
-}
-.dark-mode .et-h5{
-  color:white;
-}
-.dark-mode .et-h6{
-  color:white;
-}
-.dark-mode #darkbtn{
-  background-color:white;
-}
-
-
-
-#darkbtn{
-  position: absolute;
-  width: 45px;
-  height: 22px;
-  right: 20px;
-  top: 20px;
-  border: 3px solid grey;
-  border-radius: 20px;
- background-color: black;
-}
-
-#darkbtn.active:before{
-  left:24px;
-}
 
 
  
