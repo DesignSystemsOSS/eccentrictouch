@@ -23,6 +23,7 @@
   ![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/eccentrictouch)
   ![Maintained](https://img.shields.io/maintenance/yes/2021)
   ![License](https://img.shields.io/badge/license-Apache-brightgreen)
+  [![DeepSource](https://deepsource.io/gh/DesignSystemsOSS/eccentrictouch.svg/?label=resolved+issues&show_trend=true&token=Leb3o-m3oZ-ukIwk-s8hO4eR)](https://deepsource.io/gh/DesignSystemsOSS/eccentrictouch/?ref=repository-badge)
 
 </div>
 
