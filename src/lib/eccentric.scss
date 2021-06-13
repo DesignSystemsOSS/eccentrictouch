@@ -52,12 +52,6 @@ $et-paragraph: "Work Sans", sans-serif;
   $scroll-behavior: smooth;
 }
 
-body {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1400px;
-}
-
 /// button method - primary-button, default button property
 .et-button,
 button,
@@ -166,58 +160,46 @@ button:hover {
 
 // Heading Method - Combined button Property
 
-h1,
 .et-h1,
-h2,
 .et-h2,
-h3,
 .et-h3,
-h4,
 .et-h4,
-h5,
 .et-h5,
-h6,
 .et-h6 {
   font-family: $et-sans-serif;
   color: $et-black;
   margin: 0;
 }
 
-// heading method - (h1
-h1,
+// heading method - (h1)
 .et-h1 {
   font-size: 45.3px;
   font-weight: 600;
 }
 
-// heading method - (h2
-h2,
+// heading method - (h2)
 .et-h2 {
   font-size: 38.3px;
 }
 
-// heading method - (h3
-h3,
+// heading method - (h3)
 .et-h3 {
   font-size: 29.12px;
   font-weight: 600;
 }
 
-// heading method - (h4
-h4,
+// heading method - (h4)
 .et-h4 {
   font-size: 22.65px;
 }
 
-// heading method - (h5
-h5,
+// heading method - (h5)
 .et-h5 {
   font-size: 16.18px;
   font-weight: 600;
 }
 
-// heading method - (h6
-h6,
+// heading method - (h6)
 .et-h6 {
   font-size: 12.94px;
 }
@@ -726,5 +708,48 @@ nav .et-mainMenu .et-closeMenu,
     width: 100%;
     background-color: $et-purple-primary;
     padding: 0.5em;
+  }
+}
+
+//border width added
+
+.et-bw {
+  &-1 {
+    border-width: 0.2em;
+  }
+  &-2 {
+    border-width: 0.4em;
+  }
+  &-3 {
+    border-width: 0.6em;
+  }
+  &-4 {
+    border-width: 0.8em;
+  }
+  &-5 {
+    border-width: 1em;
+  }
+}
+
+//border colors added
+
+.et-b {
+  &-primary {
+    border-color: #0085ff;
+  }
+  &-invalid {
+    border-color: #e73a3a;
+  }
+  &-warning {
+    border-color: #ffd028;
+  }
+  &-valid {
+    border-color: #00d43b;
+  }
+  &-dark {
+    border-color: #000;
+  }
+  &-light {
+    border-color: #fff;
   }
 }

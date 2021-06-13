@@ -7,12 +7,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
-body {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1400px;
-}
-
 .et-button,
 button,
 input[type="button"],
@@ -112,52 +106,40 @@ button:hover {
   color: #00d43b;
 }
 
-h1,
 .et-h1,
-h2,
 .et-h2,
-h3,
 .et-h3,
-h4,
 .et-h4,
-h5,
 .et-h5,
-h6,
 .et-h6 {
   font-family: "Poppins", sans-serif;
   color: #292929;
   margin: 0;
 }
 
-h1,
 .et-h1 {
   font-size: 45.3px;
   font-weight: 600;
 }
 
-h2,
 .et-h2 {
   font-size: 38.3px;
 }
 
-h3,
 .et-h3 {
   font-size: 29.12px;
   font-weight: 600;
 }
 
-h4,
 .et-h4 {
   font-size: 22.65px;
 }
 
-h5,
 .et-h5 {
   font-size: 16.18px;
   font-weight: 600;
 }
 
-h6,
 .et-h6 {
   font-size: 12.94px;
 }
@@ -684,5 +666,49 @@ nav .et-mainMenu .et-closeMenu,
   width: 100%;
   background-color: #0038ff;
   padding: 0.5em;
+}
+
+.et-bw-1 {
+  border-width: 0.2em;
+}
+
+.et-bw-2 {
+  border-width: 0.4em;
+}
+
+.et-bw-3 {
+  border-width: 0.6em;
+}
+
+.et-bw-4 {
+  border-width: 0.8em;
+}
+
+.et-bw-5 {
+  border-width: 1em;
+}
+
+.et-b-primary {
+  border-color: #0085ff;
+}
+
+.et-b-invalid {
+  border-color: #e73a3a;
+}
+
+.et-b-warning {
+  border-color: #ffd028;
+}
+
+.et-b-valid {
+  border-color: #00d43b;
+}
+
+.et-b-dark {
+  border-color: #000;
+}
+
+.et-b-light {
+  border-color: #fff;
 }
 /*# sourceMappingURL=eccentric.css.map */
