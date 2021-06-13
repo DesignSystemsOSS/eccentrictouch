@@ -3,7 +3,7 @@
 /*!
  * Eccentric Touch v2.0
  * Copyright 2020-2021 The DesignSystems
- * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE)
+ * Licensed under Apache License (https://github.com/DesignSystemsOSS/eccentrictouch/blob/main/LICENSE
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"); /// NOTO SERIF
@@ -11,47 +11,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"); /// Work Sans
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
-/// defining global root properties
-:root {
-  --et-black: #292929;
-  --et-white: #ffffff;
+/// defining  variables
 
-  --et-blue-primary: #0085ff;
-  --et-default: #0085ff;
-  --et-info: #0085ff;
-  --et-blue-secondary: #9dd0ff;
+$et-black: #292929;
+$et-white: #ffffff;
 
-  --et-purple-primary: #0038ff;
-  --et-purple-secondary: #829dff;
+$et-blue-primary: #0085ff;
+$et-default: #0085ff;
+$et-info: #0085ff;
+$et-blue-secondary: #9dd0ff;
 
-  --et-red-primary: #e73a3a;
-  --et-invalid: #e73a3a;
-  --et-danger: #e73a3a;
-  --et-red-secondary: #ff8282;
+$et-purple-primary: #0038ff;
+$et-purple-secondary: #829dff;
 
-  --et-green-primary: #00d43b;
-  --et-valid: #00d43b;
-  --et-success: #00d43b;
-  --et-green-secondary: #8bffac;
+$et-red-primary: #e73a3a;
+$et-invalid: #e73a3a;
+$et-danger: #e73a3a;
+$et-red-secondary: #ff8282;
 
-  --et-yellow-primary: #ffd028;
-  --et-warning: #ffd028;
-  --et-yellow-secondary: #ffea9d;
+$et-green-primary: #00d43b;
+$et-valid: #00d43b;
+$et-success: #00d43b;
+$et-green-secondary: #8bffac;
 
-  --et-gray-primary: #cecece;
-  --et-gray-secondary: #d3d3d3;
-  --et-deactivated: #cecece;
+$et-yellow-primary: #ffd028;
+$et-warning: #ffd028;
+$et-yellow-secondary: #ffea9d;
 
-  /// fonts initialization
-  --et-serif: "Noto Serif", serif;
-  --et-sans-serif: "Poppins", sans-serif;
-  --et-description: "Work Sans", sans-serif;
-}
+$et-gray-primary: #cecece;
+$et-gray-secondary: #d3d3d3;
+$et-deactivated: #cecece;
+
+/// fonts initialization
+$et-serif: "Noto Serif", serif;
+$et-sans-serif: "Poppins", sans-serif;
+$et-description: "Work Sans", sans-serif;
+$et-paragraph: "Work Sans", sans-serif;
 
 @media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
+  $scroll-behavior: smooth;
 }
 
 /// button method - primary-button, default button property
@@ -60,11 +58,11 @@ button,
 input[type="button"],
 input[type="submit"] {
   color: white;
-  background-color: var(--et-blue-primary);
+  background-color: $et-blue-primary;
   padding: 0.6em;
   border: none;
   margin: 0;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
@@ -84,11 +82,11 @@ button:hover {
 
 .et-button-invalid {
   color: white;
-  background-color: var(--et-danger);
+  background-color: $et-danger;
   padding: 0.6em;
   border: none;
   margin: 0;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
@@ -96,11 +94,11 @@ button:hover {
 
 .et-button-valid {
   color: white;
-  background-color: var(--et-green-primary);
+  background-color: $et-green-primary;
   padding: 0.6em;
   border: none;
   margin: 0;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
@@ -108,25 +106,25 @@ button:hover {
 
 .et-button-warning {
   color: white;
-  background-color: var(--et-yellow-primary);
+  background-color: $et-yellow-primary;
   padding: 0.6em;
   border: none;
   margin: 0;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
 }
 
 .et-button-disabled {
-  background-color: var(--et-gray-primary);
-  color: var(--et-black);
+  background-color: $et-gray-primary;
+  color: $et-black;
 }
 
 .et-button-disabled-secondary {
-  background-color: var(--et-gray-secondary);
-  color: var(--et-black);
-  border: var(--et-black) solid;
+  background-color: $et-gray-secondary;
+  color: $et-black;
+  border: $et-black solid;
   border-width: 2px;
 }
 
@@ -134,30 +132,30 @@ button:hover {
 
 // Secondary Info button
 .et-button-secondary {
-  background-color: var(--et-white);
-  border: 2px solid var(--et-blue-primary);
-  color: var(--et-blue-primary);
+  background-color: $et-white;
+  border: 2px solid $et-blue-primary;
+  color: $et-blue-primary;
 }
 
 // Invalid button
 .et-button-invalid-secondary {
-  background-color: (var(--et-white));
-  border: 2px solid var(--et-danger);
-  color: var(--et-danger);
+  background-color: $et-white;
+  border: 2px solid $et-danger;
+  color: $et-danger;
 }
 
 // Warning button
 .et-button-warning-secondary {
-  background-color: (var(--et-white));
-  border: 2px solid var(--et-warning);
-  color: var(--et-warning);
+  background-color: $et-white;
+  border: 2px solid $et-warning;
+  color: $et-warning;
 }
 
 // Valid/Success button
 .et-button-valid-secondary {
-  background-color: (var(--et-white));
-  border: 2px solid var(--et-green-primary);
-  color: var(--et-green-primary);
+  background-color: $et-white;
+  border: 2px solid $et-green-primary;
+  color: $et-green-primary;
 }
 
 // Heading Method - Combined button Property
@@ -168,8 +166,8 @@ button:hover {
 .et-h4,
 .et-h5,
 .et-h6 {
-  font-family: var(--et-sans-serif);
-  color: var(--et-black);
+  font-family: $et-sans-serif;
+  color: $et-black;
   margin: 0;
 }
 
@@ -214,16 +212,16 @@ b,
 i,
 u,
 q {
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   margin: 0;
-  color: var(--et-black);
+  color: $et-black;
 }
 
 b {
   font-weight: bold;
 }
 
-// To remove extra (unwanted) margin.
+// To remove extra (unwanted margin.
 .et-paragraph,
 p {
   margin: 0;
@@ -295,8 +293,8 @@ d {
 // code for select tag
 select {
   padding: 0.4em;
-  background-color: var(--et-white);
-  font-family: var(--et-sans-serif);
+  background-color: $et-white;
+  font-family: $et-sans-serif;
   border: none;
   outline: none;
 }
@@ -304,13 +302,13 @@ select {
 // css method for handling label tags
 label {
   color: inherit;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   line-height: inherit;
   font-weight: inherit;
   margin: inherit;
 }
 
-// CSS property for input-type text (text-box-design)
+// CSS property for input-type text (text-box-design
 input[type="text"],
 input[type="password"],
 input[type="number"],
@@ -320,19 +318,19 @@ input[type="email"],
 .et-input-number,
 .et-input-email {
   padding: 0.6em;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   font-weight: inherit;
   line-height: inherit;
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
   border: none;
   margin: inherit;
   border-radius: 4px;
 }
 
 input {
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   padding: 0.6em;
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
 }
 
 input[type="text"]:focus,
@@ -376,12 +374,12 @@ input[type="hidden"]:focus,
 
 textarea,
 .et-textarea {
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
   border: none;
   line-height: inherit;
   margin: inherit;
   padding: 10px;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
   line-height: inherit;
 }
 
@@ -392,7 +390,7 @@ textarea:focus {
 
 /// Component CSS for input type color
 input[type="color"] {
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
   border: none;
 }
 
@@ -409,7 +407,7 @@ input[type="file"] {
 
 input[type="reset"] {
   padding: 0.6em;
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
   border: none;
   border-radius: 4px;
 }
@@ -458,8 +456,8 @@ input[type="month"] {
 /// HEADER
 
 nav {
-  background: var(--et-black);
-  color: var(--et-white);
+  background: $et-black;
+  color: $et-white;
   display: flex;
   justify-content: space-between;
 }
@@ -471,12 +469,12 @@ nav .et-mainMenu li {
   display: inline-block;
   padding: 0.6em;
   text-decoration: none;
-  color: var(--et-white);
+  color: $et-white;
   font-size: 18px;
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
 }
 nav .et-mainMenu li:hover {
-  color: var(--et-deactivated);
+  color: $et-deactivated;
 }
 nav .et-openMenu {
   font-size: 2rem;
@@ -493,10 +491,10 @@ nav .et-mainMenu .et-closeMenu,
 
 @media (max-width: 800px) {
   .et-openMenu i {
-    color: var(--et-white);
+    color: $et-white;
   }
   .et-closeMenu i {
-    color: var(--et-white);
+    color: $et-white;
   }
   nav .et-mainMenu {
     height: 100vh;
@@ -508,7 +506,7 @@ nav .et-mainMenu .et-closeMenu,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--et-black);
+    background: $et-black;
     transition: top 1s ease;
     display: none;
   }
@@ -523,7 +521,7 @@ nav .et-mainMenu .et-closeMenu,
   }
   nav .et-mainMenu li:hover {
     background: none;
-    color: var(--et-deactivated);
+    color: $et-deactivated;
   }
 }
 
@@ -536,79 +534,79 @@ nav .et-mainMenu .et-closeMenu,
 // Adding Background colours
 
 .et-bg-black {
-  background-color: var(--et-black);
+  background-color: $et-black;
 }
 
 .et-bg-white {
-  background-color: var(--et-white);
+  background-color: $et-white;
 }
 
 .et-bg-blue {
-  background-color: var(--et-blue-primary);
+  background-color: $et-blue-primary;
 }
 
 .et-bg-blue-light {
-  background-color: var(--et-blue-secondary);
+  background-color: $et-blue-secondary;
 }
 
 .et-bg-purple {
-  background-color: var(--et-purple-primary);
+  background-color: $et-purple-primary;
 }
 
 .et-bg-purple-light {
-  background-color: var(--et-purple-secondary);
+  background-color: $et-purple-secondary;
 }
 
 .et-bg-red {
-  background-color: var(--et-red-primary);
+  background-color: $et-red-primary;
 }
 
 .et-bg-red-light {
-  background-color: var(--et-red-secondary);
+  background-color: $et-red-secondary;
 }
 
 .et-bg-green {
-  background-color: var(--et-green-primary);
+  background-color: $et-green-primary;
 }
 
 .et-bg-green-light {
-  background-color: var(--et-green-secondary);
+  background-color: $et-green-secondary;
 }
 
 .et-bg-yellow {
-  background-color: var(--et-yellow-primary);
+  background-color: $et-yellow-primary;
 }
 
 .et-bg-yellow-light {
-  background-color: var(--et-yellow-primary);
+  background-color: $et-yellow-primary;
 }
 
 .et-bg-gray,
 .et-bg-grey {
-  background-color: var(--et-gray-primary);
+  background-color: $et-gray-primary;
 }
 
 .et-bg-gray-light,
 .et-bg-grey-light {
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
 }
 
 // Font families
 
 .et-font-serif {
-  font-family: var(--et-serif);
+  font-family: $et-serif;
 }
 
 .et-font-sans-serif {
-  font-family: var(--et-sans-serif);
+  font-family: $et-sans-serif;
 }
 
 .et-font-description {
-  font-family: var(--et-description);
+  font-family: $et-description;
 }
 
 .et-font-paragraph {
-  font-family: var(--et-paragraph);
+  font-family: $et-paragraph;
 }
 
 /// CARDS Components
@@ -647,7 +645,7 @@ nav .et-mainMenu .et-closeMenu,
 /// Progress Bars added
 
 .et-progress {
-  background-color: var(--et-gray-secondary);
+  background-color: $et-gray-secondary;
   width: 500px;
   border-radius: 4px;
   margin-top: 6px;
@@ -663,52 +661,143 @@ nav .et-mainMenu .et-closeMenu,
 .et-progress {
   &-10 {
     width: 10%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-20 {
     width: 20%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-30 {
     width: 30%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-40 {
     width: 40%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-50 {
     width: 50%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-60 {
     width: 60%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-70 {
     width: 70%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-80 {
     width: 80%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-90 {
     width: 90%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
   &-100 {
     width: 100%;
-    background-color: var(--et-purple-primary);
+    background-color: $et-purple-primary;
     padding: 0.5em;
   }
+}
+
+//border width added
+
+.et-bw {
+  &-1 {
+    border-width: 0.2em;
+  }
+  &-2 {
+    border-width: 0.4em;
+  }
+  &-3 {
+    border-width: 0.6em;
+  }
+  &-4 {
+    border-width: 0.8em;
+  }
+  &-5 {
+    border-width: 1em;
+  }
+}
+
+//border colors added
+
+.et-b {
+  &-primary {
+    border-color: #0085ff;
+  }
+  &-invalid {
+    border-color: #e73a3a;
+  }
+  &-warning {
+    border-color: #ffd028;
+  }
+  &-valid {
+    border-color: #00d43b;
+  }
+  &-dark {
+    border-color: #000;
+  }
+  &-light {
+    border-color: #fff;
+  }
+}
+
+//Border Properties
+
+.et-b {
+  border: 2px solid;
+}
+.et-b-t {
+  border-top: 2px solid;
+}
+.et-b-b {
+  border-bottom: 2px solid;
+}
+.et-b-l {
+  border-left: 2px solid;
+}
+.et-b-r {
+  border-right: 2px solid;
+}
+.et-b-none {
+  border: none;
+}
+
+//Border Radius Properties
+.et-br {
+  border-radius: 0.3rem;
+}
+.et-br-t {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.et-br-b {
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.et-br-l {
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+.et-br-r {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.et-br-circle {
+  border-radius: 50%;
+}
+.et-br-pill {
+  border-radius: 5rem;
 }
