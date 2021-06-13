@@ -51,7 +51,8 @@ Eccentric Touch is a CSS Library which has pre-designed components and CSS Prope
 
 ## Version Releases
 
-- [v2.0.1 (Latest)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.1)
+- [v2.0.2 (Latest)](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.2)
+- [v2.0.1](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.1)
 - [v2.0.0](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v2.0.0)
 - [v1.0](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v1.0)
 - [v0.1](https://github.com/DesignSystemsOSS/eccentrictouch/releases/tag/v.0.1)
