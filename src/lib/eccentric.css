@@ -20,6 +20,7 @@ input[type="submit"] {
   border-radius: 4px;
   font-size: inherit;
   line-height: inherit;
+  cursor : pointer ;
 }
 
 input[type="button"]:focus {
@@ -668,6 +669,13 @@ nav .et-mainMenu .et-closeMenu,
   padding: 0.5em;
 }
 
+
+
+
+
+/*# sourceMappingURL=eccentric.css.map */
+
+
 .et-bw-1 {
   border-width: 0.2em;
 }
@@ -768,3 +776,4 @@ nav .et-mainMenu .et-closeMenu,
   border-radius: 5rem;
 }
 /*# sourceMappingURL=eccentric.css.map */
+
