@@ -711,4 +711,28 @@ nav .et-mainMenu .et-closeMenu,
 .et-b-light {
   border-color: #fff;
 }
+
+.et-b {
+  border: 2px solid;
+}
+
+.et-b-t {
+  border-top: 2px solid;
+}
+
+.et-b-b {
+  border-bottom: 2px solid;
+}
+
+.et-b-l {
+  border-left: 2px solid;
+}
+
+.et-b-r {
+  border-right: 2px solid;
+}
+
+.et-b-none {
+  border: none;
+}
 /*# sourceMappingURL=eccentric.css.map */

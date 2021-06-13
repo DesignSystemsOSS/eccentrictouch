@@ -753,3 +753,24 @@ nav .et-mainMenu .et-closeMenu,
     border-color: #fff;
   }
 }
+
+//Border Properties
+
+.et-b {
+  border: 2px solid;
+}
+.et-b-t {
+  border-top: 2px solid;
+}
+.et-b-b {
+  border-bottom: 2px solid;
+}
+.et-b-l {
+  border-left: 2px solid;
+}
+.et-b-r {
+  border-right: 2px solid;
+}
+.et-b-none {
+  border: none;
+}
