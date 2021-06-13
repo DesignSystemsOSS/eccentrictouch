@@ -722,27 +722,27 @@ nav .et-mainMenu .et-closeMenu,
   border-width: 1em;
 }
 
-border colors added .et-b-primary {
+.et-b-primary {
   border-color: #0085ff;
 }
 
-border colors added .et-b-invalid {
+.et-b-invalid {
   border-color: #e73a3a;
 }
 
-border colors added .et-b-warning {
+.et-b-warning {
   border-color: #ffd028;
 }
 
-border colors added .et-b-valid {
+.et-b-valid {
   border-color: #00d43b;
 }
 
-border colors added .et-b-dark {
+.et-b-dark {
   border-color: #000;
 }
 
-border colors added .et-b-light {
+.et-b-light {
   border-color: #fff;
 }
 /*# sourceMappingURL=eccentric.css.map */
