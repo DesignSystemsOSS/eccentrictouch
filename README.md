@@ -48,7 +48,7 @@
 
 ## Introduction
 
-Eccentric Touch is a CSS Library which has pre-designed components and CSS Properties which will help you to write less CSS and work more efficiently. We are working hard to add as much functionalities as we can. This library has CSS Methods for Texts, Headings, Buttons, Headers, Form & Input Elements and much more is going to come. We are working everyday to build this project. From basic margin and padding properties to Card Components, there much more stuff which is going to come. And Let's build it together. You can refer the the points described below in order to use this project.
+Eccentric Touch is a CSS Library that includes pre-designed components and CSS Properties to help you write less CSS and work more efficiently. We are working hard to add as many functionalities as we can. This library contains CSS Methods for Text, Headings, Buttons, Headers, Form & Input Elements, and much more is on the way. We are working every day to build this project. There's a lot more to come, including standard margin and padding properties as well as Card Components. And let us all work together to make it a reality. You can use this project by referring to the points described below.
 
 ## Version Releases
 
