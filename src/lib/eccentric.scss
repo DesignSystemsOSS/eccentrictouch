@@ -10,46 +10,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /// POPPINS
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"); /// Work Sans
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
-
 /// defining  variables
-
 $et-black: #292929;
 $et-white: #ffffff;
-
 $et-blue-primary: #0085ff;
 $et-default: #0085ff;
 $et-info: #0085ff;
 $et-blue-secondary: #9dd0ff;
-
 $et-purple-primary: #0038ff;
 $et-purple-secondary: #829dff;
-
 $et-red-primary: #e73a3a;
 $et-invalid: #e73a3a;
 $et-danger: #e73a3a;
 $et-red-secondary: #ff8282;
-
 $et-green-primary: #00d43b;
 $et-valid: #00d43b;
 $et-success: #00d43b;
 $et-green-secondary: #8bffac;
-
 $et-yellow-primary: #ffd028;
 $et-warning: #ffd028;
 $et-yellow-secondary: #ffea9d;
-
 $et-gray-primary: #cecece;
 $et-gray-secondary: #d3d3d3;
 $et-deactivated: #cecece;
-
 /// fonts initialization
-$et-serif: "Noto Serif", serif;
-$et-sans-serif: "Poppins", sans-serif;
-$et-description: "Work Sans", sans-serif;
-$et-paragraph: "Work Sans", sans-serif;
-
+$et-serif: "Noto Serif",
+serif;
+$et-sans-serif: "Poppins",
+sans-serif;
+$et-description: "Work Sans",
+sans-serif;
+$et-paragraph: "Work Sans",
+sans-serif;
 @media (prefers-reduced-motion: no-preference) {
-  $scroll-behavior: smooth;
+    $scroll-behavior: smooth;
 }
 
 /// button method - primary-button, default button property
@@ -57,151 +51,149 @@ $et-paragraph: "Work Sans", sans-serif;
 button,
 input[type="button"],
 input[type="submit"] {
-  color: white;
-  background-color: $et-blue-primary;
-  padding: 0.6em;
-  border: none;
-  margin: 0;
-  font-family: $et-sans-serif;
-  border-radius: 4px;
-  font-size: inherit;
-  line-height: inherit;
+    color: white;
+    background-color: $et-blue-primary;
+    padding: 0.6em;
+    border: none;
+    margin: 0;
+    font-family: $et-sans-serif;
+    border-radius: 4px;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 input[type="button"]:focus {
-  outline: none;
+    outline: none;
 }
 
 button:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .et-button-disabled-secondary:focus {
-  border: inherit;
+    border: inherit;
 }
 
 .et-button-invalid {
-  color: white;
-  background-color: $et-danger;
-  padding: 0.6em;
-  border: none;
-  margin: 0;
-  font-family: $et-sans-serif;
-  border-radius: 4px;
-  font-size: inherit;
-  line-height: inherit;
+    color: white;
+    background-color: $et-danger;
+    padding: 0.6em;
+    border: none;
+    margin: 0;
+    font-family: $et-sans-serif;
+    border-radius: 4px;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .et-button-valid {
-  color: white;
-  background-color: $et-green-primary;
-  padding: 0.6em;
-  border: none;
-  margin: 0;
-  font-family: $et-sans-serif;
-  border-radius: 4px;
-  font-size: inherit;
-  line-height: inherit;
+    color: white;
+    background-color: $et-green-primary;
+    padding: 0.6em;
+    border: none;
+    margin: 0;
+    font-family: $et-sans-serif;
+    border-radius: 4px;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .et-button-warning {
-  color: white;
-  background-color: $et-yellow-primary;
-  padding: 0.6em;
-  border: none;
-  margin: 0;
-  font-family: $et-sans-serif;
-  border-radius: 4px;
-  font-size: inherit;
-  line-height: inherit;
+    color: white;
+    background-color: $et-yellow-primary;
+    padding: 0.6em;
+    border: none;
+    margin: 0;
+    font-family: $et-sans-serif;
+    border-radius: 4px;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .et-button-disabled {
-  background-color: $et-gray-primary;
-  color: $et-black;
+    background-color: $et-gray-primary;
+    color: $et-black;
 }
 
 .et-button-disabled-secondary {
-  background-color: $et-gray-secondary;
-  color: $et-black;
-  border: $et-black solid;
-  border-width: 2px;
+    background-color: $et-gray-secondary;
+    color: $et-black;
+    border: $et-black solid;
+    border-width: 2px;
 }
 
 // These are Secondary Buttons
-
 // Secondary Info button
 .et-button-secondary {
-  background-color: $et-white;
-  border: 2px solid $et-blue-primary;
-  color: $et-blue-primary;
+    background-color: $et-white;
+    border: 2px solid $et-blue-primary;
+    color: $et-blue-primary;
 }
 
 // Invalid button
 .et-button-invalid-secondary {
-  background-color: $et-white;
-  border: 2px solid $et-danger;
-  color: $et-danger;
+    background-color: $et-white;
+    border: 2px solid $et-danger;
+    color: $et-danger;
 }
 
 // Warning button
 .et-button-warning-secondary {
-  background-color: $et-white;
-  border: 2px solid $et-warning;
-  color: $et-warning;
+    background-color: $et-white;
+    border: 2px solid $et-warning;
+    color: $et-warning;
 }
 
 // Valid/Success button
 .et-button-valid-secondary {
-  background-color: $et-white;
-  border: 2px solid $et-green-primary;
-  color: $et-green-primary;
+    background-color: $et-white;
+    border: 2px solid $et-green-primary;
+    color: $et-green-primary;
 }
 
 // Heading Method - Combined button Property
-
 .et-h1,
 .et-h2,
 .et-h3,
 .et-h4,
 .et-h5,
 .et-h6 {
-  font-family: $et-sans-serif;
-  color: $et-black;
-  margin: 0;
+    font-family: $et-sans-serif;
+    color: $et-black;
+    margin: 0;
 }
 
 // heading method - (h1)
 .et-h1 {
-  font-size: 45.3px;
-  font-weight: 600;
+    font-size: 45.3px;
+    font-weight: 600;
 }
 
 // heading method - (h2)
 .et-h2 {
-  font-size: 38.3px;
+    font-size: 38.3px;
 }
 
 // heading method - (h3)
 .et-h3 {
-  font-size: 29.12px;
-  font-weight: 600;
+    font-size: 29.12px;
+    font-weight: 600;
 }
 
 // heading method - (h4)
 .et-h4 {
-  font-size: 22.65px;
+    font-size: 22.65px;
 }
 
 // heading method - (h5)
 .et-h5 {
-  font-size: 16.18px;
-  font-weight: 600;
+    font-size: 16.18px;
+    font-weight: 600;
 }
 
 // heading method - (h6)
 .et-h6 {
-  font-size: 12.94px;
+    font-size: 12.94px;
 }
 
 // Combined Property For all tags
@@ -212,100 +204,104 @@ b,
 i,
 u,
 q {
-  font-family: $et-sans-serif;
-  margin: 0;
-  color: $et-black;
+    font-family: $et-sans-serif;
+    margin: 0;
+    color: $et-black;
 }
 
 b {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 // To remove extra (unwanted margin.
 .et-paragraph,
 p {
-  margin: 0;
+    margin: 0;
 }
+
 .switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
 }
 
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
-input:checked + .slider {
-  background-color: #2196f3;
-}
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+input:checked+.slider {
+    background-color: #2196f3;
 }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
 }
 
 .slider.round {
-  border-radius: 34px;
+    border-radius: 34px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+    border-radius: 50%;
 }
+
 d {
-  border-radius: 34px;
+    border-radius: 34px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+    border-radius: 50%;
 }
+
 // code for select tag
 select {
-  padding: 0.4em;
-  background-color: $et-white;
-  font-family: $et-sans-serif;
-  border: none;
-  outline: none;
+    padding: 0.4em;
+    background-color: $et-white;
+    font-family: $et-sans-serif;
+    border: none;
+    outline: none;
 }
 
 // css method for handling label tags
 label {
-  color: inherit;
-  font-family: $et-sans-serif;
-  line-height: inherit;
-  font-weight: inherit;
-  margin: inherit;
+    color: inherit;
+    font-family: $et-sans-serif;
+    line-height: inherit;
+    font-weight: inherit;
+    margin: inherit;
 }
 
 // CSS property for input-type text (text-box-design
@@ -317,20 +313,20 @@ input[type="email"],
 .et-input-password,
 .et-input-number,
 .et-input-email {
-  padding: 0.6em;
-  font-family: $et-sans-serif;
-  font-weight: inherit;
-  line-height: inherit;
-  background-color: $et-gray-secondary;
-  border: none;
-  margin: inherit;
-  border-radius: 4px;
+    padding: 0.6em;
+    font-family: $et-sans-serif;
+    font-weight: inherit;
+    line-height: inherit;
+    background-color: $et-gray-secondary;
+    border: none;
+    margin: inherit;
+    border-radius: 4px;
 }
 
 input {
-  font-family: $et-sans-serif;
-  padding: 0.6em;
-  background-color: $et-gray-secondary;
+    font-family: $et-sans-serif;
+    padding: 0.6em;
+    background-color: $et-gray-secondary;
 }
 
 input[type="text"]:focus,
@@ -358,7 +354,7 @@ input[type="hidden"]:focus,
 .et-input-password:focus,
 .et-input-number:focus,
 .et-input-email:focus {
-  outline: none;
+    outline: none;
 }
 
 /// CSS for removing primary button outlines onclick event
@@ -367,437 +363,446 @@ input[type="hidden"]:focus,
 .et-button-valid:focus,
 .et-button-disabled:focus,
 .et-button-warning:focus {
-  outline: none;
+    outline: none;
 }
 
 /// CSS for textarea properties
-
 textarea,
 .et-textarea {
-  background-color: $et-gray-secondary;
-  border: none;
-  line-height: inherit;
-  margin: inherit;
-  padding: 10px;
-  font-family: $et-sans-serif;
-  line-height: inherit;
+    background-color: $et-gray-secondary;
+    border: none;
+    line-height: inherit;
+    margin: inherit;
+    padding: 10px;
+    font-family: $et-sans-serif;
+    line-height: inherit;
 }
 
 .et-textarea:focus,
 textarea:focus {
-  outline: inherit;
+    outline: inherit;
 }
 
 /// Component CSS for input type color
 input[type="color"] {
-  background-color: $et-gray-secondary;
-  border: none;
+    background-color: $et-gray-secondary;
+    border: none;
 }
 
 /// Component CSS for input type date
 input[type="date"] {
-  padding: 0.6;
+    padding: 0.6;
 }
 
 input[type="file"] {
-  padding: 0.6em;
-  border-radius: 4px;
-  background-color: inherit;
+    padding: 0.6em;
+    border-radius: 4px;
+    background-color: inherit;
 }
 
 input[type="reset"] {
-  padding: 0.6em;
-  background-color: $et-gray-secondary;
-  border: none;
-  border-radius: 4px;
+    padding: 0.6em;
+    background-color: $et-gray-secondary;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="tel"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="time"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="url"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="search"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="week"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="datetime-local"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="date"],
 input[type="datetime"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type="image"],
 input[type="month"] {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
-/// HEADER
 
+/// HEADER
 nav {
-  background: $et-black;
-  color: $et-white;
-  display: flex;
-  justify-content: space-between;
+    background: $et-black;
+    color: $et-white;
+    display: flex;
+    justify-content: space-between;
 }
+
 nav .et-mainMenu {
-  display: flex;
-  list-style: none;
+    display: flex;
+    list-style: none;
 }
+
 nav .et-mainMenu li {
-  display: inline-block;
-  padding: 0.6em;
-  text-decoration: none;
-  color: $et-white;
-  font-size: 18px;
-  font-family: $et-sans-serif;
+    display: inline-block;
+    padding: 0.6em;
+    text-decoration: none;
+    color: $et-white;
+    font-size: 18px;
+    font-family: $et-sans-serif;
 }
+
 nav .et-mainMenu li:hover {
-  color: $et-deactivated;
+    color: $et-deactivated;
 }
+
 nav .et-openMenu {
-  font-size: 2rem;
-  margin: 20px;
-  display: none;
-  cursor: pointer;
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
 }
+
 nav .et-mainMenu .et-closeMenu,
 .et-icons i {
-  font-size: 2rem;
-  display: none;
-  cursor: pointer;
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
 }
 
 @media (max-width: 800px) {
-  .et-openMenu i {
-    color: $et-white;
-  }
-  .et-closeMenu i {
-    color: $et-white;
-  }
-  nav .et-mainMenu {
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 10;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: $et-black;
-    transition: top 1s ease;
-    display: none;
-  }
-  nav .et-mainMenu .et-closeMenu {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
-  nav .et-openMenu {
-    display: block;
-  }
-  nav .et-mainMenu li:hover {
-    background: none;
-    color: $et-deactivated;
-  }
+    .et-openMenu i {
+        color: $et-white;
+    }
+    .et-closeMenu i {
+        color: $et-white;
+    }
+    nav .et-mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $et-black;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .et-mainMenu .et-closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .et-openMenu {
+        display: block;
+    }
+    nav .et-mainMenu li:hover {
+        background: none;
+        color: $et-deactivated;
+    }
 }
 
 .et-header-icon {
-  color: white;
-  float: right;
-  transform: translate(-10px, 8px);
+    color: white;
+    float: right;
+    transform: translate(-10px, 8px);
 }
 
 // Adding Background colours
-
 .et-bg-black {
-  background-color: $et-black;
+    background-color: $et-black;
 }
 
 .et-bg-white {
-  background-color: $et-white;
+    background-color: $et-white;
 }
 
 .et-bg-blue {
-  background-color: $et-blue-primary;
+    background-color: $et-blue-primary;
 }
 
 .et-bg-blue-light {
-  background-color: $et-blue-secondary;
+    background-color: $et-blue-secondary;
 }
 
 .et-bg-purple {
-  background-color: $et-purple-primary;
+    background-color: $et-purple-primary;
 }
 
 .et-bg-purple-light {
-  background-color: $et-purple-secondary;
+    background-color: $et-purple-secondary;
 }
 
 .et-bg-red {
-  background-color: $et-red-primary;
+    background-color: $et-red-primary;
 }
 
 .et-bg-red-light {
-  background-color: $et-red-secondary;
+    background-color: $et-red-secondary;
 }
 
 .et-bg-green {
-  background-color: $et-green-primary;
+    background-color: $et-green-primary;
 }
 
 .et-bg-green-light {
-  background-color: $et-green-secondary;
+    background-color: $et-green-secondary;
 }
 
 .et-bg-yellow {
-  background-color: $et-yellow-primary;
+    background-color: $et-yellow-primary;
 }
 
 .et-bg-yellow-light {
-  background-color: $et-yellow-primary;
+    background-color: $et-yellow-primary;
 }
 
 .et-bg-gray,
 .et-bg-grey {
-  background-color: $et-gray-primary;
+    background-color: $et-gray-primary;
 }
 
 .et-bg-gray-light,
 .et-bg-grey-light {
-  background-color: $et-gray-secondary;
+    background-color: $et-gray-secondary;
 }
 
 // Font families
-
 .et-font-serif {
-  font-family: $et-serif;
+    font-family: $et-serif;
 }
 
 .et-font-sans-serif {
-  font-family: $et-sans-serif;
+    font-family: $et-sans-serif;
 }
 
 .et-font-description {
-  font-family: $et-description;
+    font-family: $et-description;
 }
 
 .et-font-paragraph {
-  font-family: $et-paragraph;
+    font-family: $et-paragraph;
 }
 
 /// CARDS Components
-
 .et-card {
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 .et-card-landscape {
-  width: 40%;
-  height: auto;
-  display: flex;
-  border-radius: 4px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 4px;
-  overflow: hidden;
-  box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.225);
+    width: 50%;
+    margin: 1rem auto;
+    height: auto;
+    display: flex;
+    border-radius: 4px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px;
+    overflow: hidden;
+    box-shadow: 2px 4px 18px rgba(243, 199, 199, 0.225);
 }
 
 .et-image {
-  width: 25%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+    width: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .et-card-portrait {
-  width: 28%;
-  height: 40%;
+    width: auto;
+    height: 40%;
 }
 
 .et-card-body {
-  margin: 1em;
+    margin: 1em;
 }
 
 /// Progress Bars added
-
 .et-progress {
-  background-color: $et-gray-secondary;
-  width: 500px;
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  overflow: hidden;
-  display: flex;
-  font-family: inherit;
-  line-height: inherit;
-  font-weight: inherit;
-  font-size: inherit;
+    background-color: $et-gray-secondary;
+    width: 500px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    display: flex;
+    font-family: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    font-size: inherit;
 }
 
 .et-progress {
-  &-10 {
-    width: 10%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-20 {
-    width: 20%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-30 {
-    width: 30%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-40 {
-    width: 40%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-50 {
-    width: 50%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-60 {
-    width: 60%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-70 {
-    width: 70%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-80 {
-    width: 80%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-90 {
-    width: 90%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
-  &-100 {
-    width: 100%;
-    background-color: $et-purple-primary;
-    padding: 0.5em;
-  }
+    &-10 {
+        width: 10%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-20 {
+        width: 20%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-30 {
+        width: 30%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-40 {
+        width: 40%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-50 {
+        width: 50%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-60 {
+        width: 60%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-70 {
+        width: 70%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-80 {
+        width: 80%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-90 {
+        width: 90%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
+    &-100 {
+        width: 100%;
+        background-color: $et-purple-primary;
+        padding: 0.5em;
+    }
 }
 
 //border width added
-
 .et-bw {
-  &-1 {
-    border-width: 0.2em;
-  }
-  &-2 {
-    border-width: 0.4em;
-  }
-  &-3 {
-    border-width: 0.6em;
-  }
-  &-4 {
-    border-width: 0.8em;
-  }
-  &-5 {
-    border-width: 1em;
-  }
+    &-1 {
+        border-width: 0.2em;
+    }
+    &-2 {
+        border-width: 0.4em;
+    }
+    &-3 {
+        border-width: 0.6em;
+    }
+    &-4 {
+        border-width: 0.8em;
+    }
+    &-5 {
+        border-width: 1em;
+    }
 }
 
 //border colors added
-
 .et-b {
-  &-primary {
-    border-color: #0085ff;
-  }
-  &-invalid {
-    border-color: #e73a3a;
-  }
-  &-warning {
-    border-color: #ffd028;
-  }
-  &-valid {
-    border-color: #00d43b;
-  }
-  &-dark {
-    border-color: #000;
-  }
-  &-light {
-    border-color: #fff;
-  }
+    &-primary {
+        border-color: #0085ff;
+    }
+    &-invalid {
+        border-color: #e73a3a;
+    }
+    &-warning {
+        border-color: #ffd028;
+    }
+    &-valid {
+        border-color: #00d43b;
+    }
+    &-dark {
+        border-color: #000;
+    }
+    &-light {
+        border-color: #fff;
+    }
 }
 
 //Border Properties
-
 .et-b {
-  border: 2px solid;
+    border: 2px solid;
 }
+
 .et-b-t {
-  border-top: 2px solid;
+    border-top: 2px solid;
 }
+
 .et-b-b {
-  border-bottom: 2px solid;
+    border-bottom: 2px solid;
 }
+
 .et-b-l {
-  border-left: 2px solid;
+    border-left: 2px solid;
 }
+
 .et-b-r {
-  border-right: 2px solid;
+    border-right: 2px solid;
 }
+
 .et-b-none {
-  border: none;
+    border: none;
 }
 
 //Border Radius Properties
 .et-br {
-  border-radius: 0.3rem;
+    border-radius: 0.3rem;
 }
+
 .et-br-t {
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
 }
+
 .et-br-b {
-  border-bottom-left-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
 }
+
 .et-br-l {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
 }
+
 .et-br-r {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
 }
+
 .et-br-circle {
-  border-radius: 50%;
+    border-radius: 50%;
 }
+
 .et-br-pill {
-  border-radius: 5rem;
+    border-radius: 5rem;
 }
