@@ -534,61 +534,61 @@ nav .et-mainMenu .et-closeMenu,
 // Adding Background colours
 
 .et-bg-black {
-  background-color: $et-black;
+  background-color: $et-black !important;
 }
 
 .et-bg-white {
-  background-color: $et-white;
+  background-color: $et-white !important;
 }
 
 .et-bg-blue {
-  background-color: $et-blue-primary;
+  background-color: $et-blue-primary !important;
 }
 
 .et-bg-blue-light {
-  background-color: $et-blue-secondary;
+  background-color: $et-blue-secondary !important;
 }
 
 .et-bg-purple {
-  background-color: $et-purple-primary;
+  background-color: $et-purple-primary !important;
 }
 
 .et-bg-purple-light {
-  background-color: $et-purple-secondary;
+  background-color: $et-purple-secondary !important;
 }
 
 .et-bg-red {
-  background-color: $et-red-primary;
+  background-color: $et-red-primary !important;
 }
 
 .et-bg-red-light {
-  background-color: $et-red-secondary;
+  background-color: $et-red-secondary !important;
 }
 
 .et-bg-green {
-  background-color: $et-green-primary;
+  background-color: $et-green-primary !important;
 }
 
 .et-bg-green-light {
-  background-color: $et-green-secondary;
+  background-color: $et-green-secondary !important;
 }
 
 .et-bg-yellow {
-  background-color: $et-yellow-primary;
+  background-color: $et-yellow-primary !important;
 }
 
 .et-bg-yellow-light {
-  background-color: $et-yellow-primary;
+  background-color: $et-yellow-primary !important;
 }
 
 .et-bg-gray,
 .et-bg-grey {
-  background-color: $et-gray-primary;
+  background-color: $et-gray-primary !important;
 }
 
 .et-bg-gray-light,
 .et-bg-grey-light {
-  background-color: $et-gray-secondary;
+  background-color: $et-gray-secondary !important;
 }
 
 // Font families
@@ -612,6 +612,7 @@ nav .et-mainMenu .et-closeMenu,
 /// CARDS Components
 
 .et-card {
+  box-shadow: #000;
   border-radius: 4px;
 }
 
@@ -800,4 +801,89 @@ nav .et-mainMenu .et-closeMenu,
 }
 .et-br-pill {
   border-radius: 5rem;
+}
+
+//Carousel
+
+//slides-only
+
+/* Slideshow container */
+.et-slides-only,
+.et-slides-control {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .et-slides-only-items,
+  .et-slides-control-items {
+    display: none;
+
+    img {
+      vertical-align: middle;
+      width: 100%;
+      height: auto;
+    }
+    .active {
+      background-color: #717171;
+    }
+  }
+  /* Fading animation */
+  .et-fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }

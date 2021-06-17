@@ -484,61 +484,61 @@ nav .et-mainMenu .et-closeMenu,
 }
 
 .et-bg-black {
-  background-color: #292929;
+  background-color: #292929 !important;
 }
 
 .et-bg-white {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .et-bg-blue {
-  background-color: #0085ff;
+  background-color: #0085ff !important;
 }
 
 .et-bg-blue-light {
-  background-color: #9dd0ff;
+  background-color: #9dd0ff !important;
 }
 
 .et-bg-purple {
-  background-color: #0038ff;
+  background-color: #0038ff !important;
 }
 
 .et-bg-purple-light {
-  background-color: #829dff;
+  background-color: #829dff !important;
 }
 
 .et-bg-red {
-  background-color: #e73a3a;
+  background-color: #e73a3a !important;
 }
 
 .et-bg-red-light {
-  background-color: #ff8282;
+  background-color: #ff8282 !important;
 }
 
 .et-bg-green {
-  background-color: #00d43b;
+  background-color: #00d43b !important;
 }
 
 .et-bg-green-light {
-  background-color: #8bffac;
+  background-color: #8bffac !important;
 }
 
 .et-bg-yellow {
-  background-color: #ffd028;
+  background-color: #ffd028 !important;
 }
 
 .et-bg-yellow-light {
-  background-color: #ffd028;
+  background-color: #ffd028 !important;
 }
 
 .et-bg-gray,
 .et-bg-grey {
-  background-color: #cecece;
+  background-color: #cecece !important;
 }
 
 .et-bg-gray-light,
 .et-bg-grey-light {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3 !important;
 }
 
 .et-font-serif {
@@ -558,6 +558,8 @@ nav .et-mainMenu .et-closeMenu,
 }
 
 .et-card {
+  -webkit-box-shadow: #000;
+          box-shadow: #000;
   border-radius: 4px;
 }
 
@@ -766,5 +768,124 @@ nav .et-mainMenu .et-closeMenu,
 
 .et-br-pill {
   border-radius: 5rem;
+}
+
+/* Slideshow container */
+.et-slides-only,
+.et-slides-control {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* Fading animation */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+
+.et-slides-only .et-slides-only-items,
+.et-slides-only .et-slides-control-items,
+.et-slides-control .et-slides-only-items,
+.et-slides-control .et-slides-control-items {
+  display: none;
+}
+
+.et-slides-only .et-slides-only-items img,
+.et-slides-only .et-slides-control-items img,
+.et-slides-control .et-slides-only-items img,
+.et-slides-control .et-slides-control-items img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+.et-slides-only .et-slides-only-items .active,
+.et-slides-only .et-slides-control-items .active,
+.et-slides-control .et-slides-only-items .active,
+.et-slides-control .et-slides-control-items .active {
+  background-color: #717171;
+}
+
+.et-slides-only .et-fade,
+.et-slides-control .et-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.et-slides-only .prev,
+.et-slides-only .next,
+.et-slides-control .prev,
+.et-slides-control .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.et-slides-only .prev,
+.et-slides-control .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.et-slides-only .next,
+.et-slides-control .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.et-slides-only .prev:hover,
+.et-slides-only .next:hover,
+.et-slides-control .prev:hover,
+.et-slides-control .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
 /*# sourceMappingURL=eccentric.css.map */

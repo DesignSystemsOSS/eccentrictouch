@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../lib/eccentric.css">
+  <title>Carousel</title>
+</head>
+
+<body>
+  <div class="slider-automatic">
+    <h2 class="et-text-center">Automatic Carousal</h2>
+    <p class="et-text-center">Change image every 4 seconds ( slides only )</p>
+
+    <div class="et-slides-only">
+      <div class="et-slides-only-items et-fade">
+        <img src="../bin/testelon.jfif" height="550px">
+      </div>
+      <div class="et-slides-only-items et-fade">
+        <img src="../bin/testelon.jfif" height="550px">
+      </div>
+      <div class="et-slides-only-items et-fade">
+        <img src="../bin/testelon.jfif" height="550px">
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <div class="slider-control">
+    <h2 class="et-text-center">Controlled Carousal</h2>
+    <p class="et-text-center">Change image when click(with control)</p>
+
+    <div class="et-slides-control">
+      <div class="et-slides-control-items et-fade">
+        <img src="../bin/testelon.jfif" height="550px">
+      </div>
+      <div class="et-slides-control-items et-fade">
+        <img src="../bin/testelon.jfif" height="550px">
+      </div>
+      <div class="et-slides-control-items et-fade">
+        <img src="../bin/testelon.jfif" height="550px">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+  </div>
+  <script src="../lib/js/eccentric.js"></script>
+</body>
+
+</html>
