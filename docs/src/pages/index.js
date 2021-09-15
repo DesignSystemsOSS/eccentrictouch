@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Eccentric Touch Tutorial - Get Started
           </Link>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Docs - Eccentric Touch ${siteConfig.title}`}
+      title={`Docs - ${siteConfig.title}`}
       description="">
       <HomepageHeader />
       <main>
