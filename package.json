@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/yashsehgal/eccentrictouch/issues"
   },
-  "homepage": "https://github.com/yashsehgal/eccentrictouch#readme"
+  "homepage": "https://github.com/yashsehgal/eccentrictouch#readme",
+  "dependencies": {
+    "react-scripts": "^4.0.3"
+  }
 }
