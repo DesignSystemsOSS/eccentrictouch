@@ -13,13 +13,13 @@ Importing Eccentric Touch through a CDN.
 - HTML CDN Import
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/eccentrictouch@1.0.0/source/eccentrictouch.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DesignSystemsOSS/eccentrictouch@master/source/eccentrictouch.css" />
 ```
 
 - CSS CDN Import
 
 ```css
-@import url('https://cdn.jsdelivr.net/npm/eccentrictouch@1.0.0/source/eccentrictouch.css');
+@import url('https://cdn.jsdelivr.net/gh/DesignSystemsOSS/eccentrictouch@master/source/eccentrictouch.css');
 ```
 
 *Yaayyy!! You're good to go now!*
