@@ -35,7 +35,7 @@ Paddings are created in the form of utility classes for all the dimensions (all-
   <div class="p-20">Padding 20 units</div>
 ```
 
-See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/ExXoXZd)
+See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/qBjoQzL)
 
 ### Padding Right
 ```html
@@ -49,7 +49,7 @@ See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/ExXoXZd)
   <div class="p-right-20">Padding Right 20 units</div>
 ```
 
-See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/powprdY)
+See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/rNwdoxK)
 
 ### Padding Left
 ```html
@@ -63,21 +63,21 @@ See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/powprdY)
   <div class="p-left-20">Padding Left 20 units</div>
 ```
 
-See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/RwgxZmM)
+See a demo of this on [CodePen](https://codepen.io/thedesignsystems/pen/ZEyxVGx)
 
 ### Padding Top
 ```html
   <div class="p-top-1">Padding Top 1 unit</div>
-  <div class="m-top-2">Padding Top 2 units</div>
+  <div class="p-top-2">Padding Top 2 units</div>
   <div class="p-top-3">Padding Top 3 units</div>
-  <div class="m-top-4">Padding Top 4 units</div>
+  <div class="p-top-4">Padding Top 4 units</div>
   <div class="p-top-5">Padding Top 5 units</div>
-  <div class="m-top-6">Padding Top 6 units</div>
+  <div class="p-top-6">Padding Top 6 units</div>
   <!-- The same syntax goes till 20 units -->
   <div class="p-top-20">Padding Top 20 units</div>
 ```
 
-See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/zYzpErN)
+See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/ExXEGyO)
 
 ### Padding Bottom
 ```html
@@ -91,4 +91,4 @@ See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/zYzpErN)
   <div class="p-bottom-20">Padding Bottom 20 units</div>
 ```
 
-See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/xxrpXYp)
+See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/KKqobgy)
