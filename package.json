@@ -1,6 +1,6 @@
 {
   "name": "eccentrictouch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -11,15 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yashsehgal/eccentrictouch.git"
+    "url": "git+https://github.com/DesignSystemsOSS/eccentrictouch.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yashsehgal/eccentrictouch/issues"
+    "url": "https://github.com/DesignSystemsOSS/eccentrictouch/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/yashsehgal/eccentrictouch#readme",
   "dependencies": {
     "react-scripts": "^4.0.3"
   }
+=======
+  "homepage": "https://github.com/DesignSystems/eccentrictouch#readme"
+>>>>>>> docs
 }

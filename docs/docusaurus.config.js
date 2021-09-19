@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Eccentric Touch',
   tagline: 'Modern. Scalable design support',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://eccentrictouch-docs.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,13 +22,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/DesignSystemsOSS/eccentrictouch/docs/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/DesignSystemsOSS/eccentrictouch/docs/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,10 +41,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Eccentric Touch Documentation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'thedesignsystems-logo',
+          src: 'https://ik.imagekit.io/vjy2bxam20u/TheDesignSystems-Assets/logo-discord_no_bg_NsvWF5MSFR.png?updatedAt=1631737806979',
         },
         items: [
           {
@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://bit.ly/eccentrictouch',
             label: 'GitHub',
             position: 'right',
           },
@@ -78,15 +78,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/eccentrictouch',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://bit.ly/thedesignsystems-discord',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://bit.ly/thedesignsystems-twitter',
               },
             ],
           },
@@ -98,13 +98,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'The DesignSystems - GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Eccentric Touch, by The DesignSystems, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

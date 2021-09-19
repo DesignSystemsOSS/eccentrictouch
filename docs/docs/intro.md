@@ -2,34 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Eccentric Touch is a tool which has a set of widgets, css core properties such as margins, paddings, flex and many more in the form of utility classes. We are providing pretty basic to complex properties to make your frontend styling process easier.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Importing Eccentric Touch through a CDN.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- HTML CDN Import
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/eccentrictouch@1.0.0/source/eccentrictouch.css" />
 ```
 
-## Start your site
+- CSS CDN Import
 
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
+```css
+@import url('https://cdn.jsdelivr.net/npm/eccentrictouch@1.0.0/source/eccentrictouch.css');
 ```
 
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+*Yaayyy!! You're good to go now!*
