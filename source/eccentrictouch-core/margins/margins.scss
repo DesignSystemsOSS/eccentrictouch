@@ -81,6 +81,9 @@
   &-20 {
     margin: 128.24px;
   }
+  &-auto {
+    margin: auto;
+  }
 }
 
 // margin-top
@@ -163,6 +166,9 @@
 
   &-20 {
     margin-top: 128.24px;
+  }
+  &-auto {
+    margin: auto;
   }
 }
 
@@ -247,6 +253,9 @@
   &-20 {
     margin-bottom: 128.24px;
   }
+  &-auto {
+    margin: auto;
+  }
 }
 
 // margin-left
@@ -330,6 +339,9 @@
   &-20 {
     margin-left: 128.24px;
   }
+  &-auto {
+    margin: auto;
+  }
 }
 
 // margin-right
@@ -412,5 +424,8 @@
 
   &-20 {
     margin-right: 128.24px;
+  }
+  &-auto {
+    margin: auto;
   }
 }

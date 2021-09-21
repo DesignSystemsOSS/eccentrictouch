@@ -78,6 +78,10 @@
   margin: 128.24px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .m-top-1 {
   margin-top: 6.412px;
 }
@@ -156,6 +160,10 @@
 
 .m-top-20 {
   margin-top: 128.24px;
+}
+
+.m-top-auto {
+  margin: auto;
 }
 
 .m-bottom-1 {
@@ -238,6 +246,10 @@
   margin-bottom: 128.24px;
 }
 
+.m-bottom-auto {
+  margin: auto;
+}
+
 .m-left-1 {
   margin-left: 6.412px;
 }
@@ -318,6 +330,10 @@
   margin-left: 128.24px;
 }
 
+.m-left-auto {
+  margin: auto;
+}
+
 .m-right-1 {
   margin-right: 6.412px;
 }
@@ -396,5 +412,9 @@
 
 .m-right-20 {
   margin-right: 128.24px;
+}
+
+.m-right-auto {
+  margin: auto;
 }
 /*# sourceMappingURL=margins.css.map */
