@@ -1,3 +1,7 @@
+// *******************      NEUTRAL  COLOR  PROPERTIES      *******************//  
+
+
+// Text Properties
 .text {
   &-dark {
     color: #292929;
@@ -68,6 +72,7 @@
 }
 
 
+// Background Properties
 .bg {
   &-dark {
     background-color: #292929;
@@ -138,6 +143,7 @@
 }
 
 
+// Fill Properties
 .fill {
   &-dark {
     fill: #292929;
@@ -204,5 +210,399 @@
 .fill {
   &-black {
     fill: #000000;
+  }
+}
+
+
+
+
+// *******************      BLUE  COLOR  PROPERTIES      *******************//  
+
+
+// Text Properties
+.text {
+  &-blue-900 {
+    color: #184BFF;
+  }
+}
+
+
+.text {
+  &-blue-800 {
+    color: #3763FF;
+  }
+}
+
+
+.text {
+  &-blue-700 {
+    color: #547AFF;
+  }
+}
+
+
+.text {
+  &-blue-600 {
+    color: #7694FF;
+  }
+}
+
+
+.text {
+  &-blue-500 {
+    color: #8DA6FF;
+  }
+}
+
+
+.text {
+  &-blue-400 {
+    color: #B5C5FF;
+  }
+}
+
+
+.text {
+  &-blue-300 {
+    color: #CAD6FF;
+  }
+}
+
+
+.text {
+  &-blue-200 {
+    color: #E2E9FF;
+  }
+}
+
+
+.text {
+  &-blue-100 {
+    color: #F2F5FF;
+  }
+}
+
+
+// Background Properties
+.bg {
+  &-blue-900 {
+    background-color: #184BFF;
+  }
+}
+
+
+.bg {
+  &-blue-800 {
+    background-color: #3763FF;
+  }
+}
+
+
+.bg {
+  &-blue-700 {
+    background-color: #547AFF;
+  }
+}
+
+
+.bg {
+  &-blue-600 {
+    background-color: #7694FF;
+  }
+}
+
+
+.bg {
+  &-blue-500 {
+    background-color: #8DA6FF;
+  }
+}
+
+
+.bg {
+  &-blue-400 {
+    background-color: #B5C5FF;
+  }
+}
+
+
+.bg {
+  &-blue-300 {
+    background-color: #CAD6FF;
+  }
+}
+
+
+.bg {
+  &-blue-200 {
+    background-color: #E2E9FF;
+  }
+}
+
+
+.bg {
+  &-blue-100 {
+    background-color: #F2F5FF;
+  }
+}
+
+
+// Fill Properties
+.fill {
+  &-blue-900 {
+    fill: #184BFF;
+  }
+}
+
+
+.fill {
+  &-blue-800 {
+    fill: #3763FF;
+  }
+}
+
+
+.fill {
+  &-blue-700 {
+    fill: #547AFF;
+  }
+}
+
+
+.fill {
+  &-blue-600 {
+    fill: #7694FF;
+  }
+}
+
+
+.fill {
+  &-blue-500 {
+    fill: #8DA6FF;
+  }
+}
+
+
+.fill {
+  &-blue-400 {
+    fill: #B5C5FF;
+  }
+}
+
+
+.fill {
+  &-blue-300 {
+    fill: #CAD6FF;
+  }
+}
+
+
+.fill {
+  &-blue-200 {
+    fill: #E2E9FF;
+  }
+}
+
+
+.fill {
+  &-blue-100 {
+    fill: #F2F5FF;
+  }
+}
+
+
+
+
+// *******************      PURPLE  COLOR  PROPERTIES      *******************//  
+
+
+// Text Properties
+.text {
+  &-purple-900 {
+    color: #7E18FF;
+  }
+}
+
+
+.text {
+  &-purple-800 {
+    color: #8E35FF;
+  }
+}
+
+
+.text {
+  &-purple-700 {
+    color: #9D50FF;
+  }
+}
+
+
+.text {
+  &-purple-600 {
+    color: #A864FF;
+  }
+}
+
+
+.text {
+  &-purple-500 {
+    color: #B77DFF;
+  }
+}
+
+
+.text {
+  &-purple-400 {
+    color: #C99DFF;
+  }
+}
+
+
+.text {
+  &-purple-300 {
+    color: #D6B5FF;
+  }
+}
+
+
+.text {
+  &-purple-200 {
+    color: #E7D3FF;
+  }
+}
+
+
+.text {
+  &-purple-100 {
+    color: #EADAFF;
+  }
+}
+
+
+// Background Properties
+.bg {
+  &-purple-900 {
+    background-color: #7E18FF;
+  }
+}
+
+
+.bg {
+  &-purple-800 {
+    background-color: #8E35FF;
+  }
+}
+
+
+.bg {
+  &-purple-700 {
+    background-color: #9D50FF;
+  }
+}
+
+
+.bg {
+  &-purple-600 {
+    background-color: #A864FF;
+  }
+}
+
+
+.bg {
+  &-purple-500 {
+    background-color: #B77DFF;
+  }
+}
+
+
+.bg {
+  &-purple-400 {
+    background-color: #C99DFF;
+  }
+}
+
+
+.bg {
+  &-purple-300 {
+    background-color: #D6B5FF;
+  }
+}
+
+
+.bg {
+  &-purple-200 {
+    background-color: #E7D3FF;
+  }
+}
+
+
+.bg {
+  &-purple-100 {
+    background-color: #EADAFF;
+  }
+}
+
+
+// Fill Properties
+.fill {
+  &-purple-900 {
+    fill: #7E18FF;
+  }
+}
+
+
+.fill {
+  &-purple-800 {
+    fill: #8E35FF;
+  }
+}
+
+
+.fill {
+  &-purple-700 {
+    fill: #9D50FF;
+  }
+}
+
+
+.fill {
+  &-purple-600 {
+    fill: #A864FF;
+  }
+}
+
+
+.fill {
+  &-purple-500 {
+    fill: #B77DFF;
+  }
+}
+
+
+.fill {
+  &-purple-400 {
+    fill: #C99DFF;
+  }
+}
+
+
+.fill {
+  &-purple-300 {
+    fill: #D6B5FF;
+  }
+}
+
+
+.fill {
+  &-purple-200 {
+    fill: #E7D3FF;
+  }
+}
+
+
+.fill {
+  &-purple-100 {
+    fill: #EADAFF;
   }
 }
