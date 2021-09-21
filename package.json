@@ -18,12 +18,5 @@
   "bugs": {
     "url": "https://github.com/DesignSystemsOSS/eccentrictouch/issues"
   },
-<<<<<<< HEAD
-  "homepage": "https://github.com/yashsehgal/eccentrictouch#readme",
-  "dependencies": {
-    "react-scripts": "^4.0.3"
-  }
-=======
   "homepage": "https://github.com/DesignSystems/eccentrictouch#readme"
->>>>>>> docs
 }
