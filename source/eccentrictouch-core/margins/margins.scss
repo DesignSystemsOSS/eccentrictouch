@@ -1,8 +1,10 @@
 
-// maximum margin value
-$maxMarginValue: 20;
+
 $goldenRatio: 1.618;
 $baseUnit: 4px;
+
+// maximum margin value
+$maxMarginValue: 20;
 
 // margin from all sides
 @for $count from 1 through $maxMarginValue {

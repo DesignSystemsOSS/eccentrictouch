@@ -53,7 +53,7 @@ $EccentricTouchColors: (
 }
 
 // stroke colors
-@each $EccentricTouchColors, $baseColor in $EccentricTouchColors {
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .#{$EccentricTouchColor} {
     stroke: $baseColor;
   }
