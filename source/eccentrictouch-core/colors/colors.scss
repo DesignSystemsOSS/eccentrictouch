@@ -1,0 +1,60 @@
+$EccentricTouchColors: (
+  "neutral-gray-800": #292929,
+  "neutral-gray-700": #494949,
+  "neutral-gray-600": #696969,
+  "neutral-gray-500": #898989,
+  "neutral-gray-400": #A9A9A9,
+  "neutral-gray-300": #C9C9C9,
+  "neutral-gray-200": #E9E9E9,
+  "neutral-gray-100": #F9F9F9,
+
+  // blue color variants
+  "color-blue-900": #184BFF,
+  "color-blue-800": #3763FF,
+  "color-blue-700": #547AFF,
+  "color-blue-600": #7694FF,
+  "color-blue-500": #8DA6FF,
+  "color-blue-400": #B5C5FF,
+  "color-blue-300": #CAD6FF,
+  "color-blue-200": #E2E9FF,
+  "color-blue-100": #F2F5FF,
+
+  // purple color variants
+  "color-purple-900": #7E18FF,
+  "color-purple-800": #8E35FF,
+  "color-purple-700": #9D50FF,
+  "color-purple-600": #A864FF,
+  "color-purple-500": #B77DFF,
+  "color-purple-400": #C99DFF,
+  "color-purple-300": #D6B5FF,
+  "color-purple-200": #E7D3FF,
+  "color-purple-100": #EADAFF
+);
+
+// for background-colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .#{$EccentricTouchColor} {
+    background-color: $baseColor;
+  }
+}
+
+// for text-colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .#{$EccentricTouchColor} {
+    color: $baseColor;
+  }
+}
+
+// fill color
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .#{$EccentricTouchColor} {
+    fill: $baseColor;
+  }
+}
+
+// stroke colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .#{$EccentricTouchColor} {
+    stroke: $baseColor;
+  }
+}
