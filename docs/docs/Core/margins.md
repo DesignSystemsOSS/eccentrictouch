@@ -99,6 +99,3 @@ See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/xxrpXYp)
 - Some special margin-auto features for both horizontal and vertical margins.
   - For Margin-auto-horizontal, use `m-x-auto` class method,
   - For Margin-auto-vertical, use `m-y-auto` class method
-
-
-
