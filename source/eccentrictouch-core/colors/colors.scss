@@ -28,12 +28,23 @@ $EccentricTouchColors: (
   "color-purple-400": #C99DFF,
   "color-purple-300": #D6B5FF,
   "color-purple-200": #E7D3FF,
-  "color-purple-100": #EADAFF
+  "color-purple-100": #EADAFF,
+
+  // red color variables
+  "color-red-900": #C00000,
+  "color-red-800": #C82121,
+  "color-red-700": #BB3B3B,
+  "color-red-600": #D14747,
+  "color-red-500": #E85959,
+  "color-red-400": #FF6363,
+  "color-red-300": #FF7B7B,
+  "color-red-200": #FF9292,
+  "color-red-100": #FFBFBF
 );
 
 // for background-colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .#{$EccentricTouchColor} {
+  .bg-#{$EccentricTouchColor} {
     background-color: $baseColor;
   }
 }
@@ -47,14 +58,14 @@ $EccentricTouchColors: (
 
 // fill color
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .#{$EccentricTouchColor} {
+  .fill-#{$EccentricTouchColor} {
     fill: $baseColor;
   }
 }
 
 // stroke colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .#{$EccentricTouchColor} {
+  .stroke-#{$EccentricTouchColor} {
     stroke: $baseColor;
   }
 }
