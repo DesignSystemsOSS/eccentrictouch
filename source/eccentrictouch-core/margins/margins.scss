@@ -1,47 +1,43 @@
+@use 'sass:math';
 
+$golden-ratio: 1.618;
+$base-unit: 4px;
+$max-margin-value: 20;
 
-$goldenRatio: 1.618;
-$baseUnit: 4px;
+@function _px-to-rem($value) {
+  @return (math.div(round($value), 16px) * 1rem);
+}
 
-// maximum margin value
-$maxMarginValue: 20;
-
-// margin from all sides
-@for $count from 1 through $maxMarginValue {
+@for $count from 1 through $max-margin-value {
   .m-#{$count} {
-    margin: ($count * $baseUnit * $goldenRatio);
+    margin: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
-// margin-right methods
-@for $count from 1 through $maxMarginValue {
-  .m-right-#{$count} {
-    margin-right: ($count * $baseUnit * $goldenRatio);
+@for $count from 1 through $max-margin-value {
+  .m-r-#{$count} {
+    margin-right: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
-// margin-left methods
-@for $count from 1 through $maxMarginValue {
-  .m-left-#{$count} {
-    margin-left: ($count * $baseUnit * $goldenRatio);
+@for $count from 1 through $max-margin-value {
+  .m-l-#{$count} {
+    margin-left: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
-// margin-bottom methods
-@for $count from 1 through $maxMarginValue {
-  .m-bottom-#{$count} {
-    margin-bottom: ($count * $baseUnit * $goldenRatio);
+@for $count from 1 through $max-margin-value {
+  .m-b-#{$count} {
+    margin-bottom: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
-// margin-top methods
-@for $count from 1 through $maxMarginValue {
-  .m-top-#{$count} {
-    margin-top: ($count * $baseUnit * $goldenRatio);
+@for $count from 1 through $max-margin-value {
+  .m-t-#{$count} {
+    margin-top: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
-// special margins
 .m-auto {
   margin: auto;
 }

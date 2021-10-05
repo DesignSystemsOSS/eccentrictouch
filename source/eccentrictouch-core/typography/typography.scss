@@ -1,20 +1,21 @@
-@import url('../../eccentrictouch-vendors/fonts.css');
+@use '../../eccentrictouch-vendors/fonts.css';
 
-$sans-font: 'Inter', sans-serif;
-$serif-font: 'Lora', serif;
-$monospace-font: 'Space Mono', monospace;
+@use 'typography-mixins' as m;
 
-// font type methods
+$sans-font: 'Inter';
+$serif-font: 'Lora';
+$monospace-font: 'Space Mono';
+
 .font-sans {
-  font-family: $sans-font;
+  @include m.font-family_($sans-font, sans-serif);
 }
 
 .font-serif {
-  font-family: $serif-font;
+  @include m.font-family_($serif-font, serif);
 }
 
 .font-monospace {
-  font-family: $monospace-font;
+  @include m.font-family_($monospace-font, monospace);
 }
 
 // heading font methods

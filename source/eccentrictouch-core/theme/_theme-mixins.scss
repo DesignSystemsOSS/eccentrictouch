@@ -1,0 +1,6 @@
+@use 'sass:map';
+@use 'sass:list';
+
+@function key-create($key, $value, $prefix: 'ed') {
+		@return var(--#{$prefix}-#{$key}, #{$value});
+}
