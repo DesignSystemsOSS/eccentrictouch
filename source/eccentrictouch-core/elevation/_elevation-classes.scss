@@ -1,0 +1,19 @@
+@use 'elevation-mixins' as Elevation;
+@use 'elevation-values' as v;
+
+.shadow {
+		@include Elevation.apply('default');
+}
+
+.shadow-light {
+		@include Elevation.apply('light');
+}
+
+.shadow-medium {
+		@include Elevation.apply('medium');
+}
+
+.shadow-high {
+		@include Elevation.apply('high');
+}
+

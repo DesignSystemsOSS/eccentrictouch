@@ -1,3 +1,7 @@
+# Source exceptions
+source/**/*.css
+source/**/*.map.css
+
 # Logs
 logs
 *.log
@@ -88,7 +92,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+/docs/dist
 
 # Gatsby files
 .cache/

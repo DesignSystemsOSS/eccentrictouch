@@ -1,0 +1,23 @@
+$umbra: (
+		none: none,
+		light: '0px 2px 1px -1px',
+		default: '0px 3px 3px -2px',
+		medium: '0px 3px 5px -1px',
+		high: '0px 4px 5px -2px',
+) !default;
+
+$penumbra: (
+		none: none,
+		light: '0px 1px 1px 0px',
+		default: '0px 3px 4px 0px',
+		medium: '0px 5px 8px 0px',
+		high: '0px 7px 10px 1px',
+) !default;
+
+$ambient: (
+		none: none,
+		light: '0px 1px 3px 0px',
+		default: '0px 1px 8px 0px',
+		medium: '0px 1px 14px 0px',
+		high: '0px 2px 16px 1px',
+) !default;
