@@ -1,0 +1,40 @@
+
+
+$goldenRatio: 1.618;
+$baseUnit: 4px;
+$maxPaddingValue: 20;
+
+// padding from all sides
+@for $count from 1 through $maxPaddingValue {
+  .p-#{$count} {
+    padding: ($count * $baseUnit * $goldenRatio);
+  }
+}
+
+// padding from right side
+@for $count from 1 through $maxPaddingValue {
+  .p-right-#{$count} {
+    padding-right: ($count * $baseUnit * $goldenRatio);
+  }
+}
+
+// padding from left side
+@for $count from 1 through $maxPaddingValue {
+  .p-left-#{$count} {
+    padding-left: ($count * $baseUnit * $goldenRatio);
+  }
+}
+
+// padding from top side
+@for $count from 1 through $maxPaddingValue {
+  .p-top-#{$count} {
+    padding-top: ($count * $baseUnit * $goldenRatio);
+  }
+}
+
+// padding from bottom side
+@for $count from 2 through $maxPaddingValue {
+  .p-bottom-#{$count} {
+    padding-bottom: ($count * $baseUnit * $goldenRatio);
+  }
+}
