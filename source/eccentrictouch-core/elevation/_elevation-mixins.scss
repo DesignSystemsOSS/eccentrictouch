@@ -1,0 +1,29 @@
+@use 'sass:meta';
+@use 'sass:math';
+@use 'sass:map';
+
+@use 'elevation-values' as v;
+
+@mixin apply($query, $color: #000, $opacity-boost: 0.075) {
+
+		$_umbra-opacity: 0.2;
+		$_penumbra-opacity: 0.14;
+		$_ambient-opacity: 0.12;
+
+		$_umbra: map.get(v.$umbra, $query);
+		$_penumbra: map.get(v.$penumbra, $query);
+		$_ambient: map.get(v.$ambient, $query);
+
+		$_umbra-color: rgba($color, $_umbra-opacity + $opacity-boost);
+		$_penumbra-color: rgba($color, $_penumbra-opacity + $opacity-boost);
+		$_ambient-color: rgba($color, $_ambient-opacity + $opacity-boost);
+
+		$_umbra-value: #{'#{$_umbra} #{$_umbra-color}'};
+		$_penumbra-value: #{'#{$_penumbra} #{$_penumbra-color}'};
+		$_ambient-value: #{'#{$_ambient} #{$_ambient-color}'};
+
+		$_value: (#{$_umbra-value}, #{$_penumbra-value}, #{$_ambient-value});
+
+		box-shadow: $_value;
+
+}

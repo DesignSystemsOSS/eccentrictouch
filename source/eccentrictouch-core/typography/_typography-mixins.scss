@@ -1,0 +1,8 @@
+@use '../validators';
+
+@mixin font-family_($family, $type-query) {
+		@if validators.is-type-query_($type-query) {
+				font-family: #{$family}, #{$type-query};
+		}
+}
+

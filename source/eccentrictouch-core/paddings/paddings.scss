@@ -1,40 +1,44 @@
+@use 'sass:math';
 
+$golden-ratio: 1.618;
+$base-unit: 4px;
+$max-padding-value: 20;
 
-$goldenRatio: 1.618;
-$baseUnit: 4px;
-$maxPaddingValue: 20;
+@function _px-to-rem($value) {
+  @return (math.div(round($value), 16px) * 1rem);
+}
 
 // padding from all sides
-@for $count from 1 through $maxPaddingValue {
+@for $count from 1 through $max-padding-value {
   .p-#{$count} {
-    padding: ($count * $baseUnit * $goldenRatio);
+    padding: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
 // padding from right side
-@for $count from 1 through $maxPaddingValue {
+@for $count from 1 through $max-padding-value {
   .p-right-#{$count} {
-    padding-right: ($count * $baseUnit * $goldenRatio);
+    padding: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
 // padding from left side
-@for $count from 1 through $maxPaddingValue {
+@for $count from 1 through $max-padding-value {
   .p-left-#{$count} {
-    padding-left: ($count * $baseUnit * $goldenRatio);
+    padding: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
 // padding from top side
-@for $count from 1 through $maxPaddingValue {
+@for $count from 1 through $max-padding-value {
   .p-top-#{$count} {
-    padding-top: ($count * $baseUnit * $goldenRatio);
+    padding: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }
 
 // padding from bottom side
-@for $count from 2 through $maxPaddingValue {
+@for $count from 2 through $max-padding-value {
   .p-bottom-#{$count} {
-    padding-bottom: ($count * $baseUnit * $goldenRatio);
+    padding: _px-to-rem(($count * $base-unit * $golden-ratio));
   }
 }

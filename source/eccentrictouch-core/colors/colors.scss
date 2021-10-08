@@ -1,4 +1,4 @@
-$EccentricTouchColors: (
+$eccentric-touch-colors: (
   "neutral-gray-800": #292929,
   "neutral-gray-700": #494949,
   "neutral-gray-600": #696969,
@@ -43,29 +43,29 @@ $EccentricTouchColors: (
 );
 
 // for background-colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .bg-#{$EccentricTouchColor} {
-    background-color: $baseColor;
+@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
+  .bg-#{$eccentric-touch-color} {
+    background-color: $base-color;
   }
 }
 
 // for text-colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .#{$EccentricTouchColor} {
-    color: $baseColor;
+@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
+  .#{$eccentric-touch-color} {
+    color: $base-color;
   }
 }
 
 // fill color
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .fill-#{$EccentricTouchColor} {
-    fill: $baseColor;
+@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
+  .fill-#{$eccentric-touch-color} {
+    fill: $base-color;
   }
 }
 
 // stroke colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .stroke-#{$EccentricTouchColor} {
-    stroke: $baseColor;
+@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
+  .stroke-#{$eccentric-touch-color} {
+    stroke: $base-color;
   }
 }

@@ -1,0 +1,17 @@
+@use 'sass:map';
+@use 'sass:list';
+@use 'sass:meta';
+
+$_valid-type-queries: (
+		serif,
+		sans-serif,
+		monospace
+);
+
+@function is-type-query_($query) {
+		@if not list.index($_valid-type-queries, $query) {
+				@error "Invalid type query: #{$query}. Please choose from the following valid type queries: #{$_valid-type-queries}.";
+		}
+
+		@return true;
+}
