@@ -92,3 +92,10 @@ See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/zYzpErN)
 ```
 
 See a demo of side on [CodePen](https://codepen.io/thedesignsystems/pen/xxrpXYp)
+
+### Margin autos
+
+- Margin auto feature created for all the sides `m-auto`, `m-right-auto`, `m-left-auto`,  `m-top-auto`, `m-bottom-auto`.
+- Some special margin-auto features for both horizontal and vertical margins.
+  - For Margin-auto-horizontal, use `m-x-auto` class method,
+  - For Margin-auto-vertical, use `m-y-auto` class method
