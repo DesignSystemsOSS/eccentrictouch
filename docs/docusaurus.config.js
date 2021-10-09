@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'Modern. Scalable design support',
   url: 'https://eccentrictouch-docs.vercel.app/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  // onBrokenLinks: 'throw',            ---- ignoring broken links (for testing/re-creating errors)
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'DesignSystemsOSS', // Usually your GitHub org/user name.
