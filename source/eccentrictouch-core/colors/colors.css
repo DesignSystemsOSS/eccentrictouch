@@ -138,6 +138,42 @@
   background-color: #FFBFBF;
 }
 
+.bg-color-green-900 {
+  background-color: #009758;
+}
+
+.bg-color-green-800 {
+  background-color: #17A368;
+}
+
+.bg-color-green-700 {
+  background-color: #3EA77B;
+}
+
+.bg-color-green-600 {
+  background-color: #4D9E7C;
+}
+
+.bg-color-green-500 {
+  background-color: #5CBA93;
+}
+
+.bg-color-green-400 {
+  background-color: #72D9AE;
+}
+
+.bg-color-green-300 {
+  background-color: #87F8C9;
+}
+
+.bg-color-green-200 {
+  background-color: #AEFFDD;
+}
+
+.bg-color-green-100 {
+  background-color: #D8FFEF;
+}
+
 .neutral-gray-800 {
   color: #292929;
 }
@@ -276,6 +312,42 @@
 
 .color-red-100 {
   color: #FFBFBF;
+}
+
+.color-green-900 {
+  color: #009758;
+}
+
+.color-green-800 {
+  color: #17A368;
+}
+
+.color-green-700 {
+  color: #3EA77B;
+}
+
+.color-green-600 {
+  color: #4D9E7C;
+}
+
+.color-green-500 {
+  color: #5CBA93;
+}
+
+.color-green-400 {
+  color: #72D9AE;
+}
+
+.color-green-300 {
+  color: #87F8C9;
+}
+
+.color-green-200 {
+  color: #AEFFDD;
+}
+
+.color-green-100 {
+  color: #D8FFEF;
 }
 
 .fill-neutral-gray-800 {
@@ -418,6 +490,42 @@
   fill: #FFBFBF;
 }
 
+.fill-color-green-900 {
+  fill: #009758;
+}
+
+.fill-color-green-800 {
+  fill: #17A368;
+}
+
+.fill-color-green-700 {
+  fill: #3EA77B;
+}
+
+.fill-color-green-600 {
+  fill: #4D9E7C;
+}
+
+.fill-color-green-500 {
+  fill: #5CBA93;
+}
+
+.fill-color-green-400 {
+  fill: #72D9AE;
+}
+
+.fill-color-green-300 {
+  fill: #87F8C9;
+}
+
+.fill-color-green-200 {
+  fill: #AEFFDD;
+}
+
+.fill-color-green-100 {
+  fill: #D8FFEF;
+}
+
 .stroke-neutral-gray-800 {
   stroke: #292929;
 }
@@ -556,5 +664,41 @@
 
 .stroke-color-red-100 {
   stroke: #FFBFBF;
+}
+
+.stroke-color-green-900 {
+  stroke: #009758;
+}
+
+.stroke-color-green-800 {
+  stroke: #17A368;
+}
+
+.stroke-color-green-700 {
+  stroke: #3EA77B;
+}
+
+.stroke-color-green-600 {
+  stroke: #4D9E7C;
+}
+
+.stroke-color-green-500 {
+  stroke: #5CBA93;
+}
+
+.stroke-color-green-400 {
+  stroke: #72D9AE;
+}
+
+.stroke-color-green-300 {
+  stroke: #87F8C9;
+}
+
+.stroke-color-green-200 {
+  stroke: #AEFFDD;
+}
+
+.stroke-color-green-100 {
+  stroke: #D8FFEF;
 }
 /*# sourceMappingURL=colors.css.map */
