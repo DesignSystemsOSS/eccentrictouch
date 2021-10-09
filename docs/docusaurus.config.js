@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://bit.ly/eccentrictouch',
+            href: 'https://bit.ly/eccentrictouch-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -82,11 +82,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Discord',
-                href: 'https://bit.ly/thedesignsystems-discord',
+                href: 'https://bit.ly/discord-thedesignsystems',
               },
               {
                 label: 'Twitter',
-                href: 'https://bit.ly/thedesignsystems-twitter',
+                href: 'https://bit.ly/twitter-thedesignsystems',
               },
             ],
           },
