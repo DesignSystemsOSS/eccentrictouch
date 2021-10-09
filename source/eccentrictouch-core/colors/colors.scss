@@ -1,0 +1,85 @@
+$EccentricTouchColors: (
+  "neutral-gray-800": #292929,
+  "neutral-gray-700": #494949,
+  "neutral-gray-600": #696969,
+  "neutral-gray-500": #898989,
+  "neutral-gray-400": #A9A9A9,
+  "neutral-gray-300": #C9C9C9,
+  "neutral-gray-200": #E9E9E9,
+  "neutral-gray-100": #F9F9F9,
+
+  // blue color variants
+  "color-blue-900": #184BFF,
+  "color-blue-800": #3763FF,
+  "color-blue-700": #547AFF,
+  "color-blue-600": #7694FF,
+  "color-blue-500": #8DA6FF,
+  "color-blue-400": #B5C5FF,
+  "color-blue-300": #CAD6FF,
+  "color-blue-200": #E2E9FF,
+  "color-blue-100": #F2F5FF,
+
+  // purple color variants
+  "color-purple-900": #7E18FF,
+  "color-purple-800": #8E35FF,
+  "color-purple-700": #9D50FF,
+  "color-purple-600": #A864FF,
+  "color-purple-500": #B77DFF,
+  "color-purple-400": #C99DFF,
+  "color-purple-300": #D6B5FF,
+  "color-purple-200": #E7D3FF,
+  "color-purple-100": #EADAFF,
+
+  // red color variables
+  "color-red-900": #C00000,
+  "color-red-800": #C82121,
+  "color-red-700": #BB3B3B,
+  "color-red-600": #D14747,
+  "color-red-500": #E85959,
+  "color-red-400": #FF6363,
+  "color-red-300": #FF7B7B,
+  "color-red-200": #FF9292,
+  "color-red-100": #FFBFBF,
+
+  // green color variables
+  "color-green-900": #009758,
+  "color-green-800": #17A368,
+  "color-green-700": #3EA77B,
+  "color-green-600": #4D9E7C,
+  "color-green-500": #5CBA93,
+  "color-green-400": #72D9AE,
+  "color-green-300": #87F8C9,
+  "color-green-200": #AEFFDD,
+  "color-green-100": #D8FFEF,
+
+  // 
+
+);
+
+// for background-colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .bg-#{$EccentricTouchColor} {
+    background-color: $baseColor;
+  }
+}
+
+// for text-colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .#{$EccentricTouchColor} {
+    color: $baseColor;
+  }
+}
+
+// fill color
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .fill-#{$EccentricTouchColor} {
+    fill: $baseColor;
+  }
+}
+
+// stroke colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .stroke-#{$EccentricTouchColor} {
+    stroke: $baseColor;
+  }
+}

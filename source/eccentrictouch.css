@@ -1,1 +1,3 @@
 @import url('./eccentrictouch-core/index.css');
+/* @import url('./eccentrictouch-vendors/'); */
+@import url('./eccentrictouch-widgets/index.css');
