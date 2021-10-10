@@ -16,7 +16,7 @@ We are having a very beginner friendly tech-stack and also have a bunch of profe
 
 **Tools we are using here at The DesignSystems to manage our projects and workflows**
 
-- [TypeForm](typeform.com) - For managing all our forms related work
+- [TypeForm](https://www.typeform.com/) - For managing all our forms related work
 - [Trello](https://trello.com/) - For managing our projects and agile-workflows
 - [Vercel](https://vercel.com/) - For hosting websites and webpages 
 - [ImageKit](https://imagekit.io/) - For managing all the media data and files on cloud storage
