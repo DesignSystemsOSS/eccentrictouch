@@ -117,3 +117,21 @@ You can also go with personalization with your button components,
 <button class="primary-btn bg-neutral-gray-800">Dark BG Button</button>
 <button class="outline-btn border-neutral-gray-800 neutral-gray-800">Dark BG Button</button>
 ```
+
+#### Personalizing link text
+
+- You can change the link text color properties as well,
+
+<div class="button-list-wrapper">
+  <a href="#personalizing-link-text" class="link color-purple-900">Link with purple text</a>
+  <a href="#personalizing-link-text" class="link color-red-900">Link with red text</a>
+  <a href="#personalizing-link-text" class="link neutral-gray-800">Link with neutral gray text</a>
+  <a href="#personalizing-link-text" class="base-link color-green-900">Link with green text</a>
+</div>
+
+```html
+<a href="#personalizing-link-text" class="link color-purple-900">Link with purple text</a>
+<a href="#personalizing-link-text" class="link color-red-900">Link with red text</a>
+<a href="#personalizing-link-text" class="link neutral-gray-800">Link with neutral gray text</a>
+<a href="#personalizing-link-text" class="base-link color-green-900">Link with green text</a>
+```
