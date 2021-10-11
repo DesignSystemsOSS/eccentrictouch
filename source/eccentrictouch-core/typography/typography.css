@@ -10,4 +10,10 @@
 .font-monospace {
   font-family: "Space Mono", monospace;
 }
+
+:root {
+  --font-sans: Inter, sans-serif;
+  --font-serif: Lora, serif;
+  --font-monospace: Space Mono, monospace;
+}
 /*# sourceMappingURL=typography.css.map */

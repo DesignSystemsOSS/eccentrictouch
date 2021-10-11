@@ -17,4 +17,10 @@ $monospace-font: 'Space Mono', monospace;
   font-family: $monospace-font;
 }
 
+:root {
+  --font-sans: #{$sans-font};
+  --font-serif: #{$serif-font};
+  --font-monospace: #{$monospace-font};
+}
+
 // heading font methods
