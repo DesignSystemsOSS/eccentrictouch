@@ -40,6 +40,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "hacktoberfest-21",
+        content:
+          "We are participating in <b>Hacktoberfest 2021</b> Contribute to Eccentric Touch this October. <a href='https://github.com/DesignSystemsOSS/thedesignsystems-planning/blob/master/hacktoberfest/2021/Planning.md'>Learn More</a>",
+        backgroundColor: "var(--color-purple-900)",
+        textColor: "var(--neutral-gray-100)",
+        isCloseable: false,
+      },
       navbar: {
         title: 'Eccentric Touch Documentation',
         logo: {

@@ -30,3 +30,11 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.button-list-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
