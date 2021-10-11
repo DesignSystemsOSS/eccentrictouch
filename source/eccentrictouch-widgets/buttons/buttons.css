@@ -1,5 +1,6 @@
-button {
+button, input[type=button], input[type=reset], input[type=submit], a[role=button], a {
   font-family: inherit;
+  font-size: inherit;
   font-weight: 500;
   -webkit-transition: all 0.180s ease-in-out;
   transition: all 0.180s ease-in-out;
@@ -145,11 +146,6 @@ button.text-btn__disabled:focus, .text-btn__disabled:focus {
           box-shadow: none !important;
 }
 
-button:focus {
-  -webkit-box-shadow: var(--focus-shadow);
-          box-shadow: var(--focus-shadow);
-}
-
 .btn-default {
   padding: 12px 24px;
 }
@@ -160,5 +156,45 @@ button:focus {
 
 .btn-large {
   padding: 20px 40px;
+}
+
+a.link, .link {
+  text-decoration: none;
+  padding: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 8px;
+  color: var(--color-blue-900);
+}
+
+a.link:hover, .link:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+a.base-link, .base-link {
+  font-family: inherit;
+  padding: 2px;
+  font-size: inherit;
+  border-radius: 8px;
+  color: var(--neutral-gray-800);
+}
+
+a.base-link:hover, .base-link:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+a[role=button] {
+  text-decoration: none;
+}
+
+button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, a[role=button]:hover, a:hover {
+  cursor: pointer;
+}
+
+button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus, a[role=button]:focus, a:focus {
+  -webkit-box-shadow: var(--focus-shadow);
+          box-shadow: var(--focus-shadow);
 }
 /*# sourceMappingURL=buttons.css.map */

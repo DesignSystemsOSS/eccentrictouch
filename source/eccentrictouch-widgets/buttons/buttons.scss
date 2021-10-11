@@ -1,11 +1,11 @@
 
 // setting up button defaults
-button {
+button, input[type=button], input[type=reset], input[type=submit], a[role=button], a {
   font-family: inherit;
+  font-size: inherit;
   font-weight: 500;
   transition: all 0.180s ease-in-out;
 }
-
 
 $button-sizes: (
   "default": 12px 24px,
@@ -142,13 +142,49 @@ button.text-btn, .text-btn {
   }
 }
 
-button:focus {
-  box-shadow: var(--focus-shadow);
-}
 
 // css logic for button sizes
 @each $button-size, $size in $button-sizes {
   .btn-#{$button-size} {
     padding: $size;
   }
+}
+
+
+// links
+
+a.link, .link {
+  text-decoration: none;
+  padding: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 8px;
+  color: var(--color-blue-900);
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+a.base-link, .base-link {
+  font-family: inherit;
+  padding: 2px;
+  font-size: inherit;
+  border-radius: 8px;
+  color: var(--neutral-gray-800);
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+a[role=button] {
+  text-decoration: none;
+}
+
+// pointer event
+button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, a[role=button]:hover, a:hover {
+  cursor: pointer;
+}
+
+button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus, a[role=button]:focus, a:focus {
+  box-shadow: var(--focus-shadow);
 }
