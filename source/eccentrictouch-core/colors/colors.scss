@@ -59,27 +59,40 @@ $EccentricTouchColors: (
 // for background-colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .bg-#{$EccentricTouchColor} {
-    background-color: $baseColor;
+    background-color: $baseColor !important;
   }
 }
 
 // for text-colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .#{$EccentricTouchColor} {
-    color: $baseColor;
+    color: $baseColor !important;
   }
 }
 
 // fill color
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .fill-#{$EccentricTouchColor} {
-    fill: $baseColor;
+    fill: $baseColor !important;
   }
 }
 
 // stroke colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .stroke-#{$EccentricTouchColor} {
-    stroke: $baseColor;
+    stroke: $baseColor !important;
+  }
+}
+
+// border colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .border-#{$EccentricTouchColor} {
+    border-color: $baseColor !important;
+  }
+}
+
+:root {
+  @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+    --#{$EccentricTouchColor}: #{$baseColor};
   }
 }

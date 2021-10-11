@@ -21,3 +21,10 @@ $border-high: 2.4px solid $border-neutral-color-400;
 .border-high {
   border: $border-high;
 }
+
+:root {
+  --border: #{$border-default};
+  --border-light: #{$border-light};
+  --border-medium: #{$border-medium};
+  --border-high: #{$border-high};
+}
