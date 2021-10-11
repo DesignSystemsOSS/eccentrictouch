@@ -15,9 +15,10 @@ Eccentric Touch contains a bunch of variations for button components, some of th
   <button class="primary-btn">Primary</button>
   <button class="outline-btn">Outline</button>
   <button class="text-btn">Text</button>
-  <button class="primary-btn primary-btn__danger">Danger</button>
-  <button class="primary-btn primary-btn__success">Success</button>
+  <a href="#" class="link">Link</a>
+  <a href="#" class="base-link">Base Link</a>
   <button class="primary-btn primary-btn__disabled">Disabled Button</button>
+  <button class="outline-btn outline-btn__disabled">Disabled Button</button>
 </div>
 
 ```html
@@ -71,7 +72,32 @@ The outline button variation can be implemented by using the class method `outli
 <button class="outline-btn outline-btn__disabled">Disabled</button>
 ```
 
+### Text Buttons
 
+The text button variation can be implemented by using the class method `text-btn`. Just need to set `class="text-btn"` and there will be a text button.
+
+<div class="button-list-wrapper">
+  <button class="text-btn">Default</button>
+  <button class="text-btn text-btn__danger">Danger</button>
+  <button class="text-btn text-btn__success">Success</button>
+  <button class="text-btn text-btn__disabled">Disabled</button>
+</div>
+
+```html
+<button class="text-btn">Default</button>
+<button class="text-btn text-btn__danger">Danger</button>
+<button class="text-btn text-btn__success">Success</button>
+<button class="text-btn text-btn__disabled">Disabled</button>
+```
+
+### Links
+
+The link tag i.e. `<a>` has two variations which can implemented by the following ways,
+
+<div class="button-list-wrapper">
+  <a href="#links" class="link">Default link</a>
+  <a href="#links" class="base-link">Base link</a>
+</div>
 
 You can also go with personalization with your button components,
 - You can change font and background color of a `primary-btn`
