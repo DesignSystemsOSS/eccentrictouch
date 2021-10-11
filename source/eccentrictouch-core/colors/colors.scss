@@ -1,71 +1,67 @@
-$eccentric-touch-colors: (
-  "neutral-gray-800": #292929,
-  "neutral-gray-700": #494949,
-  "neutral-gray-600": #696969,
-  "neutral-gray-500": #898989,
-  "neutral-gray-400": #A9A9A9,
-  "neutral-gray-300": #C9C9C9,
-  "neutral-gray-200": #E9E9E9,
-  "neutral-gray-100": #F9F9F9,
+@use 'color-setters' as setter;
 
-  // blue color variants
-  "color-blue-900": #184BFF,
-  "color-blue-800": #3763FF,
-  "color-blue-700": #547AFF,
-  "color-blue-600": #7694FF,
-  "color-blue-500": #8DA6FF,
-  "color-blue-400": #B5C5FF,
-  "color-blue-300": #CAD6FF,
-  "color-blue-200": #E2E9FF,
-  "color-blue-100": #F2F5FF,
+$red: #c82121 !default;
+$orange: #ff6900 !default;
+$yellow: #e5bc1e !default;
+$lime: #29b625 !default;
+$green: #009758 !default;
+$aqua: #1fb6c6 !default;
+$blue: #3763ff !default;
+$purple: #8e35ff !default;
+$pink: #f837ff !default;
+$neutral-grey: #696969 !default;
 
-  // purple color variants
-  "color-purple-900": #7E18FF,
-  "color-purple-800": #8E35FF,
-  "color-purple-700": #9D50FF,
-  "color-purple-600": #A864FF,
-  "color-purple-500": #B77DFF,
-  "color-purple-400": #C99DFF,
-  "color-purple-300": #D6B5FF,
-  "color-purple-200": #E7D3FF,
-  "color-purple-100": #EADAFF,
+// Background colors
+@include setter.generate-classes('background', $red, 'red');
+@include setter.generate-classes('background', $orange, 'orange');
+@include setter.generate-classes('background', $yellow, 'yellow');
+@include setter.generate-classes('background', $lime, 'lime');
+@include setter.generate-classes('background', $green, 'green');
+@include setter.generate-classes('background', $aqua, 'aqua');
+@include setter.generate-classes('background', $blue, 'blue');
+@include setter.generate-classes('background', $purple, 'purple');
+@include setter.generate-classes('background', $neutral-grey, 'neutral-grey');
 
-  // red color variables
-  "color-red-900": #C00000,
-  "color-red-800": #C82121,
-  "color-red-700": #BB3B3B,
-  "color-red-600": #D14747,
-  "color-red-500": #E85959,
-  "color-red-400": #FF6363,
-  "color-red-300": #FF7B7B,
-  "color-red-200": #FF9292,
-  "color-red-100": #FFBFBF
-);
+// Text colors
+@include setter.generate-classes('text', $red, 'red');
+@include setter.generate-classes('text', $orange, 'orange');
+@include setter.generate-classes('text', $yellow, 'yellow');
+@include setter.generate-classes('text', $lime, 'lime');
+@include setter.generate-classes('text', $green, 'green');
+@include setter.generate-classes('text', $aqua, 'aqua');
+@include setter.generate-classes('text', $blue, 'blue');
+@include setter.generate-classes('text', $purple, 'purple');
+@include setter.generate-classes('text', $neutral-grey, 'neutral-grey');
 
-// for background-colors
-@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
-  .bg-#{$eccentric-touch-color} {
-    background-color: $base-color;
-  }
-}
+// Border colors
+@include setter.generate-classes('border', $red, 'red');
+@include setter.generate-classes('border', $orange, 'orange');
+@include setter.generate-classes('border', $yellow, 'yellow');
+@include setter.generate-classes('border', $lime, 'lime');
+@include setter.generate-classes('border', $green, 'green');
+@include setter.generate-classes('border', $aqua, 'aqua');
+@include setter.generate-classes('border', $blue, 'blue');
+@include setter.generate-classes('border', $purple, 'purple');
+@include setter.generate-classes('border', $neutral-grey, 'neutral-grey');
 
-// for text-colors
-@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
-  .#{$eccentric-touch-color} {
-    color: $base-color;
-  }
-}
+// SVG fill color
+@include setter.generate-classes('fill', $red, 'red');
+@include setter.generate-classes('fill', $orange, 'orange');
+@include setter.generate-classes('fill', $yellow, 'yellow');
+@include setter.generate-classes('fill', $lime, 'lime');
+@include setter.generate-classes('fill', $green, 'green');
+@include setter.generate-classes('fill', $aqua, 'aqua');
+@include setter.generate-classes('fill', $blue, 'blue');
+@include setter.generate-classes('fill', $purple, 'purple');
+@include setter.generate-classes('fill', $neutral-grey, 'neutral-grey');
 
-// fill color
-@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
-  .fill-#{$eccentric-touch-color} {
-    fill: $base-color;
-  }
-}
-
-// stroke colors
-@each $eccentric-touch-color, $base-color in $eccentric-touch-colors {
-  .stroke-#{$eccentric-touch-color} {
-    stroke: $base-color;
-  }
-}
+// SVG stroke colors
+@include setter.generate-classes('stroke', $red, 'red');
+@include setter.generate-classes('stroke', $orange, 'orange');
+@include setter.generate-classes('stroke', $yellow, 'yellow');
+@include setter.generate-classes('stroke', $lime, 'lime');
+@include setter.generate-classes('stroke', $green, 'green');
+@include setter.generate-classes('stroke', $aqua, 'aqua');
+@include setter.generate-classes('stroke', $blue, 'blue');
+@include setter.generate-classes('stroke', $purple, 'purple');
+@include setter.generate-classes('stroke', $neutral-grey, 'neutral-grey');

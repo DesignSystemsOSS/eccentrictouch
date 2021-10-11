@@ -1,0 +1,22 @@
+@use 'sass:map';
+@use 'sass:list';
+
+$valid-types: (
+		'text',
+		'border',
+		'background',
+		// SVG related
+		'fill',
+		'stroke'
+);
+
+/// Validates queried color type.
+/// @access {protected}
+/// @return {bool|error}
+@function is-type_($query) {
+		@if not list.index($valid-types, $query) {
+				@error "Type #{$query} is not a valuid type! Please select from one of the following valid types: #{$valid-types}";
+		}
+
+		@return true;
+}

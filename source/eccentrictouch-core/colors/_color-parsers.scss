@@ -1,0 +1,23 @@
+@use 'sass:color';
+
+@function set-tint($color, $percent) {
+		@return color.adjust(color.mix(#fff, $color, $percent), $saturation: 11%);
+}
+
+@function set-shade($color, $percent) {
+		@return color.adjust(color.mix(#000, $color, $percent), $saturation: 11%);
+}
+
+@function split($color) {
+		@return (
+				100: set-tint($color, 80%),
+				200: set-tint($color, 60%),
+				300: set-tint($color, 40%),
+				400: set-tint($color, 20%),
+				500: $color,
+				600: set-shade($color, 20%),
+				700: set-shade($color, 40%),
+				800: set-shade($color, 60%),
+				900: set-shade($color, 80%),
+		);
+}
