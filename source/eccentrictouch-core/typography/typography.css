@@ -10,4 +10,8 @@
 .font-monospace {
   font-family: "Space Mono", monospace;
 }
+
+.font-weight-light {
+  font-weight: 400;
+}
 /*# sourceMappingURL=typography.css.map */

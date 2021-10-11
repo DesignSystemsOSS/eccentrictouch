@@ -10,11 +10,54 @@ $monospace-font: 'Space Mono', monospace;
 }
 
 .font-serif {
-  font-family: $serif-font;
+  font-family: $serif-font; 
 }
 
 .font-monospace {
   font-family: $monospace-font;
 }
+
+// font weight methods
+
+.font-weight-light{
+  font-weight: 400;
+}
+
+.font-weight-regular{
+  font-weight: 500;
+}
+
+.font-weight-bold{
+  font-weight: 600;
+}
+
+
+// 
+$fontWeightvalue:9;
+$baseUnit:100;
+
+
+// Automated Font-weight  values
+@for $count from 1 through $maxfontWeightValue {
+  .font-weight-#{$count} {
+    font-weight: ($count * $baseUnit);
+  }
+}
+
+
+// Font-size
+$maxfontWeightValue:6;
+$goldenRatio: 1.618;
+$baseUnit: 6px;
+@for $count from 1 through $maxfontWeightValue {
+  h#{($maxfontWeightValue +1 -$count)},.h#{($maxfontWeightValue +1 -$count)} {
+   font-size: ($count * $goldenRatio * $baseUnit );
+  }
+}
+
+
+
+
+
 
 // heading font methods
