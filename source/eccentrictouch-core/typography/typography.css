@@ -1,19 +1,37 @@
 @import url("../../eccentrictouch-vendors/fonts.css");
-.font-weight-light {
+.font-weight-100 {
+  font-weight: 100;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-400 {
   font-weight: 400;
 }
 
-.font-weight-regular {
+.font-weight-500 {
   font-weight: 500;
 }
 
-.font-weight-bold {
+.font-weight-600 {
   font-weight: 600;
 }
 
-:root {
-  --font-sans: Inter, sans-serif;
-  --font-serif: Lora, serif;
-  --font-monospace: Space Mono, monospace;
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-900 {
+  font-weight: 900;
 }
 /*# sourceMappingURL=typography.css.map */
