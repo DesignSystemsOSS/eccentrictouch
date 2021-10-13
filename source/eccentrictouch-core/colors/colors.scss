@@ -39,33 +39,60 @@ $EccentricTouchColors: (
   "color-red-400": #FF6363,
   "color-red-300": #FF7B7B,
   "color-red-200": #FF9292,
-  "color-red-100": #FFBFBF
+  "color-red-100": #FFBFBF,
+
+  // green color variables
+  "color-green-900": #009758,
+  "color-green-800": #17A368,
+  "color-green-700": #3EA77B,
+  "color-green-600": #4D9E7C,
+  "color-green-500": #5CBA93,
+  "color-green-400": #72D9AE,
+  "color-green-300": #87F8C9,
+  "color-green-200": #AEFFDD,
+  "color-green-100": #D8FFEF,
+
+  // 
+
 );
 
 // for background-colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .bg-#{$EccentricTouchColor} {
-    background-color: $baseColor;
+    background-color: $baseColor !important;
   }
 }
 
 // for text-colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .#{$EccentricTouchColor} {
-    color: $baseColor;
+    color: $baseColor !important;
   }
 }
 
 // fill color
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .fill-#{$EccentricTouchColor} {
-    fill: $baseColor;
+    fill: $baseColor !important;
   }
 }
 
 // stroke colors
 @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
   .stroke-#{$EccentricTouchColor} {
-    stroke: $baseColor;
+    stroke: $baseColor !important;
+  }
+}
+
+// border colors
+@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+  .border-#{$EccentricTouchColor} {
+    border-color: $baseColor !important;
+  }
+}
+
+:root {
+  @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+    --#{$EccentricTouchColor}: #{$baseColor};
   }
 }

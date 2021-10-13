@@ -4,18 +4,7 @@ $sans-font: 'Inter', sans-serif;
 $serif-font: 'Lora', serif;
 $monospace-font: 'Space Mono', monospace;
 
-// font type methods
-.font-sans {
-  font-family: $sans-font;
-}
 
-.font-serif {
-  font-family: $serif-font; 
-}
-
-.font-monospace {
-  font-family: $monospace-font;
-}
 
 // font weight methods
 
@@ -38,26 +27,32 @@ $baseUnit:100;
 
 
 // Automated Font-weight  values
-@for $count from 1 through $maxfontWeightValue {
-  .font-weight-#{$count} {
-    font-weight: ($count * $baseUnit);
-  }
+// @for $count from 1 through $maxfontWeightValue {
+//   .font-weight-#{$count} {
+//     font-weight: ($count * $baseUnit);
+//   }
+// }
+
+
+// // Font-size
+// $maxfontWeightValue:6;
+// $goldenRatio: 1.618;
+// $baseUnit: 6px;
+// @for $count from 1 through $maxfontWeightValue {
+//   h#{($maxfontWeightValue +1 -$count)},.h#{($maxfontWeightValue +1 -$count)} {
+//    font-size: ($count * $goldenRatio * $baseUnit );
+//   }
+// }
+
+
+
+
+
+
+:root {
+  --font-sans: #{$sans-font};
+  --font-serif: #{$serif-font};
+  --font-monospace: #{$monospace-font};
 }
-
-
-// Font-size
-$maxfontWeightValue:6;
-$goldenRatio: 1.618;
-$baseUnit: 6px;
-@for $count from 1 through $maxfontWeightValue {
-  h#{($maxfontWeightValue +1 -$count)},.h#{($maxfontWeightValue +1 -$count)} {
-   font-size: ($count * $goldenRatio * $baseUnit );
-  }
-}
-
-
-
-
-
 
 // heading font methods

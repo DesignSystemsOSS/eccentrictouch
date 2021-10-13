@@ -1,1 +1,19 @@
 @import url('./eccentrictouch-core/index.css');
+/* @import url('./eccentrictouch-vendors/'); */
+@import url('./eccentrictouch-widgets/index.css');
+
+/* reseter */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--neutral-gray-900);
+}
+
+body:focus {
+  outline: none;
+}

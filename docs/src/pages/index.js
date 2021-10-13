@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`Docs - ${siteConfig.title}`}
-      description="">
+      description="Documentation for Eccentric Touch">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
