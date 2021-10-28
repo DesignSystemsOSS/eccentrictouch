@@ -42,6 +42,10 @@ button.primary-btn, .primary-btn {
     background-color: var(--color-green-900) !important;
     color: white !important;
   }
+  &__warning {
+    background-color: var(--color-yellow-900) !important;
+    color: var(--neutral-gray-800);
+  }
   &__disabled {
     box-shadow: none;
     background-color: var(--neutral-gray-200);

@@ -52,8 +52,16 @@ $EccentricTouchColors: (
   "color-green-200": #AEFFDD,
   "color-green-100": #D8FFEF,
 
-  // 
-
+  // yellow color variables
+  "color-yellow-900": #EBC500,
+  "color-yellow-800": #FFD600,
+  "color-yellow-700": #FFDC22,
+  "color-yellow-600": #FFE03C,
+  "color-yellow-500": #FFE34F,
+  "color-yellow-400": #FFE972,
+  "color-yellow-300": #FFEC8C,
+  "color-yellow-200": #FFF1AC,
+  "color-yellow-100": #FFF6C8
 );
 
 // for background-colors
@@ -96,3 +104,109 @@ $EccentricTouchColors: (
     --#{$EccentricTouchColor}: #{$baseColor};
   }
 }
+
+// $base-blue: rgb(24, 75, 255);
+// $base-purple: rgb(125, 26, 255);
+// $base-red: rgb(192, 0, 0);
+// $base-yellow: rgb(255, 220, 34);
+// $base-green: rgb(0, 151, 88);
+// $base-dark: rgb(41, 41, 41);
+// $opacity-range: 9;
+
+// // for base-blue
+// @for $count from 1 through $opacity-range {
+//   .color-blue-#{$count * 100} {
+//     color: rgba($color: $base-blue, $alpha: $count/10);
+//   }
+//   .bg-color-blue-#{$count * 100} {
+//     background-color: rgba($color: $base-blue, $alpha: $count/10);
+//   }
+//   .border-color-blue-#{$count * 100} {
+//     border-color: rgba($color: $base-blue, $alpha: $count/10);
+//   }
+//   .fill-color-blue-#{$count * 100} {
+//     fill: rgba($color: $base-blue, $alpha: $count/10);
+//   }
+// }
+
+// // for base-purple
+// @for $count from 1 through $opacity-range {
+//   .color-purple-#{$count * 100} {
+//     color: rgba($color: $base-purple, $alpha: $count/10);
+//   }
+//   .bg-color-purple-#{$count * 100} {
+//     background-color: rgba($color: $base-purple, $alpha: $count/10);
+//   }
+//   .border-color-purple-#{$count * 100} {
+//     border-color: rgba($color: $base-purple, $alpha: $count/10);
+//   }
+//   .fill-color-purple-#{$count * 100} {
+//     fill: rgba($color: $base-purple, $alpha: $count/10);
+//   }
+// }
+
+// // for base-red
+// @for $count from 1 through $opacity-range {
+//   .color-red-#{$count * 100} {
+//     color: rgba($color: $base-red, $alpha: $count/10);
+//   }
+//   .bg-color-red-#{$count * 100} {
+//     background-color: rgba($color: $base-red, $alpha: $count/10);
+//   }
+//   .border-color-red-#{$count * 100} {
+//     border-color: rgba($color: $base-red, $alpha: $count/10);
+//   }
+//   .fill-color-red-#{$count * 100} {
+//     fill: rgba($color: $base-red, $alpha: $count/10);
+//   }
+// }
+
+// // for base-yellow
+// @for $count from 1 through $opacity-range {
+//   .color-yellow-#{$count * 100} {
+//     color: rgba($color: $base-yellow, $alpha: $count/10);
+//   }
+// }
+
+// // for base-green
+// @for $count from 1 through $opacity-range {
+//   .color-green-#{$count * 100} {
+//     color: rgba($color: $base-green, $alpha: $count/10);
+//   }
+//   .bg-color-green-#{$count * 100} {
+//     background-color: rgba($color: $base-green, $alpha: $count/10);
+//   }
+//   .border-color-green-#{$count * 100} {
+//     border-color: rgba($color: $base-green, $alpha: $count/10);
+//   }
+//   .fill-color-green-#{$count * 100} {
+//     fill: rgba($color: $base-green, $alpha: $count/10);
+//   }
+// }
+
+// // for base-dark
+// @for $count from 1 through $opacity-range {
+//   .neutral-gray-#{$count * 100} {
+//     color: rgba($color: $base-dark, $alpha: $count/10);
+//   }
+//   .bg-neutral-gray-#{$count * 100} {
+//     background-color: rgba($color: $base-dark, $alpha: $count/10);
+//   }
+//   .border-neutral-gray-#{$count * 100} {
+//     border-color: rgba($color: $base-dark, $alpha: $count/10);
+//   }
+//   .fill-neutral-gray-#{$count * 100} {
+//     fill: rgba($color: $base-dark, $alpha: $count/10);
+//   }
+// }
+
+// :root {
+//   @for $count from 1 through $opacity-range {
+//     $color: toRGB($base-blue);
+//     --color-blue-#{$count * 100}: rgba(#{$color}, #{$count * 10%});
+//   }
+// }
+
+// @function toRGB($base-color) {
+//     @return "rgb(" + red($base-color) + ", " + green($base-color) + ", " + blue($base-color)+ ")";
+// }

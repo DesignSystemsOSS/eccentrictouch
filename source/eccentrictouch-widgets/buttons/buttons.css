@@ -31,6 +31,11 @@ button.primary-btn__success, .primary-btn__success {
   color: white !important;
 }
 
+button.primary-btn__warning, .primary-btn__warning {
+  background-color: var(--color-yellow-900) !important;
+  color: var(--neutral-gray-800);
+}
+
 button.primary-btn__disabled, .primary-btn__disabled {
   -webkit-box-shadow: none;
           box-shadow: none;
