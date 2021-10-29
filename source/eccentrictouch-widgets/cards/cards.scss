@@ -1,0 +1,8 @@
+$border-neutral-color-400: #A9A9A9;
+$border-default: 1px solid $border-neutral-color-400;
+
+.card {
+  padding: 24px;
+  border: $border-default;
+  border-radius: 8px;
+}

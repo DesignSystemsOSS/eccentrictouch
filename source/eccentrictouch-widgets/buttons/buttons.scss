@@ -1,0 +1,190 @@
+
+// setting up button defaults
+button, input[type=button], input[type=reset], input[type=submit], a[role=button], a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  transition: all 0.180s ease-in-out;
+}
+
+$button-sizes: (
+  "default": 12px 24px,
+  "medium": 16px 32px,
+  "large": 20px 40px
+);
+
+:root {
+  @each $button-size, $size in $button-sizes {
+    --btn-size-#{$button-size}: #{$size};
+  }
+}
+
+// button component styling properties
+$button-font-family: inherit;
+$button-font-weight: inherit;
+
+// primary button properties
+button.primary-btn, .primary-btn {
+  background-color: var(--color-blue-900);
+  padding: var(--btn-size-default);
+  color: var(--neutral-gray-100);
+  font-family: inherit;
+  border: var(--border-medium) solid rgba($color: #000000, $alpha: 0);
+  border-radius: var(--border-radius);
+}
+
+button.primary-btn, .primary-btn {
+  &__danger {
+    background-color: var(--color-red-900) !important;
+    color: white !important;
+  }
+  &__success {
+    background-color: var(--color-green-900) !important;
+    color: white !important;
+  }
+  &__disabled {
+    box-shadow: none;
+    background-color: var(--neutral-gray-200);
+    pointer-events: auto !important;
+    cursor: not-allowed !important;
+    color: var(--neutral-gray-500);
+    &:hover {
+      background-color: var(--neutral-gray-200);
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+// secondary/outline button properties
+button.outline-btn, .outline-btn {
+  background: transparent;
+  padding: var(--btn-size-default);
+  color: var(--color-blue-900);
+  font-family: inherit;
+  border: var(--border-medium);
+  border-color: var(--color-blue-600);
+  border-radius: var(--border-radius);
+  &:hover {
+    background-color: var(--color-blue-200);
+  }
+}
+
+button.outline-btn, .outline-btn {
+  &__danger {
+    border-color: var(--color-red-900) !important;
+    color: var(--color-red-900) !important;
+    &:hover {
+      background-color: var(--color-red-100);
+    }
+  }
+  &__success {
+    border-color: var(--color-green-900) !important;
+    color: var(--color-green-900) !important;
+    &:hover {
+      background-color: var(--color-green-100);
+    }
+  }
+  &__disabled {
+    box-shadow: none;
+    border-color: var(--neutral-gray-400);
+    pointer-events: auto !important;
+    cursor: not-allowed !important;
+    color: var(--neutral-gray-400);
+    &:hover {
+      background-color: inherit;
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+// tertiary/text button properties
+button.text-btn, .text-btn {
+  background: transparent;
+  padding: var(--btn-size-default);
+  color: var(--color-blue-900);
+  font-family: inherit;
+  border: var(--border-medium) solid rgba($color: #000000, $alpha: 0);
+  border-radius: var(--border-radius);
+  &:hover {
+    background-color: var(--color-blue-200);
+  }
+}
+
+button.text-btn, .text-btn {
+  &__danger {
+    color: var(--color-red-900) !important;
+    &:hover {
+      background-color: var(--color-red-100);
+    }
+  }
+  &__success {
+    color: var(--color-green-900) !important;
+    &:hover {
+      background-color: var(--color-green-100);
+    }
+  }
+  &__disabled {
+    box-shadow: none;
+    border-color: var(--neutral-gray-400);
+    pointer-events: auto !important;
+    cursor: not-allowed !important;
+    color: var(--neutral-gray-400);
+    &:hover {
+      background-color: inherit;
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+
+// css logic for button sizes
+@each $button-size, $size in $button-sizes {
+  .btn-#{$button-size} {
+    padding: $size;
+  }
+}
+
+
+// links
+
+a.link, .link {
+  text-decoration: none;
+  padding: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 8px;
+  color: var(--color-blue-900);
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+a.base-link, .base-link {
+  font-family: inherit;
+  padding: 2px;
+  font-size: inherit;
+  border-radius: 8px;
+  color: var(--neutral-gray-800);
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+a[role=button] {
+  text-decoration: none;
+}
+
+// pointer event
+button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, a[role=button]:hover, a:hover {
+  cursor: pointer;
+}
+
+button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus, a[role=button]:focus, a:focus {
+  box-shadow: var(--focus-shadow);
+}

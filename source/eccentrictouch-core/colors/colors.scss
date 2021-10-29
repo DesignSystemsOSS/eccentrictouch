@@ -12,7 +12,6 @@ $pink: #f837ff !default;
 $blueish-grey: #21313E !default;
 $neutral-grey: #696969 !default;
 
-
 // Background colors
 @include setter.generate-classes('background', $red, 'red');
 @include setter.generate-classes('background', $orange, 'orange');

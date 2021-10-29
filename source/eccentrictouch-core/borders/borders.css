@@ -1,0 +1,23 @@
+.border {
+  border: 1px solid #A9A9A9;
+}
+
+.border-light {
+  border: 0.6px solid #A9A9A9;
+}
+
+.border-medium {
+  border: 1.6px solid #A9A9A9;
+}
+
+.border-high {
+  border: 2.4px solid #A9A9A9;
+}
+
+:root {
+  --border: 1px solid #A9A9A9;
+  --border-light: 0.6px solid #A9A9A9;
+  --border-medium: 1.6px solid #A9A9A9;
+  --border-high: 2.4px solid #A9A9A9;
+}
+/*# sourceMappingURL=borders.css.map */

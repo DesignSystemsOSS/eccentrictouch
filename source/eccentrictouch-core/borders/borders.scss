@@ -1,0 +1,30 @@
+
+$border-neutral-color-400: #A9A9A9;
+
+$border-default: 1px solid $border-neutral-color-400;
+$border-light: 0.6px solid $border-neutral-color-400;
+$border-medium: 1.6px solid $border-neutral-color-400;
+$border-high: 2.4px solid $border-neutral-color-400;
+
+.border {
+  border: $border-default;
+}
+
+.border-light {
+  border: $border-light;
+}
+
+.border-medium {
+  border: $border-medium
+}
+
+.border-high {
+  border: $border-high;
+}
+
+:root {
+  --border: #{$border-default};
+  --border-light: #{$border-light};
+  --border-medium: #{$border-medium};
+  --border-high: #{$border-high};
+}

@@ -5,6 +5,10 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* using eccentric touch to show the demo */
+@import url('../../../source/eccentrictouch.css');
+
 :root {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -25,4 +29,27 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .button-list-wrapper {
+  background: transparent;
+}
+
+html[data-theme="dark"] a {
+  color: white;
+}
+
+.button-list-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #fafafa22;
+  border: 0.8px solid var(--neutral-gray-300);
+  padding: 6px 8px;
+}
+
+code {
+  font-family: var(--font-monospace);
 }
