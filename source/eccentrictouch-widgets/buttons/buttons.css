@@ -2,8 +2,7 @@ button, input[type=button], input[type=reset], input[type=submit], a[role=button
   font-family: inherit;
   font-size: inherit;
   font-weight: 500;
-  -webkit-transition: all 0.180s ease-in-out;
-  transition: all 0.180s ease-in-out;
+  transition: all 0.18s ease-in-out;
 }
 
 :root {
@@ -25,28 +24,22 @@ button.primary-btn__danger, .primary-btn__danger {
   background-color: var(--color-red-900) !important;
   color: white !important;
 }
-
 button.primary-btn__success, .primary-btn__success {
   background-color: var(--color-green-900) !important;
   color: white !important;
 }
-
 button.primary-btn__disabled, .primary-btn__disabled {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: var(--neutral-gray-200);
   pointer-events: auto !important;
   cursor: not-allowed !important;
   color: var(--neutral-gray-500);
 }
-
 button.primary-btn__disabled:hover, .primary-btn__disabled:hover {
   background-color: var(--neutral-gray-200);
 }
-
 button.primary-btn__disabled:focus, .primary-btn__disabled:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 button.outline-btn, .outline-btn {
@@ -58,7 +51,6 @@ button.outline-btn, .outline-btn {
   border-color: var(--color-blue-600);
   border-radius: var(--border-radius);
 }
-
 button.outline-btn:hover, .outline-btn:hover {
   background-color: var(--color-blue-200);
 }
@@ -67,36 +59,28 @@ button.outline-btn__danger, .outline-btn__danger {
   border-color: var(--color-red-900) !important;
   color: var(--color-red-900) !important;
 }
-
 button.outline-btn__danger:hover, .outline-btn__danger:hover {
   background-color: var(--color-red-100);
 }
-
 button.outline-btn__success, .outline-btn__success {
   border-color: var(--color-green-900) !important;
   color: var(--color-green-900) !important;
 }
-
 button.outline-btn__success:hover, .outline-btn__success:hover {
   background-color: var(--color-green-100);
 }
-
 button.outline-btn__disabled, .outline-btn__disabled {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border-color: var(--neutral-gray-400);
   pointer-events: auto !important;
   cursor: not-allowed !important;
   color: var(--neutral-gray-400);
 }
-
 button.outline-btn__disabled:hover, .outline-btn__disabled:hover {
   background-color: inherit;
 }
-
 button.outline-btn__disabled:focus, .outline-btn__disabled:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 button.text-btn, .text-btn {
@@ -107,7 +91,6 @@ button.text-btn, .text-btn {
   border: var(--border-medium) solid rgba(0, 0, 0, 0);
   border-radius: var(--border-radius);
 }
-
 button.text-btn:hover, .text-btn:hover {
   background-color: var(--color-blue-200);
 }
@@ -115,35 +98,27 @@ button.text-btn:hover, .text-btn:hover {
 button.text-btn__danger, .text-btn__danger {
   color: var(--color-red-900) !important;
 }
-
 button.text-btn__danger:hover, .text-btn__danger:hover {
   background-color: var(--color-red-100);
 }
-
 button.text-btn__success, .text-btn__success {
   color: var(--color-green-900) !important;
 }
-
 button.text-btn__success:hover, .text-btn__success:hover {
   background-color: var(--color-green-100);
 }
-
 button.text-btn__disabled, .text-btn__disabled {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border-color: var(--neutral-gray-400);
   pointer-events: auto !important;
   cursor: not-allowed !important;
   color: var(--neutral-gray-400);
 }
-
 button.text-btn__disabled:hover, .text-btn__disabled:hover {
   background-color: inherit;
 }
-
 button.text-btn__disabled:focus, .text-btn__disabled:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .btn-default {
@@ -166,10 +141,8 @@ a.link, .link {
   border-radius: 8px;
   color: var(--color-blue-900);
 }
-
 a.link:hover, .link:hover {
-  -webkit-filter: brightness(80%);
-          filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 a.base-link, .base-link {
@@ -179,10 +152,8 @@ a.base-link, .base-link {
   border-radius: 8px;
   color: var(--neutral-gray-800);
 }
-
 a.base-link:hover, .base-link:hover {
-  -webkit-filter: brightness(80%);
-          filter: brightness(80%);
+  filter: brightness(80%);
 }
 
 a[role=button] {
@@ -194,7 +165,7 @@ button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=subm
 }
 
 button:focus, input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus, a[role=button]:focus, a:focus {
-  -webkit-box-shadow: var(--focus-shadow);
-          box-shadow: var(--focus-shadow);
+  box-shadow: var(--focus-shadow);
 }
+
 /*# sourceMappingURL=buttons.css.map */

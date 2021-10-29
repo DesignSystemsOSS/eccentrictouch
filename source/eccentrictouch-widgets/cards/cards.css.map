@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,MAAM,EAJS,GAAG,CAAC,KAAK,CADC,OAAO;EAMhC,aAAa,EAAE,GAAG;CACnB",
-    "sources": [
-        "cards.scss"
-    ],
-    "names": [],
-    "file": "cards.css"
-}
+{"version":3,"sourceRoot":"","sources":["cards.scss"],"names":[],"mappings":"AAGA;EACE;EACA,QAJe;EAKf","file":"cards.css"}
