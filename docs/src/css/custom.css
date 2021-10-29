@@ -53,3 +53,9 @@ html[data-theme="dark"] a {
 code {
   font-family: var(--font-monospace);
 }
+
+.color-shade-box {
+  width: 54px;
+  height: 32px;
+  border-radius: 8px;
+}
