@@ -112,6 +112,7 @@ $base-yellow: rgb(255, 220, 34);
 $base-green: rgb(0, 151, 88);
 $base-dark: rgb(41, 41, 41);
 $white: white;
+$black: black;
 
 // gradient colors
 $gradient: linear-gradient(45deg,#ff61d3 10%,#b318ff 40%,#b318ff 60%,#00f0ff 90%);
@@ -182,6 +183,8 @@ $opacity-range: 9;
   -moz-text-fill-color: transparent;
 }
 
+// white color
+
 .text-color-white {
   color: $white !important;
 }
@@ -196,6 +199,24 @@ $opacity-range: 9;
 
 .fill-color-white {
   fill: $white !important;
+}
+
+// black color
+
+.text-color-black {
+  color: $black !important;
+}
+
+.bg-color-black {
+  background-color: $black !important;
+}
+
+.border-color-black {
+  border-color: $black !important;
+}
+
+.fill-color-black {
+  fill: $black !important;
 }
 
 // for base-blue
@@ -250,6 +271,15 @@ $opacity-range: 9;
 @for $count from 1 through $opacity-range {
   .color-yellow-#{$count * 100} {
     color: rgba($color: $base-yellow, $alpha: $count/10) !important;
+  }
+  .bg-color-yellow-#{$count * 100} {
+    background-color: rgba($color: $base-yellow, $alpha: $count/10) !important;
+  }
+  .border-color-yellow-#{$count * 100} {
+    border-color: rgba($color: $base-yellow, $alpha: $count/10) !important;
+  }
+  .fill-color-yellow-#{$count * 100} {
+    fill: rgba($color: $base-yellow, $alpha: $count/10) !important;
   }
 }
 

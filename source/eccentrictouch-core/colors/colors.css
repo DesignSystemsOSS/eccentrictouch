@@ -74,6 +74,22 @@
   fill: white !important;
 }
 
+.text-color-black {
+  color: black !important;
+}
+
+.bg-color-black {
+  background-color: black !important;
+}
+
+.border-color-black {
+  border-color: black !important;
+}
+
+.fill-color-black {
+  fill: black !important;
+}
+
 .color-blue-100 {
   color: rgba(24, 75, 255, 0.1) !important;
 }
@@ -510,36 +526,144 @@
   color: rgba(255, 220, 34, 0.1) !important;
 }
 
+.bg-color-yellow-100 {
+  background-color: rgba(255, 220, 34, 0.1) !important;
+}
+
+.border-color-yellow-100 {
+  border-color: rgba(255, 220, 34, 0.1) !important;
+}
+
+.fill-color-yellow-100 {
+  fill: rgba(255, 220, 34, 0.1) !important;
+}
+
 .color-yellow-200 {
   color: rgba(255, 220, 34, 0.2) !important;
+}
+
+.bg-color-yellow-200 {
+  background-color: rgba(255, 220, 34, 0.2) !important;
+}
+
+.border-color-yellow-200 {
+  border-color: rgba(255, 220, 34, 0.2) !important;
+}
+
+.fill-color-yellow-200 {
+  fill: rgba(255, 220, 34, 0.2) !important;
 }
 
 .color-yellow-300 {
   color: rgba(255, 220, 34, 0.3) !important;
 }
 
+.bg-color-yellow-300 {
+  background-color: rgba(255, 220, 34, 0.3) !important;
+}
+
+.border-color-yellow-300 {
+  border-color: rgba(255, 220, 34, 0.3) !important;
+}
+
+.fill-color-yellow-300 {
+  fill: rgba(255, 220, 34, 0.3) !important;
+}
+
 .color-yellow-400 {
   color: rgba(255, 220, 34, 0.4) !important;
+}
+
+.bg-color-yellow-400 {
+  background-color: rgba(255, 220, 34, 0.4) !important;
+}
+
+.border-color-yellow-400 {
+  border-color: rgba(255, 220, 34, 0.4) !important;
+}
+
+.fill-color-yellow-400 {
+  fill: rgba(255, 220, 34, 0.4) !important;
 }
 
 .color-yellow-500 {
   color: rgba(255, 220, 34, 0.5) !important;
 }
 
+.bg-color-yellow-500 {
+  background-color: rgba(255, 220, 34, 0.5) !important;
+}
+
+.border-color-yellow-500 {
+  border-color: rgba(255, 220, 34, 0.5) !important;
+}
+
+.fill-color-yellow-500 {
+  fill: rgba(255, 220, 34, 0.5) !important;
+}
+
 .color-yellow-600 {
   color: rgba(255, 220, 34, 0.6) !important;
+}
+
+.bg-color-yellow-600 {
+  background-color: rgba(255, 220, 34, 0.6) !important;
+}
+
+.border-color-yellow-600 {
+  border-color: rgba(255, 220, 34, 0.6) !important;
+}
+
+.fill-color-yellow-600 {
+  fill: rgba(255, 220, 34, 0.6) !important;
 }
 
 .color-yellow-700 {
   color: rgba(255, 220, 34, 0.7) !important;
 }
 
+.bg-color-yellow-700 {
+  background-color: rgba(255, 220, 34, 0.7) !important;
+}
+
+.border-color-yellow-700 {
+  border-color: rgba(255, 220, 34, 0.7) !important;
+}
+
+.fill-color-yellow-700 {
+  fill: rgba(255, 220, 34, 0.7) !important;
+}
+
 .color-yellow-800 {
   color: rgba(255, 220, 34, 0.8) !important;
 }
 
+.bg-color-yellow-800 {
+  background-color: rgba(255, 220, 34, 0.8) !important;
+}
+
+.border-color-yellow-800 {
+  border-color: rgba(255, 220, 34, 0.8) !important;
+}
+
+.fill-color-yellow-800 {
+  fill: rgba(255, 220, 34, 0.8) !important;
+}
+
 .color-yellow-900 {
   color: rgba(255, 220, 34, 0.9) !important;
+}
+
+.bg-color-yellow-900 {
+  background-color: rgba(255, 220, 34, 0.9) !important;
+}
+
+.border-color-yellow-900 {
+  border-color: rgba(255, 220, 34, 0.9) !important;
+}
+
+.fill-color-yellow-900 {
+  fill: rgba(255, 220, 34, 0.9) !important;
 }
 
 .color-green-100 {
