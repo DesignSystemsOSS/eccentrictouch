@@ -13,6 +13,12 @@ $button-sizes: (
   "large": 20px 40px
 );
 
+@each $button-size, $size in $button-sizes {
+  .btn-#{$button-size} {
+    padding: $size !important;
+  }
+}
+
 :root {
   @each $button-size, $size in $button-sizes {
     --btn-size-#{$button-size}: #{$size};
@@ -27,9 +33,10 @@ $button-font-weight: inherit;
 button.primary-btn, .primary-btn {
   background-color: var(--color-blue-900);
   padding: var(--btn-size-default);
-  color: var(--neutral-gray-100);
+  color: var(--white);
   font-family: inherit;
-  border: var(--border-medium) solid rgba($color: #000000, $alpha: 0);
+  border: var(--border-medium);
+  border-color: rgba($color: #000000, $alpha: 0);
   border-radius: var(--border-radius);
 }
 
