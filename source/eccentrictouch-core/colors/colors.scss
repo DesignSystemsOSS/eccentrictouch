@@ -187,15 +187,15 @@ $opacity-range: 9;
 }
 
 .bg-color-white {
-  background-color: $white;
+  background-color: $white !important;
 }
 
 .border-color-white {
-  border-color: $white;
+  border-color: $white !important;
 }
 
 .fill-color-white {
-  fill: $white;
+  fill: $white !important;
 }
 
 // for base-blue
