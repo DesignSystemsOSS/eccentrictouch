@@ -52,3 +52,48 @@ input[type=week], input[type=file] {
     border-color: var(--color-blue-500);
   }
 }
+
+input[type=color] {
+  border-radius: var(--border-radius);
+  width: 72px;
+  padding-right: 0.4em;
+  background: rgba($color: #000000, $alpha: 0.0);
+  padding-left: 0.4em;
+  border: var(--border-light);
+  border-color: var(--neutral-gray-500);
+  &::placeholder {
+    color: var(--neutral-gray-500);
+  }
+  &:hover {
+    background-color: var(--color-blue-100);
+    border-color: var(--color-blue-500);
+  }
+  &:focus {
+    outline: none !important;
+    box-shadow: var(--focus-shadow);
+    border-color: var(--color-blue-500);
+  }
+}
+
+.input-wrapper-control {
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: row;
+  width: fit-content;
+  > .input-start-icon {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 0;
+  }
+  > .input-end-icon {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  > input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 0;
+  }
+}
