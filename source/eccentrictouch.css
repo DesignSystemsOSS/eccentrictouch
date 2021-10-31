@@ -10,10 +10,15 @@
 }
 
 body {
-  font-family: var(--font-sans);
-  color: var(--neutral-gray-900);
+  font-family: var(--base-font-family__not-default);
+  color: var(--base-text-color__not-default);
 }
 
 body:focus {
   outline: none;
+}
+
+:root {
+  --base-text-color__not-default: rgba(41, 41, 41, 0.9);
+  --base-font-family__not-default: 'Inter', sans-serif;
 }

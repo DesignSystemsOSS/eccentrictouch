@@ -13,10 +13,27 @@
     <p class="color-blue-900 m-top-4">Search jobs related to the topic <span class="neutral-gray-800">Frontend Developer</span></p>
     <div class="job-category-list m-top-4 m-bottom-2" style="display: flex; flex-direction: row; gap: 1em; align-items: center;">
       <input class="border-color-900" type="text" placeholder="Search for job roles, companies, locations" />
+      <input class="border-color-900" type="file" placeholder="Search for job roles, companies, locations" />
+      <input class="border-color-900" type="datetime-local" placeholder="Search for job roles, companies, locations" />
+      <input class="border-color-900" type="color" placeholder="Search for job roles, companies, locations" id="color-input" />
       <button class="primary-btn bg-color-blue-900">Search Jobs</button>
     </div>
     <div class="relevant-job-tags-wrapper">
-
+      <div class="input-wrapper-control">
+        <button class="primary-btn icon-btn input-start-icon">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" stroke="#ffffff" stroke-width="2" />
+            <line x1="20.4142" y1="21" x2="30" y2="30.5858" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <input type="text" placeholder="search by companies, location, roles" />
+        <button class="primary-btn icon-btn input-end-icon">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" stroke="#ffffff" stroke-width="2" />
+            <line x1="20.4142" y1="21" x2="30" y2="30.5858" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
     </div>
     <div style="display: grid; grid-template-columns: auto auto auto; align-items: center; gap: 2em; row-gap: 2em;" class="m-top-8">
       <div class="card shadow-hoverable">
