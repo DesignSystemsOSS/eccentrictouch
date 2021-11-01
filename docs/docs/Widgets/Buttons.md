@@ -94,10 +94,18 @@ The text button variation can be implemented by using the class method `text-btn
 
 The link tag i.e. `<a>` has two variations which can implemented by the following ways,
 
+1. Default link, which can be used by using `link` in classes.
+2. Base link, which can be used by using `base-link` in classes
+
 <div class="button-list-wrapper">
   <a href="#links" class="link">Default link</a>
   <a href="#links" class="base-link">Base link</a>
 </div>
+
+```html
+<a href="#links" class="link">Default link</a>
+<a href="#links" class="base-link">Base link</a>
+```
 
 You can also go with personalization with your button components,
 - You can change font and background color of a `primary-btn`

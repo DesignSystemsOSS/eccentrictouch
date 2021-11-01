@@ -1,98 +1,346 @@
-$EccentricTouchColors: (
-  "neutral-gray-800": #292929,
-  "neutral-gray-700": #494949,
-  "neutral-gray-600": #696969,
-  "neutral-gray-500": #898989,
-  "neutral-gray-400": #A9A9A9,
-  "neutral-gray-300": #C9C9C9,
-  "neutral-gray-200": #E9E9E9,
-  "neutral-gray-100": #F9F9F9,
+// $EccentricTouchColors: (
+//   "neutral-gray-800": #292929,
+//   "neutral-gray-700": #494949,
+//   "neutral-gray-600": #696969,
+//   "neutral-gray-500": #898989,
+//   "neutral-gray-400": #A9A9A9,
+//   "neutral-gray-300": #C9C9C9,
+//   "neutral-gray-200": #E9E9E9,
+//   "neutral-gray-100": #F9F9F9,
 
-  // blue color variants
-  "color-blue-900": #184BFF,
-  "color-blue-800": #3763FF,
-  "color-blue-700": #547AFF,
-  "color-blue-600": #7694FF,
-  "color-blue-500": #8DA6FF,
-  "color-blue-400": #B5C5FF,
-  "color-blue-300": #CAD6FF,
-  "color-blue-200": #E2E9FF,
-  "color-blue-100": #F2F5FF,
+//   // blue color variants
+//   "color-blue-900": #184BFF,
+//   "color-blue-800": #3763FF,
+//   "color-blue-700": #547AFF,
+//   "color-blue-600": #7694FF,
+//   "color-blue-500": #8DA6FF,
+//   "color-blue-400": #B5C5FF,
+//   "color-blue-300": #CAD6FF,
+//   "color-blue-200": #E2E9FF,
+//   "color-blue-100": #F2F5FF,
 
-  // purple color variants
-  "color-purple-900": #7E18FF,
-  "color-purple-800": #8E35FF,
-  "color-purple-700": #9D50FF,
-  "color-purple-600": #A864FF,
-  "color-purple-500": #B77DFF,
-  "color-purple-400": #C99DFF,
-  "color-purple-300": #D6B5FF,
-  "color-purple-200": #E7D3FF,
-  "color-purple-100": #EADAFF,
+//   // purple color variants
+//   "color-purple-900": #7E18FF,
+//   "color-purple-800": #8E35FF,
+//   "color-purple-700": #9D50FF,
+//   "color-purple-600": #A864FF,
+//   "color-purple-500": #B77DFF,
+//   "color-purple-400": #C99DFF,
+//   "color-purple-300": #D6B5FF,
+//   "color-purple-200": #E7D3FF,
+//   "color-purple-100": #EADAFF,
 
-  // red color variables
-  "color-red-900": #C00000,
-  "color-red-800": #C82121,
-  "color-red-700": #BB3B3B,
-  "color-red-600": #D14747,
-  "color-red-500": #E85959,
-  "color-red-400": #FF6363,
-  "color-red-300": #FF7B7B,
-  "color-red-200": #FF9292,
-  "color-red-100": #FFBFBF,
+//   // red color variables
+//   "color-red-900": #C00000,
+//   "color-red-800": #C82121,
+//   "color-red-700": #BB3B3B,
+//   "color-red-600": #D14747,
+//   "color-red-500": #E85959,
+//   "color-red-400": #FF6363,
+//   "color-red-300": #FF7B7B,
+//   "color-red-200": #FF9292,
+//   "color-red-100": #FFBFBF,
 
-  // green color variables
-  "color-green-900": #009758,
-  "color-green-800": #17A368,
-  "color-green-700": #3EA77B,
-  "color-green-600": #4D9E7C,
-  "color-green-500": #5CBA93,
-  "color-green-400": #72D9AE,
-  "color-green-300": #87F8C9,
-  "color-green-200": #AEFFDD,
-  "color-green-100": #D8FFEF,
+//   // green color variables
+//   "color-green-900": #009758,
+//   "color-green-800": #17A368,
+//   "color-green-700": #3EA77B,
+//   "color-green-600": #4D9E7C,
+//   "color-green-500": #5CBA93,
+//   "color-green-400": #72D9AE,
+//   "color-green-300": #87F8C9,
+//   "color-green-200": #AEFFDD,
+//   "color-green-100": #D8FFEF,
 
-  // 
+//   // yellow color variables
+//   "color-yellow-900": #EBC500,
+//   "color-yellow-800": #FFD600,
+//   "color-yellow-700": #FFDC22,
+//   "color-yellow-600": #FFE03C,
+//   "color-yellow-500": #FFE34F,
+//   "color-yellow-400": #FFE972,
+//   "color-yellow-300": #FFEC8C,
+//   "color-yellow-200": #FFF1AC,
+//   "color-yellow-100": #FFF6C8
+// );
 
-);
+// // for background-colors
+// @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+//   .bg-#{$EccentricTouchColor} {
+//     background-color: $baseColor !important;
+//   }
+// }
 
-// for background-colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .bg-#{$EccentricTouchColor} {
-    background-color: $baseColor !important;
+// // for text-colors
+// @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+//   .#{$EccentricTouchColor} {
+//     color: $baseColor !important;
+//   }
+// }
+
+// // fill color
+// @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+//   .fill-#{$EccentricTouchColor} {
+//     fill: $baseColor !important;
+//   }
+// }
+
+// // stroke colors
+// @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+//   .stroke-#{$EccentricTouchColor} {
+//     stroke: $baseColor !important;
+//   }
+// }
+
+// // border colors
+// @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+//   .border-#{$EccentricTouchColor} {
+//     border-color: $baseColor !important;
+//   }
+// }
+
+// :root {
+//   @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
+//     --#{$EccentricTouchColor}: #{$baseColor};
+//   }
+// }
+
+$base-blue: rgb(24, 75, 255);
+$base-purple: rgb(125, 26, 255);
+$base-red: rgb(192, 0, 0);
+$base-yellow: rgb(255, 220, 34);
+$base-green: rgb(0, 151, 88);
+$base-dark: rgb(41, 41, 41);
+$white: white;
+$black: black;
+
+// gradient colors
+$gradient: linear-gradient(45deg,#ff61d3 10%,#b318ff 40%,#b318ff 60%,#00f0ff 90%);
+$gradient-blue-to-purple: linear-gradient(45deg, #6A8BFF, #5300BC);
+$gradient-orange-to-red: linear-gradient(45deg, #FF0000, #FFC700);
+$gradient-pink-to-red: linear-gradient(45deg, #FF2727, #FF7B8F);
+
+// base-colors opacity value
+$opacity-range: 9;
+
+.bg-gradient { 
+  background: $gradient;
+}
+
+.gradient-text {
+  background-color: #000;
+  background: $gradient;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.bg-gradient-blue-to-purple {
+  background: $gradient-blue-to-purple;
+}
+
+.gradient-text-blue-to-purple {
+  background-color: #000;
+  background: $gradient-blue-to-purple;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.bg-gradient-orange-to-red {
+  background: $gradient-orange-to-red;
+}
+
+.gradient-text-orange-to-red {
+  background-color: #000;
+  background: $gradient-orange-to-red;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.bg-gradient-pink-to-red {
+  background: $gradient-pink-to-red;
+}
+
+.gradient-text-pink-to-red {
+  background-color: #000;
+  background: $gradient-pink-to-red;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+// white color
+
+.text-color-white {
+  color: $white !important;
+}
+
+.bg-color-white {
+  background-color: $white !important;
+}
+
+.border-color-white {
+  border-color: $white !important;
+}
+
+.fill-color-white {
+  fill: $white !important;
+}
+
+// black color
+
+.text-color-black {
+  color: $black !important;
+}
+
+.bg-color-black {
+  background-color: $black !important;
+}
+
+.border-color-black {
+  border-color: $black !important;
+}
+
+.fill-color-black {
+  fill: $black !important;
+}
+
+// for base-blue
+@for $count from 1 through $opacity-range {
+  .color-blue-#{$count * 100} {
+    color: rgba($color: $base-blue, $alpha: $count/10) !important;
+  }
+  .bg-color-blue-#{$count * 100} {
+    background-color: rgba($color: $base-blue, $alpha: $count/10) !important;
+  }
+  .border-color-blue-#{$count * 100} {
+    border-color: rgba($color: $base-blue, $alpha: $count/10) !important;
+  }
+  .fill-color-blue-#{$count * 100} {
+    fill: rgba($color: $base-blue, $alpha: $count/10) !important;
   }
 }
 
-// for text-colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .#{$EccentricTouchColor} {
-    color: $baseColor !important;
+// for base-purple
+@for $count from 1 through $opacity-range {
+  .color-purple-#{$count * 100} {
+    color: rgba($color: $base-purple, $alpha: $count/10) !important;
+  }
+  .bg-color-purple-#{$count * 100} {
+    background-color: rgba($color: $base-purple, $alpha: $count/10) !important;
+  }
+  .border-color-purple-#{$count * 100} {
+    border-color: rgba($color: $base-purple, $alpha: $count/10) !important;
+  }
+  .fill-color-purple-#{$count * 100} {
+    fill: rgba($color: $base-purple, $alpha: $count/10) !important;
   }
 }
 
-// fill color
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .fill-#{$EccentricTouchColor} {
-    fill: $baseColor !important;
+// for base-red
+@for $count from 1 through $opacity-range {
+  .color-red-#{$count * 100} {
+    color: rgba($color: $base-red, $alpha: $count/10) !important;
+  }
+  .bg-color-red-#{$count * 100} {
+    background-color: rgba($color: $base-red, $alpha: $count/10) !important;
+  }
+  .border-color-red-#{$count * 100} {
+    border-color: rgba($color: $base-red, $alpha: $count/10) !important;
+  }
+  .fill-color-red-#{$count * 100} {
+    fill: rgba($color: $base-red, $alpha: $count/10) !important;
   }
 }
 
-// stroke colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .stroke-#{$EccentricTouchColor} {
-    stroke: $baseColor !important;
+// for base-yellow
+@for $count from 1 through $opacity-range {
+  .color-yellow-#{$count * 100} {
+    color: rgba($color: $base-yellow, $alpha: $count/10) !important;
+  }
+  .bg-color-yellow-#{$count * 100} {
+    background-color: rgba($color: $base-yellow, $alpha: $count/10) !important;
+  }
+  .border-color-yellow-#{$count * 100} {
+    border-color: rgba($color: $base-yellow, $alpha: $count/10) !important;
+  }
+  .fill-color-yellow-#{$count * 100} {
+    fill: rgba($color: $base-yellow, $alpha: $count/10) !important;
   }
 }
 
-// border colors
-@each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-  .border-#{$EccentricTouchColor} {
-    border-color: $baseColor !important;
+// for base-green
+@for $count from 1 through $opacity-range {
+  .color-green-#{$count * 100} {
+    color: rgba($color: $base-green, $alpha: $count/10) !important;
+  }
+  .bg-color-green-#{$count * 100} {
+    background-color: rgba($color: $base-green, $alpha: $count/10) !important;
+  }
+  .border-color-green-#{$count * 100} {
+    border-color: rgba($color: $base-green, $alpha: $count/10) !important;
+  }
+  .fill-color-green-#{$count * 100} {
+    fill: rgba($color: $base-green, $alpha: $count/10) !important;
+  }
+}
+
+// for base-dark
+@for $count from 1 through $opacity-range {
+  .neutral-gray-#{$count * 100} {
+    color: rgba($color: $base-dark, $alpha: $count/10) !important;
+  }
+  .bg-neutral-gray-#{$count * 100} {
+    background-color: rgba($color: $base-dark, $alpha: $count/10) !important;
+  }
+  .border-neutral-gray-#{$count * 100} {
+    border-color: rgba($color: $base-dark, $alpha: $count/10) !important;
+  }
+  .fill-neutral-gray-#{$count * 100} {
+    fill: rgba($color: $base-dark, $alpha: $count/10) !important;
   }
 }
 
 :root {
-  @each $EccentricTouchColor, $baseColor in $EccentricTouchColors {
-    --#{$EccentricTouchColor}: #{$baseColor};
+  // @for $count from 1 through $opacity-range {
+  //   $color: toRGB($base-blue);
+  //   --color-blue-#{$count * 100}: rgba(#{$color}, #{$count * 10%});
+  // }
+  --white: white;
+  --gradient: #{$gradient};
+  --gradient-purple-to-blue: #{$gradient-blue-to-purple};
+  --gradient-orange-to-red: #{$gradient-orange-to-red};
+  --gradient-pink-to-red: #{$gradient-pink-to-red};
+  --color-blue: 24, 75, 255;
+  --color-purple: 125, 26, 255;
+  --color-red: 192, 0, 0;
+  --color-yellow: 255, 220, 34;
+  --color-green: 0, 151, 88;
+  --neutral-gray: 41, 41, 41;
+  @for $count from 1 through $opacity-range {
+    --color-blue-#{$count * 100}: rgba(var(--color-blue), #{$count * 10%});
+    --color-purple-#{$count * 100}: rgba(var(--color-purple), #{$count * 10%});
+    --color-red-#{$count * 100}: rgba(var(--color-red), #{$count * 10%});
+    --color-yellow-#{$count * 100}: rgba(var(--color-yellow), #{$count * 10%});
+    --color-green-#{$count * 100}: rgba(var(--color-green), #{$count * 10%});
+    --neutral-gray-#{$count * 100}: rgba(var(--neutral-gray), #{$count * 10%});
   }
 }
+
+// @function toRGB($base-color) {
+//     @return "rgb(" + red($base-color) + ", " + green($base-color) + ", " + blue($base-color)+ ")";
+// }

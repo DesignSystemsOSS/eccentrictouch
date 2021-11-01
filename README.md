@@ -53,4 +53,3 @@ To begin with, you need to set up the project locally on your device.Before usin
 
 ## License 
 This project is Licensed by [MIT].
-

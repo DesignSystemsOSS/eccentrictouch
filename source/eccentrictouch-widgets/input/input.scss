@@ -1,0 +1,54 @@
+
+// input defaults
+input {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  transition: all 0.180s ease-in-out;
+}
+
+// input sizes
+$input-sizes: (
+  "default": 12px 24px,
+  "medium": 16px 32px,
+  "large": 20px 40px
+);
+
+@each $input-size, $size in $input-sizes {
+  .input-#{$input-size} {
+    padding: $size !important;
+  }
+}
+
+:root {
+  @each $input-size, $size in $input-sizes {
+    --input-size-#{$input-size}: #{$size};
+  }
+}
+
+// input variants
+input[type=text], input[type=password],
+input[type=date], input[type=datetime-local],
+input[type=email], input[type=number],
+input[type=image], input[type=month],
+input[type=tel], input[type=url],
+input[type=week], input[type=file] {
+  border-radius: var(--border-radius);
+  padding: var(--input-size-default);
+  border: var(--border-light);
+  color: var(--neutral-gray-900);
+  font-family: inherit;
+  border-color: var(--neutral-gray-500);
+  &::placeholder {
+    color: var(--neutral-gray-500);
+  }
+  &:hover {
+    background-color: var(--color-blue-100);
+    border-color: var(--color-blue-500);
+  }
+  &:focus {
+    outline: none !important;
+    box-shadow: var(--focus-shadow);
+    border-color: var(--color-blue-500);
+  }
+}

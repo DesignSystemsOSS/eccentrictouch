@@ -6,6 +6,18 @@ button, input[type=button], input[type=reset], input[type=submit], a[role=button
   transition: all 0.180s ease-in-out;
 }
 
+.btn-default {
+  padding: 12px 24px !important;
+}
+
+.btn-medium {
+  padding: 16px 32px !important;
+}
+
+.btn-large {
+  padding: 20px 40px !important;
+}
+
 :root {
   --btn-size-default: 12px 24px;
   --btn-size-medium: 16px 32px;
@@ -15,9 +27,10 @@ button, input[type=button], input[type=reset], input[type=submit], a[role=button
 button.primary-btn, .primary-btn {
   background-color: var(--color-blue-900);
   padding: var(--btn-size-default);
-  color: var(--neutral-gray-100);
+  color: var(--white);
   font-family: inherit;
-  border: var(--border-medium) solid rgba(0, 0, 0, 0);
+  border: var(--border-medium);
+  border-color: rgba(0, 0, 0, 0);
   border-radius: var(--border-radius);
 }
 
@@ -29,6 +42,11 @@ button.primary-btn__danger, .primary-btn__danger {
 button.primary-btn__success, .primary-btn__success {
   background-color: var(--color-green-900) !important;
   color: white !important;
+}
+
+button.primary-btn__warning, .primary-btn__warning {
+  background-color: var(--color-yellow-900) !important;
+  color: var(--neutral-gray-800);
 }
 
 button.primary-btn__disabled, .primary-btn__disabled {
