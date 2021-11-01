@@ -1,14 +1,323 @@
 @import url("../../eccentrictouch-vendors/fonts.css");
-.font-sans {
-  font-family: "Inter", sans-serif;
+.font-weight-light {
+  font-weight: 300;
 }
 
-.font-serif {
-  font-family: "Lora", serif;
+.font-weight-regular {
+  font-weight: 400;
 }
 
-.font-monospace {
-  font-family: "Space Mono", monospace;
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-100 {
+  font-weight: 100;
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+h50,
+.h50 {
+  font-size: 1.618;
+}
+
+h49,
+.h49 {
+  font-size: 3.236;
+}
+
+h48,
+.h48 {
+  font-size: 4.854;
+}
+
+h47,
+.h47 {
+  font-size: 6.472;
+}
+
+h46,
+.h46 {
+  font-size: 8.09;
+}
+
+h45,
+.h45 {
+  font-size: 9.708;
+}
+
+h44,
+.h44 {
+  font-size: 11.326;
+}
+
+h43,
+.h43 {
+  font-size: 12.944;
+}
+
+h42,
+.h42 {
+  font-size: 14.562;
+}
+
+h41,
+.h41 {
+  font-size: 16.18;
+}
+
+h40,
+.h40 {
+  font-size: 17.798;
+}
+
+h39,
+.h39 {
+  font-size: 19.416;
+}
+
+h38,
+.h38 {
+  font-size: 21.034;
+}
+
+h37,
+.h37 {
+  font-size: 22.652;
+}
+
+h36,
+.h36 {
+  font-size: 24.27;
+}
+
+h35,
+.h35 {
+  font-size: 25.888;
+}
+
+h34,
+.h34 {
+  font-size: 27.506;
+}
+
+h33,
+.h33 {
+  font-size: 29.124;
+}
+
+h32,
+.h32 {
+  font-size: 30.742;
+}
+
+h31,
+.h31 {
+  font-size: 32.36;
+}
+
+h30,
+.h30 {
+  font-size: 33.978;
+}
+
+h29,
+.h29 {
+  font-size: 35.596;
+}
+
+h28,
+.h28 {
+  font-size: 37.214;
+}
+
+h27,
+.h27 {
+  font-size: 38.832;
+}
+
+h26,
+.h26 {
+  font-size: 40.45;
+}
+
+h25,
+.h25 {
+  font-size: 42.068;
+}
+
+h24,
+.h24 {
+  font-size: 43.686;
+}
+
+h23,
+.h23 {
+  font-size: 45.304;
+}
+
+h22,
+.h22 {
+  font-size: 46.922;
+}
+
+h21,
+.h21 {
+  font-size: 48.54;
+}
+
+h20,
+.h20 {
+  font-size: 50.158;
+}
+
+h19,
+.h19 {
+  font-size: 51.776;
+}
+
+h18,
+.h18 {
+  font-size: 53.394;
+}
+
+h17,
+.h17 {
+  font-size: 55.012;
+}
+
+h16,
+.h16 {
+  font-size: 56.63;
+}
+
+h15,
+.h15 {
+  font-size: 58.248;
+}
+
+h14,
+.h14 {
+  font-size: 59.866;
+}
+
+h13,
+.h13 {
+  font-size: 61.484;
+}
+
+h12,
+.h12 {
+  font-size: 63.102;
+}
+
+h11,
+.h11 {
+  font-size: 64.72;
+}
+
+h10,
+.h10 {
+  font-size: 66.338;
+}
+
+h9,
+.h9 {
+  font-size: 67.956;
+}
+
+h8,
+.h8 {
+  font-size: 69.574;
+}
+
+h7,
+.h7 {
+  font-size: 71.192;
+}
+
+h6,
+.h6 {
+  font-size: 72.81;
+}
+
+h5,
+.h5 {
+  font-size: 74.428;
+}
+
+h4,
+.h4 {
+  font-size: 76.046;
+}
+
+h3,
+.h3 {
+  font-size: 77.664;
+}
+
+h2,
+.h2 {
+  font-size: 79.282;
+}
+
+h1,
+.h1 {
+  font-size: 80.9;
+}
+
+p,
+.p {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.p-small {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.p-large {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  font-weight: 400;
 }
 
 :root {
