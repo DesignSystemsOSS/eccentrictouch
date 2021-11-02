@@ -11,7 +11,7 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # css and css-map files generted from watch sass compiler
-
+source/
 
 # Runtime data
 pids

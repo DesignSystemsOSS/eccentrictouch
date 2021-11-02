@@ -1,8 +1,7 @@
 
-
 $goldenRatio: 1.618;
-$baseUnit: 4px;
-$maxPaddingValue: 20;
+$baseUnit: 1px;
+$maxPaddingValue: 100;
 
 // padding from all sides
 @for $count from 1 through $maxPaddingValue {
@@ -33,8 +32,54 @@ $maxPaddingValue: 20;
 }
 
 // padding from bottom side
-@for $count from 2 through $maxPaddingValue {
+@for $count from 1 through $maxPaddingValue {
   .p-bottom-#{$count} {
     padding-bottom: ($count * $baseUnit * $goldenRatio);
   }
+}
+
+// padding vertically (from top and bottom)
+@for $count from 1 through $maxPaddingValue {
+	.p-y-#{$count} {
+		padding-top: ($count * $baseUnit * $goldenRatio);
+		padding-bottom: ($count * $baseUnit * $goldenRatio);
+	}
+}
+
+// padding horizontally (from right and left)
+@for $count from 1 through $maxPaddingValue {
+	.p-x-#{$count} {
+		padding-left: ($count * $baseUnit * $goldenRatio);
+		padding-right: ($count * $baseUnit * $goldenRatio);
+	}
+}
+
+// padding-decimal-values: generating decimal values for padding properties
+// padding, padding-right, padding-left, padding-top, padding-bottom, padding-horizontally, padding-vertically
+@for $padding-base-value from 0 through $maxPaddingValue {
+	@for $padding-decimal-value from 1 through 9 {
+		.p-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+		.p-right-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding-right: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+		.p-left-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding-left: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+		.p-top-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding-top: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+		.p-bottom-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding-bottom: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+		.p-x-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding-right: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+			padding-left: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+		.p-y-#{$padding-base-value}-point-#{$padding-decimal-value} {
+			padding-top: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+			padding-bottom: #{($padding-base-value * 10 + $padding-decimal-value)/10}px;
+		}
+	}
 }
