@@ -1,10 +1,12 @@
 
-
+// defining some base units and values for margin value generations
+// golden-ratio to setup a proper layouting system
+// base-unit: to set a base-unit to generate a eccentrictouch-base unit
 $goldenRatio: 1.618;
-$baseUnit: 4px;
+$baseUnit: 2px;
 
 // maximum margin value
-$maxMarginValue: 20;
+$maxMarginValue: 100;
 
 // margin from all sides
 @for $count from 1 through $maxMarginValue {
@@ -71,3 +73,35 @@ $maxMarginValue: 20;
   margin-top: auto;
   margin-bottom: auto;
 }
+
+// margins with decimal values - from unit 0.1 to 200.9
+@for $margin-base-value from 0 through $maxMarginValue {
+	@for $margin-decimal-value from 1 through 9 {
+		// margin-default values: to add margin from all the sides of an HTML element
+		.m-#{$margin-base-value}-point-#{$margin-decimal-value} {
+			margin: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+		}
+		.m-right-#{$margin-base-value}-point-#{$margin-decimal-value} {
+			margin-right: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+		}
+		.m-left-#{$margin-base-value}-point-#{$margin-decimal-value} {
+			margin-left: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+		}
+		.m-top-#{$margin-base-value}-point-#{$margin-decimal-value} {
+			margin-top: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+		}
+		.m-bottom-#{$margin-base-value}-point-#{$margin-decimal-value} {
+			margin-bottom: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+		}
+    .m-x-#{margin-base-value}-point-#{$margin-decimal-value} {
+      margin-right: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+      margin-left: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;;
+    }
+    .m-y-#{margin-base-value}-point-#{$margin-decimal-value} {
+      margin-top: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+      margin-bottom: #{($margin-base-value * 10 + $margin-decimal-value)/10}px;
+    }
+	}
+}
+
+
