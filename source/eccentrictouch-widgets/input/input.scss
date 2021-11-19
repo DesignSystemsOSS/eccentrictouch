@@ -74,26 +74,3 @@ input[type=color] {
     border-color: var(--color-blue-500);
   }
 }
-
-.input-wrapper-control {
-  border-radius: var(--border-radius);
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-direction: row;
-  width: fit-content;
-  > .input-start-icon {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    z-index: 0;
-  }
-  > .input-end-icon {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  > input {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-radius: 0;
-  }
-}
