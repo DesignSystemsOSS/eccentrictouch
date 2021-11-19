@@ -62,3 +62,12 @@ html[data-theme="dark"] a {
   gap: 12px;
   row-gap: 12px;
 }
+
+.video-wrapper-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.video-wrapper-card:hover {
+  filter: grayscale(90%);
+  transform: translateY(-4px);
+}

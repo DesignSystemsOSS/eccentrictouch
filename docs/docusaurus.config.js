@@ -62,6 +62,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/screencasts', label: 'Screencasts', position: 'left'},
           {
             href: 'https://bit.ly/eccentrictouch-docs',
             label: 'GitHub',
