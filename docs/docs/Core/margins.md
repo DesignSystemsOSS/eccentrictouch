@@ -23,7 +23,7 @@ The range of values for margins goes from 1 to 100 "eccentric touch" units.
 | Top | `m-top-value` | `m-top-3`, `m-top-12`, `m-top-56`, `m-top-auto` |
 | Bottom | `m-bottom-value` | `m-bottom-3`, `m-bottom-12`, `m-bottom-56`, `m-bottom-auto` |
 
-- Adding horizontal margins to an element, we can use `m-x-auto` (x representing horizontal side) whereas, to add vertical margins
+- For Adding horizontal margin-auto to an element, we can use `m-x-auto` (x representing horizontal side) whereas, to add vertical margins
 to an element, we can use `m-y-auto` (and of-course, y representing vertical side).
 
 #### Using decimal values in margins

@@ -94,3 +94,6 @@ There are many basic color and there respective shades provided, the colors are 
 | 200   | neutral-gray-200       | <div className="color-shade-box bg-neutral-gray-200"></div> |
 | 100   | neutral-gray-100       | <div className="color-shade-box bg-neutral-gray-100"></div> |
 
+**For using white and black colors, the class methods are given below**
+- White `text-color-white`, `bg-color-white`, `border-color-white`, `fill-color-white`
+- Black `text-color-black`, `bg-color-black`, `border-color-black`, `fill-color-black` 
