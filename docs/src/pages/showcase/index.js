@@ -13,9 +13,12 @@ export default function Showcase() {
     <Layout title="Showcase Projects">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="screen-casts-section-title">Showcasing projects using <br />Eccentric Touch</h1>
+          <h1 className="screen-casts-section-title">Showcasing projects using <br /> Eccentric Touch</h1>
         </div>
       </header>
+      <div className="container projects-showcase-content-wrapper">
+        This section will be wrapping up all the projects as showcase
+      </div>
     </Layout>
   )
 }
