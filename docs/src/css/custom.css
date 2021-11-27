@@ -71,3 +71,8 @@ html[data-theme="dark"] a {
   filter: grayscale(90%);
   transform: translateY(-4px);
 }
+
+.border-boxes {
+  width: 320px;
+  height: 120px;
+}

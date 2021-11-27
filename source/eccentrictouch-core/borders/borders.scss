@@ -58,7 +58,7 @@ $max-border-radius-value: 100;
 
 // border-widths - decimal values (ranging from 0.1 to 100.9)
 $max-border-decimal-value: 9;
-@for $base-value from 0 through $max-border-decimal-value {
+@for $base-value from 0 through $max-border-width-value {
   @for $decimal-value from 1 through $max-border-decimal-value {
     .border-width-#{$base-value}-point-#{$decimal-value} {
       border-width: #{($base-value * 10 + $decimal-value)/10}px;
