@@ -40,5 +40,5 @@ To implement borders to your components, the syntax is given below.
 
 | Border Type | Class-based Implementation | Output |
 |-------------|----------------------------|--------|
-| Border Bottom (24px) + Border Top (12px) | `<div class="border border-bottom-width-24 border-top-width-12 border-color-purple-900"></div>` | <div class="border-boxes border border-bottom-width-24 border-top-width-12 border-color-green-900"></div> |
-| Border Top (100px) + Border Right (34.4px) | `<div class="border border-top-width-100 border-right-width-34-point-4 border-color-purple-900"></div>` | <div class="border-boxes border border-top-width-100 border-right-width-34-point-4 border-color-green-900"></div> |
+| Border Bottom (24px) + Border Top (12px) | `<div class="border border-bottom-width-24 border-top-width-12 border-color-green-900"></div>` | <div class="border-boxes border border-bottom-width-24 border-top-width-12 border-color-green-900"></div> |
+| Border Top (100px) + Border Right (34.4px) | `<div class="border border-top-width-100 border-right-width-34-point-4 border-color-green-900"></div>` | <div class="border-boxes border border-top-width-100 border-right-width-34-point-4 border-color-green-900"></div> |
