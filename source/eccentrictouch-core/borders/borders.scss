@@ -60,19 +60,19 @@ $max-border-radius-value: 100;
 $max-border-decimal-value: 9;
 @for $base-value from 0 through $max-border-width-value {
   @for $decimal-value from 1 through $max-border-decimal-value {
-    .border-width-#{$base-value}-point-#{$decimal-value} {
+    .border-width-#{$base-value}pt#{$decimal-value} {
       border-width: #{($base-value * 10 + $decimal-value)/10}px;
     }
-    .border-right-width-#{$base-value}-point-#{$decimal-value} {
+    .border-right-width-#{$base-value}pt#{$decimal-value} {
       border-right-width: #{($base-value * 10 + $decimal-value)/10}px;
     }
-    .border-left-width-#{$base-value}-point-#{$decimal-value} {
+    .border-left-width-#{$base-value}pt#{$decimal-value} {
       border-left-width: #{($base-value * 10 + $decimal-value)/10}px;
     }
-    .border-top-width-#{$base-value}-point-#{$decimal-value} {
+    .border-top-width-#{$base-value}pt#{$decimal-value} {
       border-top-width: #{($base-value * 10 + $decimal-value)/10}px;
     }
-    .border-bottom-width-#{$base-value}-point-#{$decimal-value} {
+    .border-bottom-width-#{$base-value}pt#{$decimal-value} {
       border-bottom-width: #{($base-value * 10 + $decimal-value)/10}px;
     }
   }

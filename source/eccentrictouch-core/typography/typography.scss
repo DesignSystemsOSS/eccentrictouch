@@ -68,7 +68,7 @@ p, i, u, b, strong, li, ul, sup, sub, label {
 $decimal-range: 9;
 @for $font-size-count-for-base-values from 0 through $font-size-range {
 	@for $font-size-count-for-decimal-values from 1 through $decimal-range {
-		.font-size-#{$font-size-count-for-base-values}-point-#{$font-size-count-for-decimal-values} {
+		.font-size-#{$font-size-count-for-base-values}pt#{$font-size-count-for-decimal-values} {
 			font-size: #{($font-size-count-for-base-values * 10 + $font-size-count-for-decimal-values)/10}px;
 		}
 	}
