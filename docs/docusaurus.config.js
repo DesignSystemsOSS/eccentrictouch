@@ -52,7 +52,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'Eccentric Touch Documentation',
         logo: {
           alt: 'thedesignsystems-logo',
-          src: 'https://ik.imagekit.io/vjy2bxam20u/TheDesignSystems-Assets/logo-discord_no_bg_NsvWF5MSFR.png?updatedAt=1631737806979',
+          src: 'https://ik.imagekit.io/vjy2bxam20u/TheDesignSystems-Assets/logo-blue-purple_EufNYn0ba.svg?updatedAt=1637436258402',
         },
         items: [
           {
@@ -61,7 +61,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/screencasts', label: 'Screencasts', position: 'left'},
+          {to: '/showcase', label: 'Projects Showcase', position: 'right'},
           {
             href: 'https://bit.ly/eccentrictouch-docs',
             label: 'GitHub',

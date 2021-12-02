@@ -1,26 +1,237 @@
+// Typography for eccentric-touch
+
+// importing base fonts from fonts.css
+// from the vendors package
 @import url('../../eccentrictouch-vendors/fonts.css');
 
-$sans-font: 'Inter', sans-serif;
-$serif-font: 'Lora', serif;
-$monospace-font: 'Space Mono', monospace;
-
-// font type methods
-.font-sans {
-  font-family: $sans-font;
-}
-
-.font-serif {
-  font-family: $serif-font;
-}
-
-.font-monospace {
-  font-family: $monospace-font;
-}
+// setting up variable configurations for font properties
+$font-sans: 'Inter', sans-serif;
+$font-serif: 'Lora', serif;
+$font-monospace: 'Space Mono', monospace;
 
 :root {
-  --font-sans: #{$sans-font};
-  --font-serif: #{$serif-font};
-  --font-monospace: #{$monospace-font};
+	--font-sans: #{$font-sans};
+	--font-serif: #{$font-serif};
+	--font-monospace: #{$font-monospace};
 }
 
-// heading font methods
+// generating font-sizes for typographies and texts, ranging from 0 to 100 units
+// where (1 unit = 1px)
+$font-size-range: 100;
+@for $font-size-count from 1 through $font-size-range {
+	.font-size-#{$font-size-count} {
+		font-size: #{$font-size-count}px;
+	}
+}
+
+// setting up default size and weight properties of some commonly used
+// HTML elements such as headings, paragraphs, list-items and much more.
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: inherit;
+	color: inherit;
+}
+
+h1, .h1 {
+	font-size: 32px;
+}
+
+h2, .h2 {
+	font-size: 28px;
+}
+
+h3, .h3 {
+	font-size: 22px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+}
+
+h5, .h5 {
+	font-size: 14px;
+}
+
+h6, .h6 {
+	font-size: 10px;
+}
+
+p, i, u, b, strong, li, ul, sup, sub, label {
+	font-family: inherit;
+	color: inherit;
+}
+
+// some specially generated values for managing possible use-cases
+// creating a loop-method to generate values with .1 to .9 decimal,
+// ranging from 0.1 to 100.9 (Base Number Range - 1 to 100)
+$decimal-range: 9;
+@for $font-size-count-for-base-values from 0 through $font-size-range {
+	@for $font-size-count-for-decimal-values from 1 through $decimal-range {
+		.font-size-#{$font-size-count-for-base-values}pt#{$font-size-count-for-decimal-values} {
+			font-size: #{($font-size-count-for-base-values * 10 + $font-size-count-for-decimal-values)/10}px;
+		}
+	}
+}
+
+// font-weight(value-base): generating fonmt-weights from 100-900 weights and keyword values
+// such as normal, bold, initial, revert, and much more...
+$font-weight-values-base: 9; // will help us to generate values from 100 to 900
+@for $font-weight-value from 1 through $font-weight-values-base {
+	.font-weight-#{$font-weight-value * 100} {
+		font-weight: #{$font-weight-value * 100};
+	}
+}
+
+// font-weight(keyword-based): this method is to generate class-methods for keyword based font-weights
+// such as bold, lighter, normal, inherit and others
+$font-weight-keywords-list: (
+	"normal": normal,
+	"bold": bold,
+	"bolder": bolder,
+	"lighter": lighter,
+	"inherit": inherit,
+	"initial": initial,
+	"revert": revert,
+	"unset": unset
+);
+@each $font-weight-title, $font-weight-value in $font-weight-keywords-list {
+	.font-weight-#{$font-weight-title} {
+		font-weight: #{$font-weight-value};
+	}
+}
+
+// font-styles: generating a set of class-methods to apply font-styling to texts, headings
+// and other text-based elements.
+$font-style-properties-list: (
+	"normal": normal,
+	"italic": italic,
+	"oblique": oblique,
+	"inherit": inherit,
+	"initial": initial,
+	"revert": revert,
+	"unset": unset
+);
+
+@each $font-style-title, $font-style-value in $font-style-properties-list {
+	.font-style-#{$font-style-title} {
+		font-style: #{$font-style-title};
+	}
+}
+
+
+// text-transform: generating text-transformation properties for text-based components
+$text-transform-properties-list: (	
+	// keyword values
+	"none": none,
+	"capitalize": capitalize,
+	"uppercase": uppercase,
+	"lowercase": lowercase,
+	"full-width": full-width,
+	"full-size-kana": full-size-kana,
+	// global values
+	"inherit": inherit,
+	"initial": initial,
+	"revert": revert,
+	"unset": unset
+);
+
+@each $text-transform-title, $text-transform-value in $text-transform-properties-list {
+	.text-transform-#{$text-transform-title} {
+		text-transform: #{$text-transform-value};
+	}
+}
+
+
+// text-overflow: generating class-methods for managing text-overflowing properties 
+// for all the text based elements in HTML.
+$text-overflow-properties-list: (
+	"clip": clip,
+	"ellipsis": ellipsis,
+	"inherit": inherit,
+	"initial": initial,
+	"revert": revert,
+	"unset": unset
+);
+
+@each $text-overflow-title, $text-overflow-value in $text-overflow-properties-list {
+	.text-overflow-#{$text-overflow-title} {
+		text-overflow: #{$text-overflow-value};
+	}
+}
+
+
+// text-decoration: generating text-decoration properties for text based elements
+// all the types of underlining properties will be generated in this set of class-methods
+$text-decoration-properties-list: (
+	"underline": underline,
+	"overline": overline,
+	"none": none,
+	"inherit": inherit,
+	"initial": initial,
+	"unset": unset
+);
+
+@each $text-decoration-title, $text-decoration-value in $text-decoration-properties-list {
+	.text-decoration-#{$text-decoration-title} {
+		text-decoration: #{$text-decoration-value};
+	}
+}
+
+
+// text-align: generating class-methods for text alignment properties for HTML elements.
+$text-align-properties-list: (
+	"start": start,
+	"end": end,
+	"left": left,
+	"right": right,
+	"center": center,
+	"justify": justify,
+	"justify-all": justify-all,
+	"match-parent": match-parent,
+	"inherit": inherit,
+	"initial": initial,
+	"revert": revert,
+	"unset": unset
+);
+
+@each $text-align-title, $text-align-value in $text-align-properties-list {
+	.text-align-#{$text-align-title} {
+		text-align: #{$text-align-value};
+	}
+}
+
+
+// font-stretch: generating a set of class methods to manage and change font-stretchings
+// keyword based class-methods for font-stretching (font-stretch/keyword)
+$font-stretch-properties-list: (
+	"ultra-condensed": ultra-condensed,
+	"extra-condensed": extra-condensed,
+	"condensed": condensed,
+	"semi-condensed": semi-condensed,
+	"normal": normal,
+	"semi-expanded": semi-expanded,
+	"expanded": expanded,
+	"extra-expanded": extra-expanded,
+	"ultra-expanded": ultra-expanded,
+	"inherit": inherit,
+	"initial": initial,
+	"revert": revert,
+	"unset": unset
+);
+
+@each $font-stretch-title, $font-stretch-value in $font-stretch-properties-list {
+	.font-stretch-#{$font-stretch-title} {
+		font-stretch: #{$font-stretch-value};
+	}
+}
+
+// value based font-stretch properties (font-stretch/values)
+// generating values from 0% to 100%
+@for $font-stretch-percentage-value from 0 through 100 {
+	.font-stretch-#{$font-stretch-percentage-value} {
+		font-stretch: #{$font-stretch-percentage-value * 1%};
+	}
+}
+
+

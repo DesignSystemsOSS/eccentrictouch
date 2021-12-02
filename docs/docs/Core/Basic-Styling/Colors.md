@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # Colors
@@ -50,6 +50,20 @@ There are many basic color and there respective shades provided, the colors are 
 | 200   | color-green-200       | <div className="color-shade-box bg-color-green-200"></div> |
 | 100   | color-green-100       | <div className="color-shade-box bg-color-green-100"></div> |
 
+### Red
+
+| Shade | class implementation | color |
+|-------|----------------------|-------|
+| 900   | color-red-900       | <div className="color-shade-box bg-color-red-900"></div> |
+| 800   | color-red-800       | <div className="color-shade-box bg-color-red-800"></div> |
+| 700   | color-red-700       | <div className="color-shade-box bg-color-red-700"></div> |
+| 600   | color-red-600       | <div className="color-shade-box bg-color-red-600"></div> |
+| 500   | color-red-500       | <div className="color-shade-box bg-color-red-500"></div> |
+| 400   | color-red-400       | <div className="color-shade-box bg-color-red-400"></div> |
+| 300   | color-red-300       | <div className="color-shade-box bg-color-red-300"></div> |
+| 200   | color-red-200       | <div className="color-shade-box bg-color-red-200"></div> |
+| 100   | color-red-100       | <div className="color-shade-box bg-color-red-100"></div> |
+
 ### Yellow
 
 | Shade | class implementation | color |
@@ -80,3 +94,6 @@ There are many basic color and there respective shades provided, the colors are 
 | 200   | neutral-gray-200       | <div className="color-shade-box bg-neutral-gray-200"></div> |
 | 100   | neutral-gray-100       | <div className="color-shade-box bg-neutral-gray-100"></div> |
 
+**For using white and black colors, the class methods are given below**
+- White `text-color-white`, `bg-color-white`, `border-color-white`, `fill-color-white`
+- Black `text-color-black`, `bg-color-black`, `border-color-black`, `fill-color-black` 

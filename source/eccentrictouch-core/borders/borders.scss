@@ -28,3 +28,52 @@ $border-high: 2.4px solid $border-neutral-color-400;
   --border-medium: #{$border-medium};
   --border-high: #{$border-high};
 }
+
+// border-width properties - ranging from 1 to 100 pixel units
+$max-border-width-value: 100;
+@for $count from 1 through $max-border-width-value {
+  .border-width-#{$count} {
+    border-width: #{$count}px;
+  }
+  .border-right-width-#{$count} {
+    border-right-width: #{$count}px;
+  }
+  .border-left-width-#{$count} {
+    border-left-width: #{$count}px;
+  }
+  .border-top-width-#{$count} {
+    border-top-width: #{$count}px;
+  }
+  .border-bottom-width-#{$count} {
+    border-bottom-width: #{$count}px;
+  }
+}
+
+$max-border-radius-value: 100;
+@for $count from 1 through $max-border-radius-value {
+  .border-radius-#{$count} {
+    border-radius: #{$count}px;
+  }
+}
+
+// border-widths - decimal values (ranging from 0.1 to 100.9)
+$max-border-decimal-value: 9;
+@for $base-value from 0 through $max-border-width-value {
+  @for $decimal-value from 1 through $max-border-decimal-value {
+    .border-width-#{$base-value}pt#{$decimal-value} {
+      border-width: #{($base-value * 10 + $decimal-value)/10}px;
+    }
+    .border-right-width-#{$base-value}pt#{$decimal-value} {
+      border-right-width: #{($base-value * 10 + $decimal-value)/10}px;
+    }
+    .border-left-width-#{$base-value}pt#{$decimal-value} {
+      border-left-width: #{($base-value * 10 + $decimal-value)/10}px;
+    }
+    .border-top-width-#{$base-value}pt#{$decimal-value} {
+      border-top-width: #{($base-value * 10 + $decimal-value)/10}px;
+    }
+    .border-bottom-width-#{$base-value}pt#{$decimal-value} {
+      border-bottom-width: #{($base-value * 10 + $decimal-value)/10}px;
+    }
+  }
+}

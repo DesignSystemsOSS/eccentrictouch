@@ -6,6 +6,12 @@ input {
   transition: all 0.180s ease-in-out;
 }
 
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+}
+
 .input-default {
   padding: 12px 24px !important;
 }
@@ -90,6 +96,81 @@ input[type=email]:focus, input[type=number]:focus,
 input[type=image]:focus, input[type=month]:focus,
 input[type=tel]:focus, input[type=url]:focus,
 input[type=week]:focus, input[type=file]:focus {
+  outline: none !important;
+  -webkit-box-shadow: var(--focus-shadow);
+          box-shadow: var(--focus-shadow);
+  border-color: var(--color-blue-500);
+}
+
+input[type=color] {
+  border-radius: var(--border-radius);
+  width: 72px;
+  padding-right: 0.4em;
+  background: rgba(0, 0, 0, 0);
+  padding-left: 0.4em;
+  border: var(--border-light);
+  border-color: var(--neutral-gray-500);
+}
+
+input[type=color]::-webkit-input-placeholder {
+  color: var(--neutral-gray-500);
+}
+
+input[type=color]:-ms-input-placeholder {
+  color: var(--neutral-gray-500);
+}
+
+input[type=color]::-ms-input-placeholder {
+  color: var(--neutral-gray-500);
+}
+
+input[type=color]::placeholder {
+  color: var(--neutral-gray-500);
+}
+
+input[type=color]:hover {
+  background-color: var(--color-blue-100);
+  border-color: var(--color-blue-500);
+}
+
+input[type=color]:focus {
+  outline: none !important;
+  -webkit-box-shadow: var(--focus-shadow);
+          box-shadow: var(--focus-shadow);
+  border-color: var(--color-blue-500);
+}
+
+textarea {
+  border-radius: var(--border-radius);
+  padding: var(--input-size-default);
+  border: var(--border-light);
+  color: var(--neutral-gray-900);
+  font-family: inherit;
+  border-color: var(--neutral-gray-500);
+}
+
+textarea::-webkit-input-placeholder {
+  color: var(--neutral-gray-500);
+}
+
+textarea:-ms-input-placeholder {
+  color: var(--neutral-gray-500);
+}
+
+textarea::-ms-input-placeholder {
+  color: var(--neutral-gray-500);
+}
+
+textarea::placeholder {
+  color: var(--neutral-gray-500);
+}
+
+textarea:hover {
+  background-color: var(--color-blue-100);
+  border-color: var(--color-blue-500);
+}
+
+textarea:focus {
   outline: none !important;
   -webkit-box-shadow: var(--focus-shadow);
           box-shadow: var(--focus-shadow);

@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/DesignSystemsOSS/eccentrictouch/issues"
   },
-  "homepage": "https://github.com/DesignSystems/eccentrictouch#readme"
+  "homepage": "https://github.com/DesignSystems/eccentrictouch#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "pipeline-minify-css": "^1.0.1",
+    "sass": "^1.43.4"
+  }
 }

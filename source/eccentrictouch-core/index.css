@@ -4,4 +4,5 @@
 @import url('./typography/index.css');
 @import url('./shadows/index.css');
 @import url('./borders/index.css');
+@import url('./layouts/index.css');
 @import url('./variables.css');

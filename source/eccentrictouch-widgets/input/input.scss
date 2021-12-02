@@ -7,6 +7,12 @@ input {
   transition: all 0.180s ease-in-out;
 }
 
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+}
+
 // input sizes
 $input-sizes: (
   "default": 12px 24px,
@@ -33,6 +39,49 @@ input[type=email], input[type=number],
 input[type=image], input[type=month],
 input[type=tel], input[type=url],
 input[type=week], input[type=file] {
+  border-radius: var(--border-radius);
+  padding: var(--input-size-default);
+  border: var(--border-light);
+  color: var(--neutral-gray-900);
+  font-family: inherit;
+  border-color: var(--neutral-gray-500);
+  &::placeholder {
+    color: var(--neutral-gray-500);
+  }
+  &:hover {
+    background-color: var(--color-blue-100);
+    border-color: var(--color-blue-500);
+  }
+  &:focus {
+    outline: none !important;
+    box-shadow: var(--focus-shadow);
+    border-color: var(--color-blue-500);
+  }
+}
+
+input[type=color] {
+  border-radius: var(--border-radius);
+  width: 72px;
+  padding-right: 0.4em;
+  background: rgba($color: #000000, $alpha: 0.0);
+  padding-left: 0.4em;
+  border: var(--border-light);
+  border-color: var(--neutral-gray-500);
+  &::placeholder {
+    color: var(--neutral-gray-500);
+  }
+  &:hover {
+    background-color: var(--color-blue-100);
+    border-color: var(--color-blue-500);
+  }
+  &:focus {
+    outline: none !important;
+    box-shadow: var(--focus-shadow);
+    border-color: var(--color-blue-500);
+  }
+}
+
+textarea {
   border-radius: var(--border-radius);
   padding: var(--input-size-default);
   border: var(--border-light);

@@ -50,12 +50,29 @@ html[data-theme="dark"] a {
   padding: 6px 8px;
 }
 
-code {
-  font-family: var(--font-monospace);
-}
-
 .color-shade-box {
   width: 54px;
   height: 32px;
   border-radius: 8px;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+  row-gap: 12px;
+}
+
+.video-wrapper-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.video-wrapper-card:hover {
+  filter: grayscale(90%);
+  transform: translateY(-4px);
+}
+
+.border-boxes {
+  width: 320px;
+  height: 120px;
 }

@@ -1,8 +1,10 @@
 
-$focus-shadow: 0px 0px 1px 4px rgba(24, 75, 255, 0.32);
-$border-radius: 8px;
+$focus-shadow: 0px 0px 1px 4px rgba(24, 75, 255, 0.32) !default;
+$border-radius: 8px !default;
+$focus-shadow-light: 0 0 0 .25rem rgba(24, 75, 255, 0.32) !default;
 
 :root {
   --focus-shadow: 0px 0px 1px 4px rgba(24, 75, 255, 0.32);
   --border-radius: 8px;
+  --focus-shadow-light: 0 0 0 .25rem rgba(24, 75, 255, 0.32);
 }
