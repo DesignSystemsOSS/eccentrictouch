@@ -5,14 +5,26 @@
 @import url('../../eccentrictouch-vendors/fonts.css');
 
 // setting up variable configurations for font properties
-$font-sans: 'Inter', sans-serif;
+$font-sans-serif: 'Inter', sans-serif;
 $font-serif: 'Lora', serif;
 $font-monospace: 'Space Mono', monospace;
 
 :root {
-	--font-sans: #{$font-sans};
+	--font-sans-serif: #{$font-sans-serif};
 	--font-serif: #{$font-serif};
 	--font-monospace: #{$font-monospace};
+}
+
+.font-sans-serif {
+	font-family: var(--font-sans-serif);
+}
+
+.font-serif {
+	font-family: var(--font-serif);
+}
+
+.font-monospace {
+	font-family: var(--font-monospace);
 }
 
 // generating font-sizes for typographies and texts, ranging from 0 to 100 units
@@ -198,39 +210,6 @@ $text-align-properties-list: (
 @each $text-align-title, $text-align-value in $text-align-properties-list {
 	.text-align-#{$text-align-title} {
 		text-align: #{$text-align-value};
-	}
-}
-
-
-// font-stretch: generating a set of class methods to manage and change font-stretchings
-// keyword based class-methods for font-stretching (font-stretch/keyword)
-$font-stretch-properties-list: (
-	"ultra-condensed": ultra-condensed,
-	"extra-condensed": extra-condensed,
-	"condensed": condensed,
-	"semi-condensed": semi-condensed,
-	"normal": normal,
-	"semi-expanded": semi-expanded,
-	"expanded": expanded,
-	"extra-expanded": extra-expanded,
-	"ultra-expanded": ultra-expanded,
-	"inherit": inherit,
-	"initial": initial,
-	"revert": revert,
-	"unset": unset
-);
-
-@each $font-stretch-title, $font-stretch-value in $font-stretch-properties-list {
-	.font-stretch-#{$font-stretch-title} {
-		font-stretch: #{$font-stretch-value};
-	}
-}
-
-// value based font-stretch properties (font-stretch/values)
-// generating values from 0% to 100%
-@for $font-stretch-percentage-value from 0 through 100 {
-	.font-stretch-#{$font-stretch-percentage-value} {
-		font-stretch: #{$font-stretch-percentage-value * 1%};
 	}
 }
 

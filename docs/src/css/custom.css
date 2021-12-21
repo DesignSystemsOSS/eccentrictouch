@@ -39,6 +39,10 @@ html[data-theme="dark"] a {
   color: white;
 }
 
+html[data-theme="dark"] * {
+  color: white;
+}
+
 .button-list-wrapper {
   display: flex;
   align-items: center;
