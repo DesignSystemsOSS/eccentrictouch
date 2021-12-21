@@ -1,8 +1,20 @@
 @import url("../../eccentrictouch-vendors/fonts.css");
 :root {
-  --font-sans: Inter, sans-serif;
+  --font-sans-serif: Inter, sans-serif;
   --font-serif: Lora, serif;
   --font-monospace: Space Mono, monospace;
+}
+
+.font-sans-serif {
+  font-family: var(--font-sans-serif);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-monospace {
+  font-family: var(--font-monospace);
 }
 
 .font-size-1 {
