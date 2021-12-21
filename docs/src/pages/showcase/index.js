@@ -18,7 +18,7 @@ export default function Showcase() {
         </div>
       </header>
       <div className="container projects-showcase-content-wrapper">
-
+        
       </div>
     </Layout>
   )

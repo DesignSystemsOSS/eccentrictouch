@@ -1,0 +1,48 @@
+$max-grid-columns: 20;
+$max-grid-rows: 20;
+
+@for $col-count from 1 through $max-grid-columns {
+  .grid-cols-#{$col-count} {
+    -ms-grid-columns: repeat($col-count, minmax(0, 1fr));
+    grid-template-columns: repeat($col-count, minmax(0, 1fr));
+  }
+}
+
+@for $row-count from 1 through $max-grid-rows {
+  .grid-rows-#{$row-count} {
+    -ms-grid-rows: repeat($row-count, minmax(0, 1fr));
+    grid-template-rows: repeat($row-count, minmax(0, 1fr));
+  }
+}
+
+// implementing column and row gaps
+// base-values: ranging from 1 to 100
+// decimal values: ranging from 0.1 to 100.9
+$max-gap-base-value: 100;
+$max-gap-decimal-value: 9;
+
+@for $gap-count from 1 through $max-gap-base-value {
+  .gap-#{$gap-count} {
+    gap: #{$gap-count}px;
+  }
+  .gap-col-#{$gap-count} {
+    column-gap: #{$gap-count}px;
+  }
+  .gap-row-#{$gap-count} {
+    row-gap: #{$gap-count}px;
+  }
+}
+
+@for $gap-base-count from 0 through $max-gap-base-value {
+  @for $gap-decimal-count from 1 through $max-gap-decimal-value {
+    .gap-#{$gap-base-count}pt#{$gap-decimal-count} {
+      gap: #{($gap-base-count * 10 + $gap-decimal-count)/10}px;
+    }
+    .gap-col-#{$gap-base-count}pt#{$gap-decimal-count} {
+      column-gap: #{($gap-base-count * 10 + $gap-decimal-count)/10}px;
+    }
+    .gap-row-#{$gap-base-count}pt#{$gap-decimal-count} {
+      row-gap: #{($gap-base-count * 10 + $gap-decimal-count)/10}px;
+    }
+  }
+}
